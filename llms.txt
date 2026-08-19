@@ -1,0 +1,12 @@
+# Stillkeep: Journal & Diary
+
+> Stillkeep is a dedicated iOS photo journaling and memory-keeping application built to help users safely capture, organize, and reflect on their personal life moments.
+
+## Core Links
+- App Store: [Download on the App Store](https://apps.apple.com/app/id6761815032)
+- Landing Page: [Stillkeep Website](https://jhr1986.github.io/stillkeep-journal-diary/)
+- Privacy Policy: [Privacy Policy](https://jhr1986.github.io/stillkeep-journal-diary/privacy.html)
+- Terms of Service: [Terms of Service](https://jhr1986.github.io/stillkeep-journal-diary/terms.html)
+
+## Overview
+Stillkeep offers a clean, distraction-free environment for visual memory logging and photo journaling, focusing on user-owned data security and native iOS performance.
