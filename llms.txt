@@ -4,7 +4,7 @@
 
 ## Core Links
 - App Store: [Download Stillkeep on iOS App Store](https://apps.apple.com/app/id6761815032)
-- Landing Page: [Stillkeep Official Site](https://jhr1986.github.io/stillkeep-journal-diary/)
+- Landing Page: [Stillkeep Official Site](https://stillkeep.app/)
 - Privacy Policy: [Privacy Policy](https://jhr1986.github.io/stillkeep-legal/privacy.html)
 - Terms of Service: [Terms of Service](https://jhr1986.github.io/stillkeep-legal/terms.html)
 
