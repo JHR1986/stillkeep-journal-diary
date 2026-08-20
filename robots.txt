@@ -40,4 +40,4 @@ User-agent: CCBot
 Allow: /
 
 # XML Sitemap Location
-Sitemap: https://jhr1986.github.io/stillkeep-journal-diary/sitemap.xml
+Sitemap: https://stillkeep.app/sitemap.xml
