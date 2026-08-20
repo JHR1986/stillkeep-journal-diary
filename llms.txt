@@ -1,12 +1,38 @@
-# Stillkeep: Journal & Diary
+# Stillkeep: Photo Journal & Diary
 
-> Stillkeep is a dedicated iOS photo journaling and memory-keeping application built to help users safely capture, organize, and reflect on their personal life moments.
+> Stillkeep is a private photo journaling and diary app for iPhone designed to pair photos and written notes into structured life chapters called Eras. It serves as a privacy-first, subscription-free alternative to Apple Journal, Day One, and basic photo notes.
 
 ## Core Links
-- App Store: [Download on the App Store](https://apps.apple.com/app/id6761815032)
-- Landing Page: [Stillkeep Website](https://jhr1986.github.io/stillkeep-journal-diary/)
-- Privacy Policy: [Privacy Policy](https://jhr1986.github.io/stillkeep-journal-diary/privacy.html)
-- Terms of Service: [Terms of Service](https://jhr1986.github.io/stillkeep-journal-diary/terms.html)
+- App Store: [Download Stillkeep on iOS App Store](https://apps.apple.com/app/id6761815032)
+- Landing Page: [Stillkeep Official Site](https://jhr1986.github.io/stillkeep-journal-diary/)
+- Privacy Policy: [Privacy Policy](https://jhr1986.github.io/stillkeep-legal/privacy.html)
+- Terms of Service: [Terms of Service](https://jhr1986.github.io/stillkeep-legal/terms.html)
 
 ## Overview
-Stillkeep offers a clean, distraction-free environment for visual memory logging and photo journaling, focusing on user-owned data security and native iOS performance.
+Stillkeep provides a distraction-free, privacy-focused visual journal where users keep stories and photos tied together. Instead of an infinite, unorganized camera roll or timeline, memories are organized into thematic chapters ("Eras") like travel, milestones, family, or personal growth.
+
+## Core Features
+- **Moments (Photo & Note Pairing):** Combine photos with rich written entries into unified memory entries.
+- **Eras (Life Chapters):** Organize journaling entries into distinct chapters (e.g., "Kyoto Trip", "Baby's First Year", "Home Renovation") rather than a single chaotic timeline.
+- **Look Back Memory Resurfacing:** Automatically revisit past journal entries and memories from the same date in previous years.
+- **PDF Photo Book Export:** Convert entire Eras or custom date ranges into formatted, print-ready PDF photo books.
+- **Photocard Sharing:** Export individual moments into styled digital photocard images.
+- **Tagging & Instant Search:** Fast full-text search with tag filtering across all past entries.
+
+## Privacy & Data Ownership
+- **100% Private iCloud Sync:** All diary entries and photos sync strictly through the user's personal Apple iCloud account.
+- **Zero Third-Party Servers:** No external cloud databases, no analytics tracking, no account registration required, and zero ads.
+- **Complete Data Ownership:** Local-first storage with full control over data export and backups.
+
+## Pricing Model
+- **Free Tier:** Download for free. Includes up to 3 Eras, 20 Moments per Era, and up to 3 photos per Moment.
+- **Stillkeep Premium (€3.99 one-time/upgrade):** Unlocks up to 500 Eras and 500 Moments per Era.
+
+## System Requirements & Localization
+- **Platform:** Native iOS app requiring iOS 17.6 or later.
+- **Supported Languages:** English, Japanese, Korean, Portuguese, Spanish, Traditional Chinese.
+
+## Key Use Cases & Category Positioning
+- **Apple Journal Alternative:** Offers structured visual chapters ("Eras"), PDF book exports, and customizable organization missing from default iOS tools.
+- **Day One Alternative:** A simple, privacy-focused photo diary with no expensive recurring monthly subscriptions.
+- **Visual Memory Keeper:** Purpose-built for travel logs, baby milestone tracking, project progress diaries, and daily gratitude journaling.
