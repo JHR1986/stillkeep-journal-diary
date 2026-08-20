@@ -20,8 +20,9 @@
 <meta name="google-site-verification" content="iJRp57dxQIIMdW0w99VvaUCPEFcfl3Cj-1YCLpVx8jw">
 <link rel="canonical" href="https://stillkeep.app/">
 
-<!-- Favicon -->
-<link rel="icon" type="image/png" href="favicon-32x32.png">
+<!-- Favicon & Search Display Icons -->
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="android-icon-48x48.png">
 
 <!-- Multilingual International SEO -->
 <link rel="alternate" hreflang="x-default" href="https://stillkeep.app/">
@@ -73,6 +74,7 @@
       "inLanguage": ["en","ja","ko","pt","es","zh-Hant"],
       "offers": { 
         "@type": "Offer", 
+        "@id": "https://stillkeep.app/#offer", 
         "price": "0", 
         "priceCurrency": "EUR", 
         "availability": "https://schema.org/InStock",
@@ -107,6 +109,7 @@
       "itemListElement": [
         {
           "@type": "ListItem",
+          "@id": "https://stillkeep.app/#breadcrumb-item-1",
           "position": 1,
           "name": "Home",
           "item": "https://stillkeep.app/"
@@ -185,7 +188,10 @@
 
   .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:40px 0 64px}
   .eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;color:var(--ochre);margin:0 0 14px}
-  h1{font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.14;margin:0 0 18px}
+  
+  /* Increased main heading size */
+  h1{font-size:clamp(2.2rem,4.8vw,3.2rem);line-height:1.12;margin:0 0 18px}
+  
   .lede{font-size:1.07rem;color:var(--muted);max-width:46ch;margin:0 0 24px}
   .lede strong{color:var(--ink)}
   .cta{display:inline-block;background:var(--pine);color:#fff;text-decoration:none;
