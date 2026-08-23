@@ -24,7 +24,7 @@ An Era could be a holiday, a relationship, your child's early years, a new home,
 - **Photos and writing together** as Moments
 - **Eras** for organising memories into life chapters
 - **Look Back** to rediscover memories from previous years
-- **Fast search and tags** for finding old Moments
+- **Fast search** for finding old Moments
 - **Photocard export** for sharing individual memories
 - **PDF photo book export** for complete Eras
 - **iCloud sync** across your Apple devices
@@ -34,7 +34,7 @@ An Era could be a holiday, a relationship, your child's early years, a new home,
 
 Stillkeep is free to start.
 
-The free version includes up to **3 Eras**, **20 Moments per Era**, and **3 photos per Moment**.
+The free version includes up to **3 Eras**, **20 Moments per Era**, and **180 photos across your journal**, with up to **3 photos per Moment**.
 
 Stillkeep Premium expands this to up to **500 Eras**, **500 Moments per Era**, and **10 photos per Moment**.
 
@@ -52,8 +52,8 @@ There are no ads and Stillkeep isn't built around an advertising or behavioural-
 
 A little more about the thinking behind Stillkeep and why it organises memories around meaningful life chapters:
 
-- [Beyond the Camera Roll: Why I Built a Private Photo Journal App for Meaningful Memories](https://medium.com/@jhroche1986)
-- [Why I Built Stillkeep: Moving from Folders to Visual Eras in a Modern Journal App](https://medium.com/@jhroche1986)
+- [Beyond the Camera Roll: Why I Built a Private Photo Journal App for Meaningful Memories](https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764)
+- [Why I Built Stillkeep: Moving from Folders to Visual Eras in a Modern Journal App](https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b)
 
 ---
 
