@@ -24,7 +24,7 @@ Stillkeep is a private journal and diary for capturing photos, writing, and the 
 ---
 
 ## 📖 Articles & Stories
-Read the behind-the-scenes stories and deep dives into the philosophy and design of Stillkeep:
+Read the behind-the-scenes stories and deep dives into the philosophy and design of Stillkeep: Journal & Diary app:
 * [Beyond the Camera Roll: Why I Built a Private Photo Journal App for Meaningful Memories](https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764)
 * [Why I Built Stillkeep: Moving from Folders to Visual Eras in a Modern Journal App](https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b)
 
