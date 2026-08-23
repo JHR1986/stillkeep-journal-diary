@@ -1,6 +1,6 @@
-# Stillkeep: Private iOS Photo Journal & Daily Diary App
+# Stillkeep: Journal & Diary: Private iOS Photo Journal & Daily Diary App
 
-Stillkeep is a calm, private journal and diary for capturing life's moments with photos and words. Designed to become a keepsake you'll treasure, this repository serves as the official landing page hub and SEO infrastructure for Stillkeep.
+Stillkeep: Journal & Diary app is a calm, private digital journal and diary for capturing life's moments with photos and words. Designed to become a keepsake you'll treasure, this repository serves as the official landing page hub and SEO infrastructure for Stillkeep.
 
 ## 🚀 Visit the Official Website
 [**https://stillkeep.app**](https://stillkeep.app)
