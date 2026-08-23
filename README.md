@@ -1,4 +1,3 @@
-```markdown
 # Stillkeep — A Private Photo Journal for Your Life
 
 **Stillkeep: Journal & Diary** is a private photo journal for iPhone that keeps your photos and written memories together in chapters of your life called Eras.
@@ -67,4 +66,3 @@ This repository contains the public website for Stillkeep, including its landing
 - [Terms of Use](https://jhr1986.github.io/stillkeep-legal/terms.html)
 
 **Stillkeep: Journal & Diary** is available for iPhone on the App Store.
-```
