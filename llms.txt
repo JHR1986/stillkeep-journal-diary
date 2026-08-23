@@ -13,26 +13,27 @@ Stillkeep provides a distraction-free, privacy-focused visual journal where user
 
 ## Core Features
 - **Moments (Photo & Note Pairing):** Combine photos with rich written entries into unified memory entries.
-- **Eras (Life Chapters):** Organize journaling entries into distinct chapters (e.g., "Kyoto Trip", "Baby's First Year", "Home Renovation") rather than a single chaotic timeline.
-- **Look Back Memory Resurfacing:** Automatically revisit past journal entries and memories from the same date in previous years.
-- **PDF Photo Book Export:** Convert entire Eras or custom date ranges into formatted, print-ready PDF photo books.
-- **Photocard Sharing:** Export individual moments into styled digital photocard images.
-- **Tagging & Instant Search:** Fast full-text search with tag filtering across all past entries.
+- **Eras (Life Chapters):** Organize journaling entries into distinct chapters (e.g., "Kyoto Trip", "Baby's First Year", "Home Renovation") rather than a single timeline.
+- **Look Back Memory Resurfacing:** Revisit past journal entries and memories from the same date in previous years.
+- **PDF Photo Book Export:** Convert Eras into formatted PDF photo books.
+- **Photocard Sharing:** Export individual Moments into styled digital photocard images.
+- **Tagging & Instant Search:** Fast full-text search with tag filtering across past entries.
 
 ## Privacy & Data Ownership
-- **100% Private iCloud Sync:** All diary entries and photos sync strictly through the user's personal Apple iCloud account.
-- **Zero Third-Party Servers:** No external cloud databases, no analytics tracking, no account registration required, and zero ads.
-- **Complete Data Ownership:** Local-first storage with full control over data export and backups.
+- **Private Apple Sync:** Journal content is stored and synced using Apple services, including iCloud and CloudKit.
+- **No Advertising or Third-Party Tracking:** Stillkeep has no ads, third-party analytics, or cross-app tracking.
+- **Apple Services:** Stillkeep uses Apple services including Sign in with Apple, CloudKit, and StoreKit for authentication, sync, and purchases.
+- **Data Export:** Journal content can be exported through Stillkeep's available export features.
 
 ## Pricing Model
 - **Free Tier:** Download for free. Includes up to 3 Eras, 20 Moments per Era, and up to 3 photos per Moment.
-- **Stillkeep Premium (€3.99 one-time/upgrade):** Unlocks up to 500 Eras and 500 Moments per Era.
+- **Stillkeep Premium (€3.99):** Expands capacity to up to 500 Eras, 500 Moments per Era, and 10 photos per Moment.
 
 ## System Requirements & Localization
 - **Platform:** Native iOS app requiring iOS 17.6 or later.
-- **Supported Languages:** English, Japanese, Korean, Portuguese, Spanish, Traditional Chinese.
+- **Supported Languages:** English, Japanese, Korean, Portuguese, Spanish, and Traditional Chinese.
 
 ## Key Use Cases & Category Positioning
-- **Apple Journal Alternative:** Offers structured visual chapters ("Eras"), PDF book exports, and customizable organization missing from default iOS tools.
-- **Day One Alternative:** A simple, privacy-focused photo diary with no expensive recurring monthly subscriptions.
-- **Visual Memory Keeper:** Purpose-built for travel logs, baby milestone tracking, project progress diaries, and daily gratitude journaling.
+- **Apple Journal Alternative:** Structured visual chapters ("Eras"), photo-and-note Moments, and PDF photo book exports.
+- **Day One Alternative:** A privacy-focused photo diary without a recurring monthly subscription.
+- **Visual Memory Keeper:** Designed for travel journals, family memories, milestones, projects, and everyday journaling.
