@@ -1,3 +1,4 @@
+```markdown
 # Stillkeep — A Private Photo Journal for Your Life
 
 **Stillkeep: Journal & Diary** is a private photo journal for iPhone that keeps your photos and written memories together in chapters of your life called Eras.
@@ -42,9 +43,9 @@ Stillkeep Premium expands this to up to **500 Eras**, **500 Moments per Era**, a
 
 Stillkeep is designed for personal memories.
 
-Your journal content syncs through your Apple iCloud account rather than a Stillkeep account or social platform, keeping your photos and writing within the Apple ecosystem.
+Your journal content is stored and synced using Apple services, including iCloud. Stillkeep uses Apple services such as Sign in with Apple, CloudKit, and StoreKit for authentication, sync, and purchases.
 
-There are no ads and Stillkeep isn't built around an advertising or behavioural-tracking business model.
+There are **no ads, no third-party analytics, and no cross-app tracking**. Stillkeep isn't built around an advertising or behavioural-tracking business model.
 
 ---
 
@@ -66,3 +67,4 @@ This repository contains the public website for Stillkeep, including its landing
 - [Terms of Use](https://jhr1986.github.io/stillkeep-legal/terms.html)
 
 **Stillkeep: Journal & Diary** is available for iPhone on the App Store.
+```
