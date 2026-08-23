@@ -13,11 +13,11 @@ Stillkeep provides a distraction-free, privacy-focused visual journal where user
 
 ## Core Features
 - **Moments (Photo & Note Pairing):** Combine photos with rich written entries into unified memory entries.
-- **Eras (Life Chapters):** Organize journaling entries into distinct chapters (e.g., "Kyoto Trip", "Baby's First Year", "Home Renovation") rather than a single timeline.
-- **Look Back Memory Resurfacing:** Revisit past journal entries and memories from the same date in previous years.
-- **PDF Photo Book Export:** Convert Eras into formatted PDF photo books.
-- **Photocard Sharing:** Export individual Moments into styled digital photocard images.
-- **Tagging & Instant Search:** Fast full-text search with tag filtering across past entries.
+- **Eras (Life Chapters):** Organize journaling entries into distinct chapters (e.g., "Kyoto Trip", "Baby's First Year", "Home Renovation") rather than a single chaotic timeline.
+- **Look Back Memory Resurfacing:** Automatically revisit past journal entries and memories from the same date in previous years.
+- **PDF Photo Book Export:** Convert entire Eras or custom date ranges into formatted, print-ready PDF photo books.
+- **Photocard Sharing:** Export individual moments into styled digital photocard images.
+- **Tagging & Instant Search:** Fast full-text search with tag filtering across all past entries.
 
 ## Privacy & Data Ownership
 - **Private Apple Sync:** Journal content is stored and synced using Apple services, including iCloud and CloudKit.
@@ -31,9 +31,9 @@ Stillkeep provides a distraction-free, privacy-focused visual journal where user
 
 ## System Requirements & Localization
 - **Platform:** Native iOS app requiring iOS 17.6 or later.
-- **Supported Languages:** English, Japanese, Korean, Portuguese, Spanish, and Traditional Chinese.
+- **Supported Languages:** English, Japanese, Korean, Portuguese, Spanish, Traditional Chinese.
 
 ## Key Use Cases & Category Positioning
-- **Apple Journal Alternative:** Structured visual chapters ("Eras"), photo-and-note Moments, and PDF photo book exports.
-- **Day One Alternative:** A privacy-focused photo diary without a recurring monthly subscription.
-- **Visual Memory Keeper:** Designed for travel journals, family memories, milestones, projects, and everyday journaling.
+- **Apple Journal Alternative:** Offers structured visual chapters ("Eras"), PDF book exports, and customizable organization missing from default iOS tools.
+- **Day One Alternative:** A simple, privacy-focused photo diary with no expensive recurring monthly subscriptions.
+- **Visual Memory Keeper:** Purpose-built for travel logs, baby milestone tracking, project progress diaries, and daily gratitude journaling.
