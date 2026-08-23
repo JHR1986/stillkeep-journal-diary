@@ -165,6 +165,7 @@
         "mainEntity": [
           {
             "@type": "Question",
+            "@id": "https://stillkeep.app/#faq-1",
             "name": "What is Stillkeep photo journal app?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -173,6 +174,7 @@
           },
           {
             "@type": "Question",
+            "@id": "https://stillkeep.app/#faq-2",
             "name": "What makes Stillkeep different from a standard journal app?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -181,6 +183,7 @@
           },
           {
             "@type": "Question",
+            "@id": "https://stillkeep.app/#faq-3",
             "name": "Is Stillkeep a private notes app?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -189,6 +192,7 @@
           },
           {
             "@type": "Question",
+            "@id": "https://stillkeep.app/#faq-4",
             "name": "Is Stillkeep free to download on iPhone?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -197,6 +201,7 @@
           },
           {
             "@type": "Question",
+            "@id": "https://stillkeep.app/#faq-5",
             "name": "Is Stillkeep available on Android?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -463,6 +468,24 @@
       font-size:.95rem
     }
 
+    .blog-grid {
+      display: grid;
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .blog-card {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .blog-card h3 {
+      margin-top: 0;
+      font-size: 1.1rem;
+    }
+
     .band{
       background:var(--pine);
       color:#fff;
@@ -727,6 +750,31 @@
 
       </p>
 
+    </section>
+
+    <section id="journal-articles">
+      <h2>From the Journal</h2>
+      <p class="fine">Read the background and design philosophy behind Stillkeep:</p>
+      
+      <div class="blog-grid">
+        <article class="blog-card">
+          <h3>
+            <a href="https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764" rel="noopener" target="_blank">
+              Beyond the Camera Roll: Why I Built a Private Photo Journal App for Meaningful Memories
+            </a>
+          </h3>
+          <p class="fine" style="margin: 6px 0 0;">An essay on moving away from cluttered camera rolls and capturing genuine, narrative-driven memories.</p>
+        </article>
+
+        <article class="blog-card">
+          <h3>
+            <a href="https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b" rel="noopener" target="_blank">
+              Why I Built Stillkeep: Moving from Folders to Visual Eras in a Modern Journal App
+            </a>
+          </h3>
+          <p class="fine" style="margin: 6px 0 0;">A technical and design breakdown of structuring life chapters through visual eras rather than static folders.</p>
+        </article>
+      </div>
     </section>
 
     <section id="faq">
