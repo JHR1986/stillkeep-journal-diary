@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S9H3WHMV0T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S9H3WHMV0T');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Stillkeep: The Private Memory Journal App for iPhone</title>
+
+  <meta
+    name="description"
+    content="Discover Stillkeep, the premier digital memory journal app for iPhone. Seamlessly pair photos and written notes into life chapters called Eras, sync securely via iCloud, and export PDF photo books."
+  >
+
+  <meta
+    name="keywords"
+    content="memory journal app, digital memory journal, private photo journal, iOS memory diary, photo and notes app, iCloud journal iPhone"
+  >
+
+  <meta
+    name="robots"
+    content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  >
+
+  <meta
+    name="apple-itunes-app"
+    content="app-id=6761815032, app-argument=https://apps.apple.com/app/id6761815032"
+  >
+
+  <link rel="canonical" href="https://stillkeep.app/memory-journal.html">
+
+  <!-- Favicon & Search Display Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="android-icon-48x48.png">
+
+  <!-- Language Alternates -->
+  <link rel="alternate" hreflang="x-default" href="https://stillkeep.app/memory-journal.html">
+  <link rel="alternate" hreflang="en" href="https://stillkeep.app/memory-journal.html">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Stillkeep: Journal &amp; Diary">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://stillkeep.app/memory-journal.html">
+  <meta
+    property="og:title"
+    content="Stillkeep: The Private Memory Journal App for iPhone"
+  >
+  <meta
+    property="og:description"
+    content="Capture life's meaningful moments. A calm, private memory journal app for iPhone that pairs photos and written notes into visual life chapters called Eras."
+  >
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://stillkeep.app/memory-journal.html">
+  <meta
+    name="twitter:title"
+    content="Stillkeep: The Private Memory Journal App for iPhone"
+  >
+  <meta
+    name="twitter:description"
+    content="Keep the story with the photo. A private, zero-ads memory journal and photo diary app for iOS."
+  >
+
+  <!-- Performance Preconnect Hints -->
+  <link rel="preconnect" href="https://apps.apple.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Caveat:wght@500&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Structured Data Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://stillkeep.app/memory-journal.html#webpage",
+        "url": "https://stillkeep.app/memory-journal.html",
+        "name": "Stillkeep: The Private Memory Journal App for iPhone",
+        "description": "Discover Stillkeep, the premier digital memory journal app for iPhone. Pair photos and notes into Eras with private iCloud sync.",
+        "isPartOf": {
+          "@id": "https://stillkeep.app/#application"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://stillkeep.app/memory-journal.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://stillkeep.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Memory Journal",
+            "item": "https://stillkeep.app/memory-journal.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://stillkeep.app/memory-journal.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a digital memory journal?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A digital memory journal is a private app designed to capture life events by combining personal photographs with written reflections, organizing them chronologically or thematically rather than leaving them lost in a standard camera roll."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Stillkeep work as a memory journal app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Stillkeep functions as a photo-first memory journal by allowing iPhone users to group pictures and notes into single 'Moments', organize those moments into life chapters called 'Eras', and export them as printable PDF photo books."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Stillkeep secure and private?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Stillkeep features zero third-party ads or trackers. All journal data is saved securely using your private Apple iCloud account."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --paper:#f6f4ee;
+      --card:#fffdf8;
+      --ink:#22302c;
+      --muted:#5d6a64;
+      --pine:#2f5d50;
+      --pine-deep:#234a40;
+      --ochre:#b9873c;
+      --rule:#e3dfd4;
+      --shadow:0 10px 30px rgba(34,48,44,.12);
+    }
+
+    *{box-sizing:border-box}
+
+    html{scroll-behavior:smooth}
+
+    body{
+      margin:0;
+      background:var(--paper);
+      color:var(--ink);
+      font:16.5px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif
+    }
+
+    h1,h2,.brand{
+      font-family:"Young Serif",Georgia,serif;
+      font-weight:400;
+      letter-spacing:-.01em
+    }
+
+    a{color:var(--pine)}
+
+    a:focus-visible{
+      outline:3px solid var(--ochre);
+      outline-offset:2px
+    }
+
+    .wrap{
+      max-width:960px;
+      margin:0 auto;
+      padding:0 22px
+    }
+
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:20px 0
+    }
+
+    .brand{
+      font-size:1.35rem;
+      text-decoration:none;
+      color:var(--ink)
+    }
+
+    .brand span{color:var(--pine)}
+
+    .navlinks-group {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .navlink{
+      font-size:.95rem;
+      text-decoration:none;
+      border:1.5px solid var(--pine);
+      border-radius:999px;
+      padding:8px 16px;
+      color:var(--pine);
+      transition:all .2s ease
+    }
+
+    .navlink:hover{
+      background:var(--pine);
+      color:#fff
+    }
+
+    .navlink-sub {
+      border-color: var(--muted);
+      color: var(--muted);
+    }
+    .navlink-sub:hover {
+      border-color: var(--pine);
+      background: var(--pine);
+      color: #fff;
+    }
+
+    .hero{
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:40px;
+      align-items:center;
+      padding:40px 0 64px
+    }
+
+    .eyebrow{
+      text-transform:uppercase;
+      letter-spacing:.14em;
+      font-size:.78rem;
+      color:var(--ochre);
+      margin:0 0 14px;
+      font-weight:600
+    }
+
+    h1{
+      font-size:clamp(2.2rem,4.8vw,3.2rem);
+      line-height:1.12;
+      margin:0 0 18px
+    }
+
+    .lede{
+      font-size:1.07rem;
+      color:var(--muted);
+      max-width:46ch;
+      margin:0 0 24px
+    }
+
+    .lede strong{color:var(--ink)}
+
+    .cta{
+      display:inline-block;
+      background:var(--pine);
+      color:#fff;
+      text-decoration:none;
+      border-radius:12px;
+      padding:14px 26px;
+      font-weight:600;
+      box-shadow:0 4px 14px rgba(47,93,80,.25);
+      transition:background .2s ease, transform .2s ease
+    }
+
+    .cta:hover{
+      background:var(--pine-deep);
+      transform:translateY(-1px)
+    }
+
+    .micro{
+      margin-top:14px;
+      font-size:.85rem;
+      color:var(--muted)
+    }
+
+    .stack{
+      position:relative;
+      height:390px
+    }
+
+    .photocard{
+      position:absolute;
+      width:220px;
+      background:var(--card);
+      border:1px solid var(--rule);
+      border-radius:6px;
+      padding:10px 10px 14px;
+      box-shadow:var(--shadow);
+      transition:transform .25s ease
+    }
+
+    .photocard:hover{
+      transform:translateY(-6px) rotate(0deg)
+    }
+
+    .photo{
+      height:200px;
+      border-radius:3px
+    }
+
+    .caption{
+      font-family:"Caveat",cursive;
+      font-size:1.25rem;
+      line-height:1.2;
+      margin:10px 4px 0
+    }
+
+    .caption small{
+      display:block;
+      font-size:.85rem;
+      color:var(--muted)
+    }
+
+    .pc1{
+      left:2%;
+      top:34px;
+      transform:rotate(-6deg);
+      z-index:1
+    }
+
+    .pc1 .photo{
+      background:linear-gradient(160deg,#d6e2e9,#94abba 55%,#5f768c)
+    }
+
+    .pc2{
+      left:31%;
+      top:0;
+      transform:rotate(2deg);
+      z-index:3
+    }
+
+    .pc2 .photo{
+      background:linear-gradient(150deg,#faebd7,#dfbc82 50%,#9e7b46)
+    }
+
+    .pc3{
+      left:57%;
+      top:64px;
+      transform:rotate(7deg);
+      z-index:2
+    }
+
+    .pc3 .photo{
+      background:linear-gradient(165deg,#d2e2cf,#9bb8a1 55%,#5a7a63)
+    }
+
+    .eras{
+      border-top:1px solid var(--rule);
+      border-bottom:1px solid var(--rule);
+      padding:24px 0;
+      background:var(--card)
+    }
+
+    .eras .wrap{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:center
+    }
+
+    .eras p{
+      margin:0 16px 0 0;
+      font-size:.92rem;
+      color:var(--muted);
+      font-weight:500
+    }
+
+    .spine{
+      font-family:"Young Serif",Georgia,serif;
+      font-size:.95rem;
+      background:var(--paper);
+      border:1px solid var(--rule);
+      border-left:5px solid var(--pine);
+      border-radius:4px;
+      padding:8px 16px
+    }
+
+    .spine:nth-child(odd){
+      border-left-color:var(--ochre)
+    }
+
+    section{
+      padding:56px 0 8px
+    }
+
+    h2{
+      font-size:1.55rem;
+      margin:0 0 8px
+    }
+
+    h3{
+      font-size:1.05rem;
+      margin:26px 0 4px
+    }
+
+    p{margin:12px 0}
+
+    ul{
+      margin:14px 0;
+      padding-left:22px
+    }
+
+    li{margin:7px 0}
+
+    .links{
+      font-size:.95rem;
+      padding:10px 0 40px
+    }
+
+    .fine{
+      color:var(--muted);
+      font-size:.95rem
+    }
+
+    .band{
+      background:var(--pine);
+      color:#fff;
+      text-align:center;
+      border-radius:16px;
+      padding:48px 26px;
+      margin:56px 0 60px
+    }
+
+    .band h2{
+      color:#fff;
+      margin-bottom:12px
+    }
+
+    .band p{
+      color:#dfe9e5;
+      max-width:52ch;
+      margin:0 auto 22px
+    }
+
+    .band .cta{
+      background:#fff;
+      color:var(--pine);
+      box-shadow:0 4px 14px rgba(0,0,0,.15)
+    }
+
+    .band .cta:hover{
+      background:var(--paper)
+    }
+
+    footer{
+      border-top:1px solid var(--rule);
+      padding:26px 0 56px;
+      font-size:.9rem;
+      color:var(--muted)
+    }
+
+    footer .wrap{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px 20px
+    }
+
+    footer a{color:var(--muted); text-decoration:none}
+    footer a:hover{color:var(--pine)}
+
+    @media (max-width:820px){
+      .hero{
+        grid-template-columns:1fr;
+        padding-bottom:36px
+      }
+
+      .stack{
+        height:330px;
+        max-width:420px;
+        margin:0 auto;
+        width:100%
+      }
+
+      .photocard{width:185px}
+
+      .photo{height:165px}
+
+      .pc1{left:0}
+
+      .pc2{left:26%}
+
+      .pc3{
+        left:auto;
+        right:0
+      }
+
+      section{
+        padding:44px 0 4px
+      }
+    }
+
+    @media (prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      .photocard{transition:none}
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="wrap">
+
+    <header>
+      <a class="brand" href="/">Still<span>keep</span></a>
+
+      <div class="navlinks-group">
+        <a class="navlink navlink-sub" href="/" title="Stillkeep Home">Home</a>
+        <a
+          class="navlink"
+          href="https://apps.apple.com/app/id6761815032"
+          title="Download Stillkeep Free on the iOS App Store"
+        >
+          Get App Free
+        </a>
+      </div>
+    </header>
+
+    <section class="hero" aria-label="Introduction">
+
+      <div>
+        <p class="eyebrow">Dedicated Digital Memory Journal App</p>
+
+        <h1>A Private Memory Journal Crafted for Meaningful Life Eras.</h1>
+
+        <p class="lede">
+          <strong>Stillkeep</strong> is built for people who want more than a cluttered camera roll. 
+          Our digital <strong>memory journal</strong> app for iPhone unites your favorite photographs 
+          with authentic written notes into cohesive chapters called <strong>Eras</strong>.
+        </p>
+
+        <a
+          class="cta"
+          href="https://apps.apple.com/app/id6761815032"
+          title="Download Stillkeep Free on the iOS App Store"
+        >
+          Download Free on App&nbsp;Store
+        </a>
+
+        <p class="micro">
+          Free to start · Private iCloud sync · Zero ads · iOS 17.6+
+        </p>
+      </div>
+
+      <div class="stack" aria-hidden="true">
+
+        <div class="photocard pc1">
+          <div class="photo"></div>
+          <p class="caption">
+            Summer road trip
+            <small>August · Coastal Route</small>
+          </p>
+        </div>
+
+        <div class="photocard pc2">
+          <div class="photo"></div>
+          <p class="caption">
+            Graduation day
+            <small>May · Milestones</small>
+          </p>
+        </div>
+
+        <div class="photocard pc3">
+          <div class="photo"></div>
+          <p class="caption">
+            Weekend hike peak
+            <small>October · Mountain Air</small>
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <div class="eras">
+
+    <div class="wrap">
+
+      <p>Organize your memory journal by life chapters:</p>
+
+      <span class="spine">Coastal road trip</span>
+      <span class="spine">Graduation & milestones</span>
+      <span class="spine">Mountain air</span>
+      <span class="spine">Daily reflections</span>
+
+    </div>
+
+  </div>
+
+  <main class="wrap">
+
+    <section id="about">
+
+      <h2>Why Stillkeep is the Ideal Memory Journal App</h2>
+
+      <p>
+        Traditional journaling apps rely solely on endless text blocks, while standard photo galleries 
+        leave your pictures detached from context. Stillkeep bridges the gap, functioning as a 
+        <strong>memory journal</strong> that pairs imagery and narrative into single, organized 
+        <strong>Moments</strong>.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Thematic Eras:</strong> Group your memory journal entries into meaningful chapters like vacations, career transitions, or family growth.
+        </li>
+
+        <li>
+          <strong>Photos &amp; Notes Combined:</strong> Keep the exact story alongside every photo so context is never lost over time.
+        </li>
+
+        <li>
+          <strong>Look Back Memory Resurfacing:</strong> Automatically rediscover what happened on this exact day in previous years.
+        </li>
+
+        <li>
+          <strong>PDF Photo Book Export:</strong> Compile any chapter of your memory journal into a gorgeous, printable PDF photo book format.
+        </li>
+
+        <li>
+          <strong>Complete Privacy:</strong> Zero ads, zero third-party data tracking, and secure native sync through your personal iCloud.
+        </li>
+      </ul>
+
+      <p class="fine">
+        Download Stillkeep free on iOS. The free starter version includes up to 3 Eras and 20 Moments per Era. 
+        Stillkeep Premium (€3.99) expands capacity for long-term memory archiving.
+      </p>
+
+      <p class="links">
+        <a href="/">← Return to Stillkeep Home</a>
+        ·
+        <a href="https://apps.apple.com/app/id6761815032">Download on App Store</a>
+        ·
+        <a href="https://jhr1986.github.io/stillkeep-legal/privacy.html">Privacy Policy</a>
+      </p>
+
+    </section>
+
+    <section id="faq">
+
+      <h2>Memory Journal FAQ</h2>
+
+      <h3>What is a digital memory journal?</h3>
+      <p>
+        A digital memory journal is a private application that allows you to document life experiences 
+        by pairing photographs with personal reflections, replacing cluttered camera rolls with structured narratives.
+      </p>
+
+      <h3>How is Stillkeep different from other journal apps?</h3>
+      <p>
+        Stillkeep is photo-first and structured around visual Eras and Moments. It allows you to export 
+        entire memory chapters directly into formatted PDF books while preserving complete iCloud privacy.
+      </p>
+
+      <h3>Is my journal data private?</h3>
+      <p>
+        Yes. Stillkeep features zero third-party analytics or advertising trackers. All journal content 
+        is stored locally and securely synced via your personal Apple iCloud account.
+      </p>
+
+    </section>
+
+    <div class="band">
+
+      <h2>Turn your photo library into an intentional memory journal.</h2>
+
+      <p>
+        Download the free private memory journal app for iPhone — 
+        privacy-first, zero ads, built in Dublin, Ireland.
+      </p>
+
+      <a
+        class="cta"
+        href="https://apps.apple.com/app/id6761815032"
+        title="Download Stillkeep Free on the iOS App Store"
+      >
+        Download Stillkeep Free
+      </a>
+
+    </div>
+
+  </main>
+
+  <footer>
+
+    <div class="wrap">
+
+      <span>© 2026 Stillkeep</span>
+
+      <a href="/">Home</a>
+
+      <a
+        href="https://apps.apple.com/app/id6761815032"
+        title="Download Stillkeep on App Store"
+      >
+        App Store Download
+      </a>
+
+      <a href="https://jhr1986.github.io/stillkeep-legal/privacy.html">
+        Privacy Policy
+      </a>
+
+      <a href="https://jhr1986.github.io/stillkeep-legal/terms.html">
+        Terms
+      </a>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
