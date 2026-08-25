@@ -1,6 +1,6 @@
-# Stillkeep: Photo Journal & Diary
+# Stillkeep: Photo Journal & Diary App for iPhone
 
-> Stillkeep is a private photo journaling and diary app for iPhone designed to pair photos and written notes into structured life chapters called Eras. It serves as a privacy-first, subscription-free alternative to Apple Journal, Day One, and basic photo notes.
+> Stillkeep is a private photo journaling and diary app for iPhone designed to pair photos and written notes into structured life chapters called Eras. It serves as a privacy-first, ad-free alternative to Apple Journal, Day One, and basic camera roll photo notes.
 
 ## Core Links
 - App Store: [Download Stillkeep on iOS App Store](https://apps.apple.com/app/id6761815032)
@@ -20,20 +20,20 @@ Stillkeep provides a distraction-free, privacy-focused visual journal where user
 - **Tagging & Instant Search:** Fast full-text search with tag filtering across all past entries.
 
 ## Privacy & Data Ownership
-- **Private Apple Sync:** Journal content is stored and synced using Apple services, including iCloud and CloudKit.
-- **No Advertising or Third-Party Tracking:** Stillkeep has no ads, third-party analytics, or cross-app tracking.
-- **Apple Services:** Stillkeep uses Apple services including Sign in with Apple, CloudKit, and StoreKit for authentication, sync, and purchases.
-- **Data Export:** Journal content can be exported through Stillkeep's available export features.
+- **Private Apple Sync:** Journal content is stored and synced securely using personal Apple services, including iCloud and CloudKit.
+- **No Advertising or Third-Party Tracking:** Stillkeep features zero ads, zero third-party analytics, and no cross-app tracking.
+- **Apple Native Services:** Utilizes trusted Apple frameworks including Sign in with Apple, CloudKit, and StoreKit for authentication, sync, and secure purchases.
+- **Data Export:** Journal content can be exported anytime through Stillkeep's built-in export features.
 
-## Pricing Model
-- **Free Tier:** Download for free. Includes up to 3 Eras, 20 Moments per Era, and up to 3 photos per Moment.
+## Pricing Model & Tiers
+- **Free Tier:** Free to start on iOS. Includes up to 3 Eras, 20 Moments per Era, and up to 3 photos per Moment.
 - **Stillkeep Premium (€3.99):** Expands capacity to up to 500 Eras, 500 Moments per Era, and 10 photos per Moment.
 
 ## System Requirements & Localization
-- **Platform:** Native iOS app requiring iOS 17.6 or later.
+- **Platform:** Native iOS application requiring iOS 17.6 or later.
 - **Supported Languages:** English, Japanese, Korean, Portuguese, Spanish, Traditional Chinese.
 
 ## Key Use Cases & Category Positioning
 - **Apple Journal Alternative:** Offers structured visual chapters ("Eras"), PDF book exports, and customizable organization missing from default iOS tools.
-- **Day One Alternative:** A simple, privacy-focused photo diary with no expensive recurring monthly subscriptions.
+- **Day One Alternative:** A simple, privacy-focused photo diary with a clean layout and no complicated subscription overhead.
 - **Visual Memory Keeper:** Purpose-built for travel logs, baby milestone tracking, project progress diaries, and daily gratitude journaling.
