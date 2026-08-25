@@ -79,7 +79,7 @@
     rel="stylesheet"
   >
 
-  <!-- Structured Data Schema -->
+  <!-- Structured Data Schema (Supercharged for Rich Snippets) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -92,8 +92,15 @@
         "applicationCategory": "LifestyleApplication",
         "url": "https://stillkeep.app/",
         "downloadUrl": "https://apps.apple.com/app/id6761815032",
+        "screenshot": "https://stillkeep.app/favicon-32x32.png",
+        "softwareVersion": "1.0",
+        "author": {
+          "@type": "Person",
+          "name": "John-Henry Roche"
+        },
         "offers": {
           "@type": "Offer",
+          "@id": "https://stillkeep.app/#offer",
           "price": "0.00",
           "priceCurrency": "EUR"
         }
@@ -103,7 +110,48 @@
         "@id": "https://stillkeep.app/#webpage",
         "url": "https://stillkeep.app/",
         "name": "Stillkeep: Free Private Photo Journal & Diary App for iPhone",
-        "description": "Free private photo journal & diary app for iPhone. Keep photos and written notes together, organized into life chapters called Eras."
+        "description": "Free private photo journal & diary app for iPhone. Keep photos and written notes together, organized into life chapters called Eras.",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://stillkeep.app/"
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://stillkeep.app/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Stillkeep?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Stillkeep is a calm, private photo journaling app for iPhone designed to pair your favorite photographs with authentic written notes into cohesive life chapters called Eras."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Stillkeep free to use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Stillkeep is free to start on iOS. The free starter version includes up to 3 Eras and 20 Moments per Era."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is my journal data private?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Complete privacy is built-in with zero ads, zero third-party data tracking, and secure native synchronization through your personal iCloud account."
+            }
+          }
+        ]
       }
     ]
   }
@@ -548,7 +596,7 @@
         <h1>Keep the Story with the Photo.</h1>
 
         <p class="lede">
-          <strong>Stillkeep</strong> is a calm, private photo journaling app for iPhone designed to pair your favorite photographs 
+          <strong>Stillkeep</strong> is a calm, private <strong>photo journaling app for iPhone</strong> designed to pair your favorite photographs 
           with authentic written notes into cohesive life chapters called <strong>Eras</strong>.
         </p>
 
@@ -620,7 +668,7 @@
 
       <p>
         Traditional journaling apps rely solely on endless text blocks, while standard photo galleries leave your pictures detached from context. Stillkeep bridges the gap, functioning as a 
-        <strong>photo journal</strong> that pairs imagery and narrative into single, organized 
+        <strong>photo journal app</strong> and private diary alternative that pairs imagery and narrative into single, organized 
         <strong>Moments</strong>.
       </p>
 
@@ -662,6 +710,23 @@
         Stillkeep Premium (€3.99) expands capacity for long-term memory archiving.
       </p>
 
+    </section>
+
+    <!-- Developer Writing / Background Articles -->
+    <section id="articles">
+      <h2>From the Developer Journal</h2>
+      <p class="fine">Deep dives into the architecture, design choices, and philosophy behind Stillkeep.</p>
+      
+      <div class="subpage-grid">
+        <a class="subpage-card" href="https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b" target="_blank" rel="noopener noreferrer">
+          <h3>Moving from Folders to Visual Eras</h3>
+          <p>Why I built Stillkeep: breaking away from rigid directory structures and embracing thematic life chapters.</p>
+        </a>
+        <a class="subpage-card" href="https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764" target="_blank" rel="noopener noreferrer">
+          <h3>Beyond the Camera Roll</h3>
+          <p>Why I built a private photo journal app designed to preserve meaningful memories instead of buried digital clutter.</p>
+        </a>
+      </div>
     </section>
 
     <div class="band">
