@@ -94,6 +94,15 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Broad photo & memory organization guide -->
+
+  <url>
+    <loc>https://stillkeep.app/how-to-organize-photos-memories-iphone.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <url>
     <loc>https://stillkeep.app/llms.txt</loc>
     <lastmod>2026-08-23</lastmod>
