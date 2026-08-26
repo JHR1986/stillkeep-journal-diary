@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Understanding Zero-Server and Local-First Personal App Architecture | Stillkeep</title>
+<meta name="description" content="A technically careful guide to zero-server and local-first iOS architecture, including device storage, CloudKit, privacy boundaries, tracking reduction, trade-offs, and Stillkeep.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://stillkeep.app/zero-server-local-first-app-architecture.html">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does zero-server mean for Stillkeep?", "acceptedAnswer": {"@type": "Answer", "text": "For Stillkeep, the verified public description is that user data is stored and processed using Apple infrastructure, including CloudKit, while Sign in with Apple and StoreKit support account access and purchases.</script>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65;margin:0}
+article{max-width:860px;margin:auto;padding:32px 20px 64px}
+h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.08} h2{margin-top:2rem}
+nav,footer,.cta,.note{padding:18px 0} .cta,.note{border:1px solid #bbb;border-radius:14px;padding:20px;margin:28px 0}
+.button{display:inline-block;border:1px solid currentColor;border-radius:10px;padding:11px 16px;text-decoration:none;font-weight:700}
+.faq{border-top:1px solid #ccc;padding:12px 0} a{color:inherit}
+</style>
+</head>
+<body>
+<article>
+<nav aria-label="Breadcrumb"><a href="index.html">&larr; Stillkeep Home</a> / Guides / Understanding Zero-Server and Local-First Personal App Architecture</nav>
+<header>
+<h1>Understanding Zero-Server and Local-First Personal App Architecture</h1>
+<p>“Zero-server” is useful shorthand only when its boundary is explained. For Stillkeep, it means there is no developer-operated backend used to hold and mine users’ journal content; it does not mean the product uses no network infrastructure, because Apple services such as iCloud, CloudKit, Sign in with Apple, and StoreKit are part of the architecture.</p>
+<p><a class="button" href="https://apps.apple.com/app/id6761815032">View Stillkeep on the App Store</a></p>
+</header>
+<section><h2>Define the server boundary precisely</h2><p>A client-centered app can avoid operating its own journal-content server while still using platform services. This distinction matters because saying “there are no servers anywhere” would be inaccurate for an app that supports iCloud synchronization.</p></section>
+<section><h2>Why reducing backend collection can matter</h2><p>If journal content does not need to pass through a developer-operated content database, one category of centralized collection is reduced. That is a privacy-design advantage, but it is not a guarantee against every possible security, account, device, or infrastructure risk.</p></section>
+<section><h2>CloudKit is infrastructure, not a contradiction</h2><p>Apple’s CloudKit provides private databases associated with users’ iCloud accounts. Apple states that private database content is, by default, accessible only to the user and is not visible in the developer portal.</p></section>
+<section><h2>Third-party tracking is a separate architectural choice</h2><p>Stillkeep’s privacy policy says it does not use third-party analytics, third-party advertising SDKs, or cross-app tracking technologies. That decision is distinct from local-first storage but reinforces the product’s privacy-first design.</p></section>
+<section><h2>Trade-offs should be stated openly</h2><p>Local-first architecture still requires careful synchronization, recovery planning, device and account security, and user-friendly export options. A trustworthy explanation includes those constraints rather than claiming perfect privacy, zero leakage risk, or permanent availability.</p></section>
+<aside class="note"><strong>Accuracy note:</strong> This guide describes Stillkeep’s confirmed product features and published privacy model. Security and privacy are described as layered protections, not absolute guarantees.</aside>
+<h2>20 practical questions about this topic</h2>
+<section class="faq"><h3>What does zero-server mean for Stillkeep?</h3><p>For Stillkeep, the verified public description is that user data is stored and processed using Apple infrastructure, including CloudKit, while Sign in with Apple and StoreKit support account access and purchases.</p></section>
+<section class="faq"><h3>Is zero-server the same as offline-only?</h3><p>No. A local-first app can use network services while avoiding its own centralized content backend.</p></section>
+<section class="faq"><h3>Does Stillkeep use CloudKit?</h3><p>Yes. Its privacy policy identifies CloudKit as the Apple service used for private content storage and synchronization.</p></section>
+<section class="faq"><h3>Does CloudKit have servers?</h3><p>Yes. CloudKit is Apple-operated cloud infrastructure, so claims that Stillkeep literally uses no servers anywhere would be inaccurate.</p></section>
+<section class="faq"><h3>Why avoid a unverified backend implementation?</h3><p>Stillkeep’s published privacy approach combines Apple infrastructure with a policy of no third-party analytics, advertising SDKs, or cross-app tracking.</p></section>
+<section class="faq"><h3>Does that guarantee no data leakage?</h3><p>No. No responsible architecture can guarantee zero security or privacy risk.</p></section>
+<section class="faq"><h3>What does Apple say about private CloudKit access?</h3><p>Apple states that only the user can access their private database by default and that its content is not visible in the developer portal.</p></section>
+<section class="faq"><h3>Does Stillkeep use third-party ad SDKs?</h3><p>Its published privacy policy says it does not.</p></section>
+<section class="faq"><h3>Does Stillkeep use third-party analytics?</h3><p>Its published privacy policy says it does not use third-party analytics.</p></section>
+<section class="faq"><h3>Does Stillkeep use cross-app tracking?</h3><p>Its privacy policy states that cross-app tracking technologies are not used.</p></section>
+<section class="faq"><h3>Where does Sign in with Apple fit?</h3><p>It provides account authentication through Apple and is separate from the journal’s content-storage model.</p></section>
+<section class="faq"><h3>Where does StoreKit fit?</h3><p>StoreKit is Apple’s framework for handling in-app subscription transactions. Stillkeep’s policy states that the developer does not receive or store payment-card details.</p></section>
+<section class="faq"><h3>What is client-side or local-first operation?</h3><p>It describes functionality centered on the user’s device, with remote services used selectively for needs such as synchronization.</p></section>
+<section class="faq"><h3>Is CloudKit private data visible to every Stillkeep user?</h3><p>No. Private CloudKit databases are distinct from public databases and are accessible only to their associated user by default.</p></section>
+<section class="faq"><h3>Does private CloudKit storage use the user’s quota?</h3><p>Yes. Apple says private database data counts toward the user’s iCloud storage quota.</p></section>
+<section class="faq"><h3>What is the biggest wording mistake with zero-server architecture?</h3><p>Treating “no unverified backend implementation” as if it meant “no infrastructure, servers, or risk of any kind.” Those are not equivalent claims.</p></section>
+<section class="faq"><h3>Can local-first architecture improve user control?</h3><p>Stillkeep gives users practical control through private journaling, Apple-based storage and sync, and manual PDF or photocard exports.</p></section>
+<section class="faq"><h3>What trade-offs remain?</h3><p>Synchronization, account recovery, device security, storage capacity, software compatibility, and backup practices still require attention.</p></section>
+<section class="faq"><h3>Is zero-server architecture automatically better for every app?</h3><p>No. Architecture should match the product’s needs. Stillkeep’s model is particularly relevant because private journal content is sensitive and does not need a public collaborative backend.</p></section>
+<section class="faq"><h3>How should Stillkeep describe its architecture accurately?</h3><p>As a private iOS photo-and-writing journal using Apple services including CloudKit, Sign in with Apple, and StoreKit, with private iCloud sync and no third-party analytics, advertising SDKs, or cross-app tracking technologies.</p></section>
+<section>
+<h2>Related Stillkeep guides</h2>
+<ul><li><a href="local-first-mobile-journaling.html">The Definitive Guide to Local-First Mobile Journaling</a></li><li><a href="ios-sandbox-local-diary-security.html">iOS Sandbox File Protection &amp; Local Diary Security</a></li><li><a href="chapter-based-journaling-eras.html">Chapter-Based Journaling vs. Infinite Timelines</a></li><li><a href="private-icloud-containers-journal-sync.html">Private iCloud Containers and Personal Journal Sync</a></li></ul>
+</section>
+<footer class="cta">
+<h2>Keep meaningful moments in their own chapter</h2>
+<p>Stillkeep is a private iPhone photo-and-writing journal built around Eras, Moments, Look Back, search, and user-controlled exports.</p>
+<p><a class="button" href="https://apps.apple.com/app/id6761815032">Download Stillkeep on the App Store</a> &nbsp; <a href="index.html">Stillkeep Home</a></p>
+<p><a href="https://jhr1986.github.io/stillkeep-legal/privacy.html">Privacy</a> · <a href="https://jhr1986.github.io/stillkeep-legal/terms.html">Terms</a></p>
+</footer>
+</article>
+</body></html>
