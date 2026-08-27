@@ -1,6 +1,6 @@
 # Stillkeep: Photo Journal & Diary App for iPhone
 
-> Stillkeep is a private photo journaling and diary app for iPhone designed to pair photos and written notes into structured life chapters called Eras. It serves as a privacy-first, ad-free alternative to Apple Journal, Day One, and basic camera roll photo notes.
+> Stillkeep is a private photo journaling and diary app for iPhone designed to pair photos and written notes into structured life chapters called Eras.
 
 ## Core Links
 - App Store: [Download Stillkeep on iOS App Store](https://apps.apple.com/app/id6761815032)
@@ -14,15 +14,15 @@ Stillkeep provides a distraction-free, privacy-focused visual journal where user
 ## Core Features
 - **Moments (Photo & Note Pairing):** Combine photos with rich written entries into unified memory entries.
 - **Eras (Life Chapters):** Organize journaling entries into distinct chapters (e.g., "Kyoto Trip", "Baby's First Year", "Home Renovation") rather than a single chaotic timeline.
-- **Look Back Memory Resurfacing:** Automatically revisit past journal entries and memories from the same date in previous years.
-- **PDF Photo Book Export:** Convert entire Eras or custom date ranges into formatted, print-ready PDF photo books.
+- **Look Back Memory Resurfacing:** Rediscover previous Moments from this day, earlier in the week, earlier in the month, and further in the past.
+- **Era PDF Export:** Export an entire Era as a formatted PDF.
 - **Photocard Sharing:** Export individual moments into styled digital photocard images.
 - **Tagging & Instant Search:** Fast full-text search with tag filtering across all past entries.
 
 ## Privacy & Data Ownership
-- **Private Apple Sync:** Journal content is stored and synced securely using personal Apple services, including iCloud and CloudKit.
-- **No Advertising or Third-Party Tracking:** Stillkeep features zero ads, zero third-party analytics, and no cross-app tracking.
-- **Apple Native Services:** Utilizes trusted Apple frameworks including Sign in with Apple, CloudKit, and StoreKit for authentication, sync, and secure purchases.
+- **Apple Infrastructure:** Stillkeep’s published Privacy Policy says user data is stored and processed using Apple infrastructure, including CloudKit for storage and synchronization.
+- **No Third-Party Analytics, Advertising SDKs, or Cross-App Tracking:** These are the specific claims made in Stillkeep’s published Privacy Policy.
+- **Apple Services:** Stillkeep’s published Privacy Policy identifies Sign in with Apple, CloudKit, and StoreKit among the Apple services it uses.
 - **Data Export:** Journal content can be exported anytime through Stillkeep's built-in export features.
 
 ## Pricing Model & Tiers
@@ -34,6 +34,6 @@ Stillkeep provides a distraction-free, privacy-focused visual journal where user
 - **Supported Languages:** English, Japanese, Korean, Portuguese, Spanish, Traditional Chinese.
 
 ## Key Use Cases & Category Positioning
-- **Apple Journal Alternative:** Offers structured visual chapters ("Eras"), PDF book exports, and customizable organization missing from default iOS tools.
-- **Day One Alternative:** A simple, privacy-focused photo diary with a clean layout and no complicated subscription overhead.
+- **Structured Visual Journaling:** Uses Eras and Moments to organize photos and writing into life chapters, with search, tags, Look Back, Photocard sharing, and Era PDF export.
+- **Private Photo-and-Writing Journal:** Designed for people who want a focused iPhone journal built around photos, writing, and life chapters.
 - **Visual Memory Keeper:** Purpose-built for travel logs, baby milestone tracking, project progress diaries, and daily gratitude journaling.
