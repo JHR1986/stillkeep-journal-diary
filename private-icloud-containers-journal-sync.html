@@ -18,12 +18,246 @@
 <link rel="canonical" href="https://stillkeep.app/private-icloud-containers-journal-sync.html">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a private CloudKit database?", "acceptedAnswer": {"@type": "Answer", "text": "It is a private area of Apple’s CloudKit system connected to the user’s iCloud account. Apple says it is accessible only to that user by default."}}, {"@type": "Question", "name": "Can the developer see private CloudKit records in the developer portal?", "acceptedAnswer": {"@type": "Answer", "text": "Apple says data in a user’s private CloudKit database is not visible in the developer portal."}}, {"@type": "Question", "name": "Does private CloudKit use servers?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CloudKit uses Apple-operated cloud infrastructure. It is accurate to describe it as private iCloud storage, not as a system with no cloud servers."}}, {"@type": "Question", "name": "Why call Stillkeep local-first if it uses iCloud?", "acceptedAnswer": {"@type": "Answer", "text": "Because the terms describe different parts of the experience. “Local-first” refers to a device-centred approach, while iCloud provides Apple-based storage and synchronization."}}, {"@type": "Question", "name": "Does CloudKit require an iCloud account?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Access to a user’s private CloudKit database requires an active iCloud account on the device."}}, {"@type": "Question", "name": "Who owns private CloudKit content?", "acceptedAnswer": {"@type": "Answer", "text": "Apple says users own the contents of their private CloudKit database and can view and modify that content."}}, {"@type": "Question", "name": "Does private CloudKit data use my iCloud quota?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Apple says information stored in a private CloudKit database counts toward the user’s iCloud storage allowance."}}, {"@type": "Question", "name": "Is a private CloudKit database the same as a public database?", "acceptedAnswer": {"@type": "Answer", "text": "No. CloudKit has private, public, and shared databases, and they have different rules about who can access their contents."}}, {"@type": "Question", "name": "Does Stillkeep run its own journal-content backend?", "acceptedAnswer": {"@type": "Answer", "text": "Stillkeep’s Privacy Policy says user data is stored and processed using Apple infrastructure and identifies CloudKit as one of the Apple services used by the app."}}, {"@type": "Question", "name": "Does Stillkeep use Apple services besides CloudKit?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Stillkeep’s Privacy Policy also names Sign in with Apple and StoreKit alongside CloudKit."}}, {"@type": "Question", "name": "Does using Apple infrastructure mean Stillkeep can promise absolute privacy?", "acceptedAnswer": {"@type": "Answer", "text": "No. Apple infrastructure and private access controls are meaningful protections, but no networked system should be described as having absolutely zero privacy or security risk."}}, {"@type": "Question", "name": "Can sync happen without internet access?", "acceptedAnswer": {"@type": "Answer", "text": "Cloud synchronization needs a connection to Apple’s services. This guide does not make additional promises about which Stillkeep features work offline."}}, {"@type": "Question", "name": "Is iCloud sync a substitute for exports?", "acceptedAnswer": {"@type": "Answer", "text": "No. Sync helps keep journal data available through the Apple ecosystem, while an export creates a separate copy that you control outside the live app."}}, {"@type": "Question", "name": "Can I export a whole Era?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Stillkeep lets you manually export an entire Era as a PDF."}}, {"@type": "Question", "name": "Can I export one Moment?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can export an individual Moment as a photocard containing its image and accompanying writing."}}, {"@type": "Question", "name": "Does Stillkeep use third-party analytics?", "acceptedAnswer": {"@type": "Answer", "text": "No. Stillkeep’s published Privacy Policy says it does not use third-party analytics."}}, {"@type": "Question", "name": "Does Stillkeep use cross-app tracking?", "acceptedAnswer": {"@type": "Answer", "text": "No. Stillkeep’s Privacy Policy says it does not use cross-app tracking technologies."}}, {"@type": "Question", "name": "Does Stillkeep sell journal content for advertising?", "acceptedAnswer": {"@type": "Answer", "text": "Stillkeep’s published Privacy Policy says third-party advertising services are not used and does not describe journal content as being sold to create advertising profiles."}}, {"@type": "Question", "name": "What is the clearest privacy description for sync?", "acceptedAnswer": {"@type": "Answer", "text": "A clear description is that Stillkeep uses Apple’s iCloud and CloudKit infrastructure for private journal storage and synchronization, with journal content private by default."}}, {"@type": "Question", "name": "What should users remember about cloud privacy?", "acceptedAnswer": {"@type": "Answer", "text": "Private access controls are useful, but you should still protect your Apple account and iPhone. For memories you would hate to lose, keeping an independent export or backup is also sensible."}}]}</script>
 <style>
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65;margin:0}
-article{max-width:860px;margin:auto;padding:32px 20px 64px}
-h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.08} h2{margin-top:2rem}
-nav,footer,.cta,.note{padding:18px 0} .cta,.note{border:1px solid #bbb;border-radius:14px;padding:20px;margin:28px 0}
-.button{display:inline-block;border:1px solid currentColor;border-radius:10px;padding:11px 16px;text-decoration:none;font-weight:700}
-.faq{border-top:1px solid #ccc;padding:12px 0} a{color:inherit}
+:root{
+  --paper:#fbf9ff;
+  --card:#ffffff;
+  --ink:#241d32;
+  --muted:#655f70;
+  --brand-cyan:#10cfe0;
+  --brand-violet:#6550f5;
+  --brand-purple:#5b2bd9;
+  --brand-pink:#e82bbd;
+  --brand-orange:#ff6a45;
+  --rule:#e8e1f0;
+  --soft-violet:#f1edff;
+  --soft-pink:#fff0fa;
+  --shadow:0 14px 38px rgba(73,49,108,.12);
+  --shadow-soft:0 8px 24px rgba(73,49,108,.09);
+  --radius:18px;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+
+html{
+  scroll-behavior:smooth;
+  -webkit-text-size-adjust:100%;
+}
+
+body{
+  margin:0;
+  color:var(--ink);
+  font:16.5px/1.68 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  background:
+    radial-gradient(circle at 10% 0%,rgba(16,207,224,.09),transparent 28rem),
+    radial-gradient(circle at 90% 6%,rgba(232,43,189,.08),transparent 26rem),
+    var(--paper);
+  overflow-x:hidden;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+
+article{
+  width:min(100% - 44px,900px);
+  margin-inline:auto;
+  padding:26px 0 64px;
+}
+
+h1,h2{
+  font-family:"Young Serif",Georgia,serif;
+  font-weight:400;
+  letter-spacing:-.015em;
+  color:var(--ink);
+  text-wrap:balance;
+}
+
+h1{
+  font-size:clamp(2.35rem,5.4vw,3.55rem);
+  line-height:1.08;
+  margin:28px 0 18px;
+}
+
+h2{
+  font-size:clamp(1.5rem,3vw,1.9rem);
+  line-height:1.25;
+  margin:2.4rem 0 .75rem;
+}
+
+h3{
+  font-size:1.05rem;
+  line-height:1.35;
+  margin:0 0 6px;
+}
+
+p{margin:12px 0}
+ul{padding-left:22px}
+li{margin:8px 0}
+li::marker{color:var(--brand-violet)}
+
+a{
+  color:var(--brand-purple);
+  text-underline-offset:3px;
+}
+
+a:hover{color:#4720ad}
+
+a:focus-visible{
+  outline:3px solid var(--brand-purple);
+  outline-offset:3px;
+  border-radius:6px;
+}
+
+nav{
+  padding:14px 0 22px;
+  color:var(--muted);
+  font-size:.92rem;
+  border-bottom:1px solid var(--rule);
+}
+
+nav a{
+  font-weight:700;
+  text-decoration:none;
+}
+
+header{
+  padding:18px 0 8px;
+}
+
+header > p:first-of-type{
+  font-size:1.08rem;
+  color:var(--muted);
+  max-width:64ch;
+}
+
+.button{
+  min-height:48px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border:0;
+  border-radius:14px;
+  padding:12px 20px;
+  text-decoration:none;
+  font-weight:700;
+  color:#fff;
+  background:linear-gradient(110deg,var(--brand-purple),var(--brand-pink));
+  box-shadow:0 8px 22px rgba(91,43,217,.24);
+  transition:transform .2s ease,box-shadow .2s ease,filter .2s ease;
+}
+
+.button:hover{
+  color:#fff;
+  transform:translateY(-2px);
+  box-shadow:0 12px 28px rgba(91,43,217,.28);
+  filter:saturate(1.06);
+}
+
+section{padding:4px 0}
+
+.note{
+  position:relative;
+  overflow:hidden;
+  margin:32px 0;
+  padding:22px 24px;
+  border:1px solid var(--rule);
+  border-left:5px solid var(--brand-violet);
+  border-radius:var(--radius);
+  background:rgba(255,255,255,.84);
+  box-shadow:var(--shadow-soft);
+}
+
+.note::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(120deg,rgba(16,207,224,.05),rgba(232,43,189,.05));
+  pointer-events:none;
+}
+
+.note > *{position:relative}
+
+.faq{
+  padding:20px 0;
+  border-top:1px solid var(--rule);
+}
+
+.faq h3{color:#5125bb}
+
+.faq p{
+  color:var(--muted);
+  margin-bottom:4px;
+}
+
+footer.cta{
+  position:relative;
+  overflow:hidden;
+  margin:52px 0 0;
+  padding:36px 28px;
+  border:0;
+  border-radius:22px;
+  background:#35205d;
+  color:#fff;
+  text-align:center;
+  box-shadow:var(--shadow);
+}
+
+footer.cta::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(circle at 0 0,rgba(16,207,224,.28),transparent 42%),
+    radial-gradient(circle at 100% 100%,rgba(255,106,69,.28),transparent 46%),
+    radial-gradient(circle at 72% 12%,rgba(232,43,189,.22),transparent 38%);
+  pointer-events:none;
+}
+
+footer.cta > *{position:relative}
+
+footer.cta h2{
+  color:#fff;
+  margin-top:0;
+}
+
+footer.cta p{color:#f1ecfa}
+footer.cta a:not(.button){color:#fff}
+footer.cta a:not(.button):hover{color:#fff}
+
+@media (max-width:640px){
+  article{
+    width:min(100% - 28px,900px);
+    padding-top:16px;
+  }
+
+  nav{
+    padding:12px 0 18px;
+    line-height:1.5;
+  }
+
+  h1{
+    font-size:clamp(2.2rem,12vw,3rem);
+    margin-top:22px;
+  }
+
+  .button{width:100%}
+  .note{padding:18px}
+
+  footer.cta{
+    margin-top:42px;
+    padding:30px 18px;
+    border-radius:18px;
+  }
+
+  footer.cta p:last-of-type{line-height:1.9}
+}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{
+    scroll-behavior:auto!important;
+    transition-duration:.01ms!important;
+    animation-duration:.01ms!important;
+    animation-iteration-count:1!important;
+  }
+}
 </style>
 </head>
 <body>
