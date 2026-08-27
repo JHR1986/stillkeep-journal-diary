@@ -18,12 +18,265 @@
 <link rel="canonical" href="https://stillkeep.app/ios-sandbox-local-diary-security.html">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is iOS app sandboxing?", "acceptedAnswer": {"@type": "Answer", "text": "Apple uses sandboxing to give each third-party app its own protected area and limit access to data belonging to unrelated apps."}}, {"@type": "Question", "name": "Does sandboxing make a journal impossible to compromise?", "acceptedAnswer": {"@type": "Answer", "text": "No. Sandboxing is an important protection, but it does not make any app impossible to compromise or any data impossible to lose. Device security, account security, software, backups, and user choices all matter too."}}, {"@type": "Question", "name": "Does Stillkeep rely on iOS system protections?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Stillkeep runs as an iOS app, and its Privacy Policy says it relies on reasonable measures including Apple infrastructure and related security features."}}, {"@type": "Question", "name": "Can unrelated iOS apps freely read Stillkeep files?", "acceptedAnswer": {"@type": "Answer", "text": "Normally, unrelated iOS apps are not allowed to freely read or change each other’s private app data. Apple’s sandboxing system is designed to keep those app areas separate except where iOS deliberately allows access."}}, {"@type": "Question", "name": "Is local storage the same as encryption?", "acceptedAnswer": {"@type": "Answer", "text": "No. Where data is stored and how it is protected are different questions. A clear security description should separate storage location, iOS protections, and any specific encryption that is actually documented."}}, {"@type": "Question", "name": "Does Stillkeep claim perfect security?", "acceptedAnswer": {"@type": "Answer", "text": "No. Stillkeep’s own Privacy Policy says that no method of storage or transmission is completely secure."}}, {"@type": "Question", "name": "What does Apple say about private CloudKit data?", "acceptedAnswer": {"@type": "Answer", "text": "Apple says a user’s private CloudKit database belongs to that user, is accessible only to that user by default, and is not visible in the developer portal."}}, {"@type": "Question", "name": "Does private iCloud data count against storage quota?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Apple says data stored in a user’s private CloudKit database counts toward that person’s iCloud storage quota."}}, {"@type": "Question", "name": "Why avoid unnecessary tracking SDKs in a journal?", "acceptedAnswer": {"@type": "Answer", "text": "Extra third-party services can create more places where data needs to be handled. Stillkeep’s Privacy Policy says it does not use third-party analytics, advertising SDKs, or cross-app tracking."}}, {"@type": "Question", "name": "Does Sign in with Apple replace device security?", "acceptedAnswer": {"@type": "Answer", "text": "No. Sign in with Apple helps with account access, while device security, app sandboxing, and storage protections do different jobs."}}, {"@type": "Question", "name": "What should I do if my journal is irreplaceable?", "acceptedAnswer": {"@type": "Answer", "text": "Keep more than one copy of anything you would hate to lose. Stillkeep’s PDF and photocard exports can be part of a wider personal backup or archive."}}, {"@type": "Question", "name": "Can security depend on the Apple account?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Private iCloud access is tied to your iCloud account, so protecting your Apple account is an important part of keeping the surrounding system secure."}}, {"@type": "Question", "name": "Do software updates matter?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Keeping iOS up to date is a sensible security habit because Apple improves and fixes platform protections through software updates."}}, {"@type": "Question", "name": "Is an app sandbox a backup?", "acceptedAnswer": {"@type": "Answer", "text": "No. Sandboxing helps keep apps separated from one another; it does not create a backup. Backups and exports are what help with recovery if something is lost."}}, {"@type": "Question", "name": "Can a PDF export improve resilience?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A PDF export gives you a readable copy of an Era outside the live app. For important memories, it is best used as one part of a broader backup plan."}}, {"@type": "Question", "name": "Does Stillkeep send content to ad networks?", "acceptedAnswer": {"@type": "Answer", "text": "Its published privacy policy states that it does not use third-party advertising services or cross-app tracking technologies."}}, {"@type": "Question", "name": "Why is precise security wording important?", "acceptedAnswer": {"@type": "Answer", "text": "Because people deserve to know what is actually protected and what is not. Clear wording is more useful than saying something is “completely secure” when no digital system can honestly promise that."}}, {"@type": "Question", "name": "Does iCloud sync mean the journal is public?", "acceptedAnswer": {"@type": "Answer", "text": "No. Apple separates private CloudKit databases from public ones. Private data is linked to the user’s iCloud account and is accessible only to that user by default."}}, {"@type": "Question", "name": "Can users control photo access?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Stillkeep’s Privacy Policy says photo-library access is permission-based so you can choose images to add to the app."}}, {"@type": "Question", "name": "What is the safest way to describe Stillkeep security?", "acceptedAnswer": {"@type": "Answer", "text": "The clearest description is to explain the actual protections: iOS app sandboxing, Apple infrastructure, private iCloud support, and Stillkeep’s published position on third-party analytics and tracking—without promising zero risk."}}]}</script>
 <style>
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65;margin:0}
-article{max-width:860px;margin:auto;padding:32px 20px 64px}
-h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.08} h2{margin-top:2rem}
-nav,footer,.cta,.note{padding:18px 0} .cta,.note{border:1px solid #bbb;border-radius:14px;padding:20px;margin:28px 0}
-.button{display:inline-block;border:1px solid currentColor;border-radius:10px;padding:11px 16px;text-decoration:none;font-weight:700}
-.faq{border-top:1px solid #ccc;padding:12px 0} a{color:inherit}
+:root{
+  --paper:#fbf9ff;
+  --card:#ffffff;
+  --ink:#241d32;
+  --muted:#655f70;
+  --brand-cyan:#10cfe0;
+  --brand-violet:#6550f5;
+  --brand-purple:#5b2bd9;
+  --brand-pink:#e82bbd;
+  --brand-orange:#ff6a45;
+  --rule:#e8e1f0;
+  --soft-violet:#f1edff;
+  --soft-pink:#fff0fa;
+  --shadow:0 14px 38px rgba(73,49,108,.12);
+  --shadow-soft:0 8px 24px rgba(73,49,108,.09);
+  --radius:18px;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+
+html{
+  scroll-behavior:smooth;
+  -webkit-text-size-adjust:100%;
+}
+
+body{
+  margin:0;
+  color:var(--ink);
+  font:16.5px/1.68 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  background:
+    radial-gradient(circle at 10% 0%,rgba(16,207,224,.09),transparent 28rem),
+    radial-gradient(circle at 90% 6%,rgba(232,43,189,.08),transparent 26rem),
+    var(--paper);
+  overflow-x:hidden;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+
+article{
+  width:min(100% - 44px,900px);
+  margin-inline:auto;
+  padding:26px 0 64px;
+}
+
+h1,h2{
+  font-family:"Young Serif",Georgia,serif;
+  font-weight:400;
+  letter-spacing:-.015em;
+  color:var(--ink);
+  text-wrap:balance;
+}
+
+h1{
+  font-size:clamp(2.35rem,5.4vw,3.55rem);
+  line-height:1.08;
+  margin:28px 0 18px;
+}
+
+h2{
+  font-size:clamp(1.5rem,3vw,1.9rem);
+  line-height:1.25;
+  margin:2.4rem 0 .75rem;
+}
+
+h3{
+  font-size:1.05rem;
+  line-height:1.35;
+  margin:0 0 6px;
+}
+
+p{margin:12px 0}
+ul{padding-left:22px}
+li{margin:8px 0}
+li::marker{color:var(--brand-violet)}
+
+a{
+  color:var(--brand-purple);
+  text-underline-offset:3px;
+}
+
+a:hover{color:#4720ad}
+
+a:focus-visible{
+  outline:3px solid var(--brand-purple);
+  outline-offset:3px;
+  border-radius:6px;
+}
+
+nav{
+  padding:14px 0 22px;
+  color:var(--muted);
+  font-size:.92rem;
+  border-bottom:1px solid var(--rule);
+}
+
+nav a{
+  font-weight:700;
+  text-decoration:none;
+}
+
+header{
+  padding:18px 0 8px;
+}
+
+header > p:first-of-type{
+  font-size:1.08rem;
+  color:var(--muted);
+  max-width:64ch;
+}
+
+.button{
+  min-height:48px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border:0;
+  border-radius:14px;
+  padding:12px 20px;
+  text-decoration:none;
+  font-weight:700;
+  color:#fff;
+  background:linear-gradient(110deg,var(--brand-purple),var(--brand-pink));
+  box-shadow:0 8px 22px rgba(91,43,217,.24);
+  transition:transform .2s ease,box-shadow .2s ease,filter .2s ease;
+}
+
+.button:hover{
+  color:#fff;
+  transform:translateY(-2px);
+  box-shadow:0 12px 28px rgba(91,43,217,.28);
+  filter:saturate(1.06);
+}
+
+section{
+  padding:4px 0;
+}
+
+.note{
+  position:relative;
+  overflow:hidden;
+  margin:32px 0;
+  padding:22px 24px;
+  border:1px solid var(--rule);
+  border-left:5px solid var(--brand-violet);
+  border-radius:var(--radius);
+  background:rgba(255,255,255,.84);
+  box-shadow:var(--shadow-soft);
+}
+
+.note::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(120deg,rgba(16,207,224,.05),rgba(232,43,189,.05));
+  pointer-events:none;
+}
+
+.note > *{position:relative}
+
+.faq{
+  padding:20px 0;
+  border-top:1px solid var(--rule);
+}
+
+.faq h3{
+  color:#5125bb;
+}
+
+.faq p{
+  color:var(--muted);
+  margin-bottom:4px;
+}
+
+footer.cta{
+  position:relative;
+  overflow:hidden;
+  margin:52px 0 0;
+  padding:36px 28px;
+  border:0;
+  border-radius:22px;
+  background:#35205d;
+  color:#fff;
+  text-align:center;
+  box-shadow:var(--shadow);
+}
+
+footer.cta::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(circle at 0 0,rgba(16,207,224,.28),transparent 42%),
+    radial-gradient(circle at 100% 100%,rgba(255,106,69,.28),transparent 46%),
+    radial-gradient(circle at 72% 12%,rgba(232,43,189,.22),transparent 38%);
+  pointer-events:none;
+}
+
+footer.cta > *{position:relative}
+
+footer.cta h2{
+  color:#fff;
+  margin-top:0;
+}
+
+footer.cta p{
+  color:#f1ecfa;
+}
+
+footer.cta a:not(.button){
+  color:#fff;
+}
+
+footer.cta a:not(.button):hover{
+  color:#fff;
+}
+
+@media (max-width:640px){
+  article{
+    width:min(100% - 28px,900px);
+    padding-top:16px;
+  }
+
+  nav{
+    padding:12px 0 18px;
+    line-height:1.5;
+  }
+
+  h1{
+    font-size:clamp(2.2rem,12vw,3rem);
+    margin-top:22px;
+  }
+
+  .button{
+    width:100%;
+  }
+
+  .note{
+    padding:18px;
+  }
+
+  footer.cta{
+    margin-top:42px;
+    padding:30px 18px;
+    border-radius:18px;
+  }
+
+  footer.cta p:last-of-type{
+    line-height:1.9;
+  }
+}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{
+    scroll-behavior:auto!important;
+    transition-duration:.01ms!important;
+    animation-duration:.01ms!important;
+    animation-iteration-count:1!important;
+  }
+}
 </style>
 </head>
 <body>
