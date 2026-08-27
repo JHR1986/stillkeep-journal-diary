@@ -281,6 +281,27 @@
     filter:saturate(1.06);
   }
 
+  .navlinks-group{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:9px;
+  }
+
+  .navlink-home{
+    color:var(--brand-purple);
+    background:rgba(255,255,255,.82);
+    border:1px solid rgba(91,43,217,.28);
+    box-shadow:none;
+  }
+
+  .navlink-home:hover{
+    color:var(--brand-purple);
+    background:var(--soft-violet);
+    border-color:var(--brand-violet);
+    box-shadow:var(--shadow-soft);
+  }
+
   .hero{
     display:grid;
     grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr);
@@ -587,6 +608,13 @@
 
     .brand{font-size:1.55rem}
 
+    .navlinks-group{
+      width:100%;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:8px;
+    }
+
     .navlink{
       width:100%;
       white-space:normal;
@@ -655,7 +683,10 @@
 <main class="wrap">
   <header>
     <a class="brand" href="index.html">Still<span>keep</span></a>
-    <a class="navlink" href="https://apps.apple.com/app/id6796028378" title="Download Stillkeep Free on the iOS App Store">Get App Free</a>
+    <div class="navlinks-group">
+      <a class="navlink navlink-home" href="index.html" aria-label="Back to Stillkeep home">Home</a>
+      <a class="navlink" href="https://apps.apple.com/app/id6796028378" title="Download Stillkeep Free on the iOS App Store">Get App Free</a>
+    </div>
   </header>
 
   <section class="hero" aria-label="Introduction">
