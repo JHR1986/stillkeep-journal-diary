@@ -828,15 +828,17 @@
         border-radius:22px;
       }
 
-      .subpage-grid{
+      .subpage-grid,
+      #articles .subpage-grid{
         grid-template-columns:1fr;
       }
 
       .subpage-card,
       #articles .subpage-card:first-child,
       #articles .subpage-card:last-child{
-        grid-column:auto;
+        grid-column:1 / -1;
         min-height:0;
+        width:100%;
       }
 
       #articles{
