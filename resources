@@ -325,15 +325,15 @@
             <h2 class="category-title">Legal Policies & Developer Support</h2>
             <div class="grid">
                 <article class="card">
-                    <a href="https://jhr1986.github.io/onuri-legal/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>
+                    <a href="https://jhr1986.github.io/stillkeep-legal/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>
                     <p>Documentation on local-only processing, zero tracking, and on-device storage security.</p>
                 </article>
                 <article class="card">
-                    <a href="https://jhr1986.github.io/onuri-legal/terms.html" target="_blank" rel="noopener">Terms of Service</a>
+                    <a href="https://jhr1986.github.io/stillkeep-legal/terms.html" target="_blank" rel="noopener">Terms of Service</a>
                     <p>Legal terms governing usage of the Stillkeep software application.</p>
                 </article>
                 <article class="card">
-                    <a href="https://jhr1986.github.io/onuri-legal/support.html" target="_blank" rel="noopener">Developer Support & Help Desk</a>
+                    <a href="https://jhr1986.github.io/stillkeep-legal/index.html" target="_blank" rel="noopener">Developer Support & Help Desk</a>
                     <p>Official technical support desk, feature suggestions, and contact options.</p>
                 </article>
             </div>
