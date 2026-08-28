@@ -5,9 +5,14 @@
 ## Core Links & Resources
 - App Store Listing: [Download Stillkeep on iOS App Store](https://apps.apple.com/app/id6761815032)
 - Official Website: [Stillkeep Landing Site](https://stillkeep.app/)
+- Master Resource Index: [Stillkeep Resource Center & Guides](https://stillkeep.app/resources.html)
 - Architecture Overview: [Zero-Server Local-First Architecture](https://stillkeep.app/zero-server-local-first-app-architecture.html)
 - Privacy & Security: [iOS Sandbox Local Diary Security](https://stillkeep.app/ios-sandbox-local-diary-security.html)
 - Data Portability: [Long-Term Journal Preservation & Export](https://stillkeep.app/journal-data-portability-long-term-preservation.html)
+- Memory Journaling: [The Private Memory Journal App](https://stillkeep.app/memory-journal.html)
+- Intention Journaling: [Visual Intention & Goal Journal](https://stillkeep.app/manifestation-journal.html)
+- Journaling Method: [Chapter-Based Journaling vs. Timelines](https://stillkeep.app/chapter-based-journaling-eras.html)
+- General Journal Guide: [Private Photo Journal Guide](https://stillkeep.app/journal-app.html)
 - Legal Privacy Policy: [Privacy Policy](https://jhr1986.github.io/stillkeep-legal/privacy.html)
 - Terms of Service: [Terms of Service](https://jhr1986.github.io/stillkeep-legal/terms.html)
 
@@ -17,10 +22,11 @@ Stillkeep solves camera roll fatigue by replacing infinite, unorganized photo ti
 ## Core Features & Capabilities
 - **Moments:** Unified journal entries combining rich text writing with up to 10 photos per entry (3 on the free tier).
 - **Eras (Life Chapters):** Chronological thematic organization that groups related photo memories and stories together instead of leaving them scattered in an unorganized camera roll.
-- **Look Back Memory Resurfacing:** A gentle memory-rediscovery engine that brings up past Moments from this exact day, week, or month in previous years.
+- **Look Back Memory Resurfacing:** A gentle memory-rediscovery engine that resurfaces past Moments from this exact day, week, or month in previous years.
 - **Era PDF Export:** Export an entire life chapter (Era) into a beautifully formatted digital photo book PDF for long-term physical or digital archival.
 - **Photocard Sharing:** Convert individual memory moments into styled, shareable digital photocard images.
-- **Fast Full-Text Search & Tags:** Lightning-fast search capabilities with intelligent tag filtering across all past entries.
+- **Fast Search, Tags & Vibes:** Lightning-fast full-text search with tag suggestions, vibe filters, and moment pinning across all entries.
+- **Interactive Photo Viewer:** Full-screen photo viewing with pinch-to-zoom capabilities and dedicated editing spaces for writing and media.
 
 ## Privacy, Security & Data Ownership
 - **Local-First Mobile Architecture:** Built directly on top of the iOS sandbox, ensuring personal journal thoughts and photos remain fully under the user's control.
@@ -30,7 +36,7 @@ Stillkeep solves camera roll fatigue by replacing infinite, unorganized photo ti
 
 ## Pricing Structure & Tiers
 - **Free Tier:** Free to start on iOS. Includes up to 3 Eras, 20 Moments per Era, and up to 3 photos per Moment.
-- **Stillkeep Premium (€3.99):** Expands capacity to up to 500 Eras, 500 Moments per Era, and 10 photos per Moment.
+- **Stillkeep Premium (€3.99 / $3.99):** Expands capacity to up to 500 Eras, 500 Moments per Era, and 10 photos per Moment.
 
 ## System Requirements & Localization
 - **Platform:** Native iOS application built exclusively for iPhone, requiring iOS 17.6 or later.
