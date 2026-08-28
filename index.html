@@ -81,7 +81,7 @@
     rel="stylesheet"
   >
 
-  <!-- Structured Data Schema (Supercharged for Rich Snippets) -->
+  <!-- Structured Data Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -569,7 +569,7 @@
 
     .subpage-grid{
       display:grid;
-      grid-template-columns:repeat(6,minmax(0,1fr));
+      grid-template-columns:repeat(8,minmax(0,1fr));
       gap:16px;
       margin:32px 0;
     }
@@ -607,6 +607,10 @@
 
     .subpage-card:nth-child(3)::after{
       background:radial-gradient(circle,rgba(255,106,69,.13),transparent 68%);
+    }
+
+    .subpage-card:nth-child(4)::after{
+      background:radial-gradient(circle,rgba(232,43,189,.13),transparent 68%);
     }
 
     .subpage-card:hover{
@@ -781,7 +785,7 @@
       .pc3{transform:rotate(2deg)}
 
       #about ul{grid-template-columns:1fr}
-      .subpage-card{grid-column:span 3}
+      .subpage-card{grid-column:span 4}
       #articles .subpage-card:first-child,
       #articles .subpage-card:last-child{grid-column:span 6}
     }
@@ -906,7 +910,8 @@
       <nav class="navlinks-group" aria-label="Primary navigation">
         <a class="navlink navlink-sub" href="journal-app.html" title="Journal App Overview">Journal App</a>
         <a class="navlink navlink-sub" href="memory-journal.html" title="Memory Journal Guide">Memory Journal</a>
-        <a class="navlink navlink-sub" href="manifestation-journal.html" title="Manifestation & Goal Journal Guide">Manifestation</a>
+        <a class="navlink navlink-sub" href="manifestation-journal.html" title="Manifestation &amp; Goal Journal Guide">Manifestation</a>
+        <a class="navlink navlink-sub" href="resources.html" title="Master Resource Index">Resources</a>
         <a
           class="navlink"
           href="https://apps.apple.com/app/id6761815032"
@@ -981,7 +986,7 @@
       <p>Organize your journal by thematic chapters:</p>
 
       <span class="spine">Coastal road trip</span>
-      <span class="spine">Graduation & milestones</span>
+      <span class="spine">Graduation &amp; milestones</span>
       <span class="spine">Mountain air</span>
       <span class="spine">Daily reflections</span>
 
@@ -1035,6 +1040,10 @@
         <a class="subpage-card" href="manifestation-journal.html">
           <h3>Manifestation &amp; Goal Journal</h3>
           <p>Discover a serious, distraction-free workspace for tracking intentional life goals and visual milestones.</p>
+        </a>
+        <a class="subpage-card" href="resources.html">
+          <h3>Master Resource Index</h3>
+          <p>Explore full system architecture, local-first privacy guides, published essays, and official profiles.</p>
         </a>
       </div>
 
@@ -1090,6 +1099,7 @@
     <a href="journal-app.html">Journal App</a>
     <a href="memory-journal.html">Memory Journal</a>
     <a href="manifestation-journal.html">Manifestation Journal</a>
+    <a href="resources.html">Resources</a>
     <a href="how-to-organize-photos-memories-iphone.html">Photo &amp; Memory Guide</a>
     <a href="journal-app-alternative-stillkeep-iphone.html">Journal App Alternative</a>
     <a href="zero-server-local-first-app-architecture.html">Architecture</a>
