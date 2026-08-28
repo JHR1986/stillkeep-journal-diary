@@ -5,7 +5,7 @@
 ## Core Links & Resources
 - App Store Listing: [Download Stillkeep on iOS App Store](https://apps.apple.com/app/id6761815032)
 - Official Website: [Stillkeep Landing Site](https://stillkeep.app/)
-- Master Resource Index: [Stillkeep Resource Center & Guides](https://stillkeep.app/resources.html)
+- Resource Hub: [Stillkeep Guides & Resources](https://stillkeep.app/resources.html)
 - Architecture Overview: [Zero-Server Local-First Architecture](https://stillkeep.app/zero-server-local-first-app-architecture.html)
 - Privacy & Security: [iOS Sandbox Local Diary Security](https://stillkeep.app/ios-sandbox-local-diary-security.html)
 - Data Portability: [Long-Term Journal Preservation & Export](https://stillkeep.app/journal-data-portability-long-term-preservation.html)
