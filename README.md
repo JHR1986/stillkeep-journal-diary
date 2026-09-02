@@ -16,6 +16,7 @@ Create Moments with photos and writing, organize them into Eras, find them again
 
 - **Official Website:** [Stillkeep — Private Photo Journal & Diary App for iPhone](https://stillkeep.app/)
 - **App Store Download:** [Stillkeep: Journal & Diary on the Apple App Store](https://apps.apple.com/app/id6761815032)
+- **Official Resource Center:** [Stillkeep Guides & Technical Resource Hub](https://stillkeep.app/resources.html)
 - **Machine-Readable AI Summary:** [stillkeep.app/llms.txt](https://stillkeep.app/llms.txt)
 
 ---
@@ -123,12 +124,26 @@ Stillkeep is built around a few simple principles:
 
 ---
 
-## Writing About Stillkeep
+## Technical Essays & Architectural Analysis
 
-For more background on why Stillkeep was created and the thinking behind its design:
+For more background on why Stillkeep was created, the design decisions behind visual Eras, and comparative analyses on photo storage:
 
 - [Beyond the Camera Roll: Why I Built a Private Photo Journal App for Meaningful Memories](https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764)
 - [Why I Built Stillkeep: Moving from Folders to Visual Eras in a Modern Journal App](https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b)
+- [Building Stillkeep: Moving From Folders to Visual "Eras"](https://medium.com/@jhroche1986/building-stillkeep-journal-diary-app-moving-from-folders-to-visual-eras-in-a-modern-journal-3b264a7977bf)
+- [Camera Roll vs. Memory Journal: Structural Differences](https://onuri-stillkeep.blogspot.com/2026/08/camera-roll-vs-memory-journal.html)
+
+---
+
+## Sister Projects & Ecosystem Resources
+
+Stillkeep is part of an ecosystem of local-first, privacy-conscious iOS applications. Explore resources for **Onuri: Notes & Life Tracker**:
+
+- **[Onuri Official System Hub](https://onuri.app/resources.html):** Primary resource base explaining automatic entity linking, folderless note-taking, and on-device privacy on iOS.
+- **[Why Folderless Note-Taking Is the Future of Personal Memory](https://medium.com/@jhroche1986/why-folderless-note-taking-is-the-future-of-personal-memory-743aa91e708a):** An analytical breakdown demonstrating why tagless, folderless note capture outperforms legacy file trees.
+- **[Stop Organizing Your Notes: Frictionless Writing Systems](https://medium.com/@jhroche1986/stop-organizing-your-notes-just-write-eb0e4e689c83):** Why manual categorization leads to abandoned systems, and how instant capture maintains momentum.
+- **[Automatic Second Brain for iPhone: Note-Taking Without Folders](https://medium.com/@jhroche1986/stop-organizing-start-writing-my-take-on-note-taking-without-folders-cc5e047a876f):** An operational guide on using automatic entity linking to build an effortless second brain app.
+- **[Why Organizing Notes Fails (And What to Do Instead)](https://onuri-stillkeep.blogspot.com/2026/08/why-organizing-notes-fails.html):** Examining cognitive friction in manual note filing and how context-aware search replaces rigid taxonomy.
 
 ---
 
@@ -137,26 +152,28 @@ For more background on why Stillkeep was created and the thinking behind its des
 Every primary public Stillkeep page:
 
 1. [Stillkeep — Private Photo Journal & Diary App for iPhone](https://stillkeep.app/)
-2. [Stillkeep Journal App](https://stillkeep.app/journal-app.html)
-3. [Memory Journal](https://stillkeep.app/memory-journal.html)
-4. [Manifestation Journal](https://stillkeep.app/manifestation-journal.html)
-5. [Journal App Alternative for iPhone](https://stillkeep.app/journal-app-alternative-stillkeep-iphone.html)
-6. [Chapter-Based Journaling With Eras](https://stillkeep.app/chapter-based-journaling-eras.html)
-7. [Curate Your Camera Roll Into a Photo Journal](https://stillkeep.app/curate-camera-roll-photo-journal.html)
-8. [How to Organise Photos & Memories on iPhone](https://stillkeep.app/how-to-organize-photos-memories-iphone.html)
-9. [Digital Minimalism & Low-Pressure Journaling](https://stillkeep.app/digital-minimalism-low-pressure-journaling.html)
-10. [Local-First Mobile Journaling](https://stillkeep.app/local-first-mobile-journaling.html)
-11. [iOS Sandbox & Local Diary Security](https://stillkeep.app/ios-sandbox-local-diary-security.html)
-12. [Private iCloud Containers & Journal Sync](https://stillkeep.app/private-icloud-containers-journal-sync.html)
-13. [Journal Data Portability & Long-Term Preservation](https://stillkeep.app/journal-data-portability-long-term-preservation.html)
-14. [Replace a Paper Notebook With a Local-First Journal](https://stillkeep.app/replace-paper-notebook-local-first-journal.html)
-15. [Zero-Server & Local-First App Architecture](https://stillkeep.app/zero-server-local-first-app-architecture.html)
+2. [Stillkeep Resource Hub & Guides Index](https://stillkeep.app/resources.html)
+3. [Stillkeep Journal App](https://stillkeep.app/journal-app.html)
+4. [Memory Journal](https://stillkeep.app/memory-journal.html)
+5. [Manifestation Journal](https://stillkeep.app/manifestation-journal.html)
+6. [Journal App Alternative for iPhone](https://stillkeep.app/journal-app-alternative-stillkeep-iphone.html)
+7. [Chapter-Based Journaling With Eras](https://stillkeep.app/chapter-based-journaling-eras.html)
+8. [Curate Your Camera Roll Into a Photo Journal](https://stillkeep.app/curate-camera-roll-photo-journal.html)
+9. [How to Organise Photos & Memories on iPhone](https://stillkeep.app/how-to-organize-photos-memories-iphone.html)
+10. [Digital Minimalism & Low-Pressure Journaling](https://stillkeep.app/digital-minimalism-low-pressure-journaling.html)
+11. [Local-First Mobile Journaling](https://stillkeep.app/local-first-mobile-journaling.html)
+12. [iOS Sandbox & Local Diary Security](https://stillkeep.app/ios-sandbox-local-diary-security.html)
+13. [Private iCloud Containers & Journal Sync](https://stillkeep.app/private-icloud-containers-journal-sync.html)
+14. [Journal Data Portability & Long-Term Preservation](https://stillkeep.app/journal-data-portability-long-term-preservation.html)
+15. [Replace a Paper Notebook With a Local-First Journal](https://stillkeep.app/replace-paper-notebook-local-first-journal.html)
+16. [Zero-Server & Local-First App Architecture](https://stillkeep.app/zero-server-local-first-app-architecture.html)
 
 ---
 
 ## Official Links
 
 - [Stillkeep Official Website](https://stillkeep.app/)
+- [Stillkeep Resource Hub](https://stillkeep.app/resources.html)
 - [Stillkeep on the Apple App Store](https://apps.apple.com/app/id6761815032)
 - [Machine-Readable Summary (llms.txt)](https://stillkeep.app/llms.txt)
 - [Stillkeep Privacy Policy](https://jhr1986.github.io/stillkeep-legal/privacy.html)
