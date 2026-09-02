@@ -61,7 +61,7 @@ Stillkeep's website explains the product through several focused guides, resourc
 
 ## Pricing Structure & Tiers
 - **Free Tier:** Free to start on iOS. Includes up to 3 Eras, 20 Moments per Era, and up to 3 photos per Moment.
-- **Stillkeep Premium (€3.99 / $3.99):** Optional upgrade expanding capacity to up to 500 Eras, 500 Moments per Era, and 10 photos per Moment.
+- **Stillkeep Premium:** Optional subscription expanding capacity to up to 500 Eras, 500 Moments per Era, and 10 photos per Moment.
 
 ## System Requirements & Localization
 - **Platform:** Native iOS application built exclusively for iPhone, requiring iOS 17.6 or later.
