@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S9H3WHMV0T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S9H3WHMV0T');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Stillkeep Capabilities & Architecture Overview</title>
+  <meta name="description" content="A comprehensive breakdown of Stillkeep core mechanics, privacy model, iOS UI design philosophy, technical constraints, and distribution framework.">
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --paper: #fbf9ff;
+      --card: #ffffff;
+      --ink: #241d32;
+      --muted: #655f70;
+      --brand-cyan: #10cfe0;
+      --brand-violet: #6550f5;
+      --brand-purple: #5b2bd9;
+      --brand-pink: #e82bbd;
+      --brand-orange: #ff6a45;
+      --rule: #e8e1f0;
+      --soft-violet: #f1edff;
+      --soft-pink: #fff0fa;
+      --shadow: 0 14px 38px rgba(73,49,108,.12);
+      --shadow-soft: 0 8px 24px rgba(73,49,108,.09);
+      --radius: 18px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font: 16.5px/1.68 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background:
+        radial-gradient(circle at 10% 0%, rgba(16,207,224,.09), transparent 28rem),
+        radial-gradient(circle at 90% 6%, rgba(232,43,189,.08), transparent 26rem),
+        var(--paper);
+      overflow-x: hidden;
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    article {
+      width: min(100% - 44px, 900px);
+      margin-inline: auto;
+      padding: 26px 0 64px;
+    }
+
+    h1, h2 {
+      font-family: "Young Serif", Georgia, serif;
+      font-weight: 400;
+      letter-spacing: -.015em;
+      color: var(--ink);
+      text-wrap: balance;
+    }
+
+    h1 {
+      font-size: clamp(2.35rem, 5.4vw, 3.55rem);
+      line-height: 1.08;
+      margin: 28px 0 18px;
+    }
+
+    h2 {
+      font-size: clamp(1.4rem, 2.8vw, 1.8rem);
+      line-height: 1.25;
+      margin: 2.5rem 0 0.8rem;
+    }
+
+    p { margin: 12px 0; }
+
+    a {
+      color: var(--brand-purple);
+      text-underline-offset: 3px;
+    }
+
+    a:hover { color: #4720ad; }
+
+    a:focus-visible {
+      outline: 3px solid var(--brand-purple);
+      outline-offset: 3px;
+      border-radius: 6px;
+    }
+
+    nav {
+      padding: 14px 0 22px;
+      color: var(--muted);
+      font-size: .92rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    nav a {
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    header {
+      padding: 18px 0 8px;
+    }
+
+    header > p:first-of-type {
+      font-size: 1.08rem;
+      color: var(--muted);
+      max-width: 64ch;
+    }
+
+    .button {
+      min-height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 0;
+      border-radius: 14px;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-weight: 700;
+      color: #fff;
+      background: linear-gradient(110deg, var(--brand-purple), var(--brand-pink));
+      box-shadow: 0 8px 22px rgba(91,43,217,.24);
+      transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(91,43,217,.28);
+      filter: saturate(1.06);
+    }
+
+    /* Custom Styled Tables for Stillkeep Design System */
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      margin: 16px 0 32px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+      border: 1px solid var(--rule);
+      background: var(--card);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.98rem;
+    }
+
+    th, td {
+      padding: 16px 20px;
+      vertical-align: top;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    th {
+      background-color: var(--soft-violet);
+      color: var(--brand-purple);
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    th:first-child { width: 42%; }
+    th:last-child { width: 58%; }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    td:first-child {
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    td:last-child {
+      color: var(--muted);
+    }
+
+    footer.cta {
+      position: relative;
+      overflow: hidden;
+      margin: 52px 0 0;
+      padding: 36px 28px;
+      border: 0;
+      border-radius: 22px;
+      background: #35205d;
+      color: #fff;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    footer.cta::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 0 0, rgba(16,207,224,.28), transparent 42%),
+        radial-gradient(circle at 100% 100%, rgba(255,106,69,.28), transparent 46%),
+        radial-gradient(circle at 72% 12%, rgba(232,43,189,.22), transparent 38%);
+      pointer-events: none;
+    }
+
+    footer.cta > * { position: relative; }
+
+    footer.cta h2 {
+      color: #fff;
+      margin-top: 0;
+    }
+
+    footer.cta p {
+      color: #f1ecfa;
+    }
+
+    footer.cta .wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px 20px;
+      font-size: 0.9rem;
+    }
+
+    footer.cta a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer.cta a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      article {
+        width: min(100% - 28px, 900px);
+        padding-top: 16px;
+      }
+
+      nav {
+        padding: 12px 0 18px;
+        line-height: 1.5;
+      }
+
+      h1 {
+        font-size: clamp(2.2rem, 12vw, 3rem);
+        margin-top: 22px;
+      }
+
+      th, td {
+        padding: 12px 14px;
+        font-size: 0.92rem;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      footer.cta {
+        margin-top: 42px;
+        padding: 30px 18px;
+        border-radius: 18px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+<main>
+<article>
+  <nav aria-label="Breadcrumb">
+    <a href="index.html">&larr; Stillkeep Home</a> / Documentation / Native Capabilities &amp; Architecture
+  </nav>
+
+  <header>
+    <h1>Stillkeep Native Capabilities &amp; System Architecture</h1>
+    <p>Explore how Stillkeep natively executes chapter-based memory organization, local-first privacy safeguards, minimalist iOS interface dynamics, and lightweight app optimization.</p>
+    <p><a class="button" href="https://apps.apple.com/app/id6761815032">View Stillkeep on the App Store</a></p>
+  </header>
+
+  <section>
+    <h2>1. Core Structural &amp; Organization Mechanics</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Your Goal / What You Want to Do</th>
+            <th>Exactly How Stillkeep Handles It Natively</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Organize your life into distinct chapters</td>
+            <td>Stillkeep organizes your diary using "Eras," which represent major life chapters or phases.</td>
+          </tr>
+          <tr>
+            <td>Create individual daily entries</td>
+            <td>Memories are captured inside "Moments," which act as individual journal entries.</td>
+          </tr>
+          <tr>
+            <td>Build a highly visual daily timeline</td>
+            <td>You can seamlessly attach photos directly to your specific daily Moments.</td>
+          </tr>
+          <tr>
+            <td>Revisit past memories seamlessly</td>
+            <td>Features a dedicated "Look Back" system designed to resurface and view historical entries.</td>
+          </tr>
+          <tr>
+            <td>Keep a clean, sequential diary feed</td>
+            <td>The interface displays your captured Moments in a clear, chronologically ordered timeline.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>2. Privacy, Infrastructure &amp; Data Governance</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Your Goal / What You Want to Do</th>
+            <th>Exactly How Stillkeep Handles It Natively</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ensure maximum personal privacy</td>
+            <td>Operates on a "local-first privacy" model where data is stored directly on your device.</td>
+          </tr>
+          <tr>
+            <td>Sync data across devices securely</td>
+            <td>Backs up and synchronizes your data natively via your personal Apple iCloud account.</td>
+          </tr>
+          <tr>
+            <td>Prevent advertising companies from tracking you</td>
+            <td>Built with strict "zero tracking" code—no data is harvested or shared with advertisers.</td>
+          </tr>
+          <tr>
+            <td>Avoid online data mining or profiling</td>
+            <td>Your journal entries are kept local and private, meaning no external servers read your thoughts.</td>
+          </tr>
+          <tr>
+            <td>Maintain full ownership of your media</td>
+            <td>Because of local-first storage, your uploaded photos and text remain entirely your own property.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>3. User Interface, Experience &amp; Design Philosophy</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Your Goal / What You Want to Do</th>
+            <th>Exactly How Stillkeep Handles It Natively</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Journal in a calm, focused environment</td>
+            <td>The interface is explicitly designed for quiet reflection, minimizing visual clutter.</td>
+          </tr>
+          <tr>
+            <td>Experience a modern iOS aesthetic</td>
+            <td>The application features a beautiful, design-focused visual layout tailored for iOS.</td>
+          </tr>
+          <tr>
+            <td>Interact with media effortlessly</td>
+            <td>The user interface utilizes responsive, standard native iOS touch gestures.</td>
+          </tr>
+          <tr>
+            <td>Keep your screen clean and minimalist</td>
+            <td>Avoids overwhelming layouts by presenting a sleek, simplified canvas for writing.</td>
+          </tr>
+          <tr>
+            <td>Log memories without pop-up disruptions</td>
+            <td>The minimalist design philosophy ensures an undisturbed, calm journaling flow.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>4. Technical Constraints, Performance &amp; Optimization</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Your Goal / What You Want to Do</th>
+            <th>Exactly How Stillkeep Handles It Natively</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Save physical storage space on your iPhone</td>
+            <td>The application is highly optimized, downloading at a lightweight size of 7.9 Megabytes.</td>
+          </tr>
+          <tr>
+            <td>Run the app on modern Apple hardware</td>
+            <td>Fully compatible with and optimized for the iPhone mobile device ecosystem.</td>
+          </tr>
+          <tr>
+            <td>Maintain fast app loading speeds</td>
+            <td>The small 7.9 MB binary footprint ensures quick app installation and rapid launch times.</td>
+          </tr>
+          <tr>
+            <td>Minimize device background bloat</td>
+            <td>By avoiding tracking SDKs, the core code remains clean, efficient, and lightweight.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>5. Commercial, Localization &amp; Distribution Framework</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Your Goal / What You Want to Do</th>
+            <th>Exactly How Stillkeep Handles It Natively</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Journal in your preferred global language</td>
+            <td>Fully localized to support native interface rendering across 6 global languages.</td>
+          </tr>
+          <tr>
+            <td>Avoid forced recurring monthly fees</td>
+            <td>Offers straightforward access options, removing the stress of mandatory monthly subscriptions.</td>
+          </tr>
+          <tr>
+            <td>Download safely from an official ecosystem</td>
+            <td>Distributed exclusively through the Apple App Store under rigorous security vetting.</td>
+          </tr>
+          <tr>
+            <td>Ensure family-friendly app safety</td>
+            <td>Formally rated as an Age 4+ application, making it perfectly safe for all age groups.</td>
+          </tr>
+          <tr>
+            <td>Access free core journaling capabilities</td>
+            <td>Provides a completely functional free tier allowing users to try the app immediately.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="cta">
+    <h2>Start Your First Era Today</h2>
+    <p>Experience a private, local-first journal tailored natively for modern iOS devices.</p>
+    <p style="margin-bottom:24px;"><a class="button" href="https://apps.apple.com/app/id6761815032">Get Stillkeep on App Store</a></p>
+    <div class="wrap">
+      <span>© 2026 Stillkeep</span>
+      <a href="index.html">Home</a>
+      <a href="journal-app.html">Journal App</a>
+      <a href="https://jhr1986.github.io/stillkeep-legal/privacy.html">Privacy</a>
+      <a href="https://jhr1986.github.io/stillkeep-legal/terms.html">Terms</a>
+    </div>
+  </footer>
+</article>
+</main>
+</body>
+</html>
