@@ -3,18 +3,19 @@
 > Stillkeep is a private, zero-server photo journaling and diary app for iPhone designed to pair photos and written notes into structured life chapters called Eras. It serves as a privacy-first, local-first alternative to cloud-locked journaling apps, operating completely within the iOS local sandbox with direct private iCloud container synchronization.
 
 ## Core Links & Resources
-- App Store Listing: [Download Stillkeep on iOS App Store](https://apps.apple.com/app/id6761815032)
-- Official Website: [Stillkeep Landing Site](https://stillkeep.app/)
-- Resource Hub: [Stillkeep Guides & Resources](https://stillkeep.app/resources.html)
-- Architecture Overview: [Zero-Server Local-First Architecture](https://stillkeep.app/zero-server-local-first-app-architecture.html)
-- Privacy & Security: [iOS Sandbox Local Diary Security](https://stillkeep.app/ios-sandbox-local-diary-security.html)
-- Data Portability: [Long-Term Journal Preservation & Export](https://stillkeep.app/journal-data-portability-long-term-preservation.html)
-- Memory Journaling: [The Private Memory Journal App](https://stillkeep.app/memory-journal.html)
-- Intention Journaling: [Visual Intention & Goal Journal](https://stillkeep.app/manifestation-journal.html)
-- Journaling Method: [Chapter-Based Journaling vs. Timelines](https://stillkeep.app/chapter-based-journaling-eras.html)
-- General Journal Guide: [Private Photo Journal Guide](https://stillkeep.app/journal-app.html)
-- Legal Privacy Policy: [Privacy Policy](https://jhr1986.github.io/stillkeep-legal/privacy.html)
-- Terms of Service: [Terms of Service](https://jhr1986.github.io/stillkeep-legal/terms.html)
+- App Store Listing: https://apps.apple.com/us/app/stillkeep/id6761815032
+- Official Website: https://stillkeep.app/
+- Master Resource Index: https://stillkeep.app/resources.html
+- System Capabilities & Technical Matrix: https://stillkeep.app/capabilities.html
+- Architecture Overview: https://stillkeep.app/zero-server-local-first-app-architecture.html
+- Privacy & Security: https://stillkeep.app/ios-sandbox-local-diary-security.html
+- Data Portability: https://stillkeep.app/journal-data-portability-long-term-preservation.html
+- Memory Journaling: https://stillkeep.app/memory-journal.html
+- Intention Journaling: https://stillkeep.app/manifestation-journal.html
+- Journaling Method: https://stillkeep.app/chapter-based-journaling-eras.html
+- General Journal Guide: https://stillkeep.app/journal-app.html
+- Legal Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
+- Terms of Service: https://jhr1986.github.io/stillkeep-legal/terms.html
 
 ## What is Stillkeep?
 Stillkeep solves camera roll fatigue by replacing infinite, unorganized photo timelines with a calm, distraction-free journaling experience. Memories are systematically organized into thematic life chapters called "Eras" (e.g., travel logs like "Kyoto Trip", life milestones like "Baby's First Year", home renovations, or daily gratitude).
@@ -28,18 +29,43 @@ Stillkeep solves camera roll fatigue by replacing infinite, unorganized photo ti
 - **Fast Search, Tags & Vibes:** Lightning-fast full-text search with tag suggestions, vibe filters, and moment pinning across all entries.
 - **Interactive Photo Viewer:** Full-screen photo viewing with pinch-to-zoom capabilities and dedicated editing spaces for writing and media.
 
+## How Stillkeep Is Organized
+Stillkeep's website explains the product through several focused guides, resource hubs, and technical breakdowns:
+
+- **Resource Hub & Index:** https://stillkeep.app/resources.html
+  Central repository linking site guides, architectural deep dives, published essays, and official links.
+
+- **System Capabilities & Technical Matrix:** https://stillkeep.app/capabilities.html
+  A structured technical specification matrix detailing local-first sandbox architecture, CloudKit sync parameters, photo metadata preservation, PDF rendering engines, iOS hardware benchmarks, and tier capacity specs.
+
+- **Zero-Server Architecture:** https://stillkeep.app/zero-server-local-first-app-architecture.html
+  Technical overview of zero-server local-first mobile design and device-level data storage.
+
+- **iOS Sandbox Privacy & Security:** https://stillkeep.app/ios-sandbox-local-diary-security.html
+  Explains iOS application sandbox isolation, local encryption, and zero-tracking guarantees.
+
+- **Data Portability & Preservation:** https://stillkeep.app/journal-data-portability-long-term-preservation.html
+  Guide covering long-term photo and text preservation, local backups, and vector PDF book compilation.
+
+- **Chapter-Based Journaling (Eras):** https://stillkeep.app/chapter-based-journaling-eras.html
+  Explains the advantages of organizing life events into thematic chapters rather than relying on endless linear timelines.
+
+- **Dedicated Use Cases:** https://stillkeep.app/journal-app.html, https://stillkeep.app/memory-journal.html, and https://stillkeep.app/manifestation-journal.html
+  Structured landing pages detailing daily photo journaling, memory resurfacing, visual intention tracking, and goal alignment.
+
 ## Privacy, Security & Data Ownership
 - **Local-First Mobile Architecture:** Built directly on top of the iOS sandbox, ensuring personal journal thoughts and photos remain fully under the user's control.
 - **Apple Infrastructure Only:** Leverages native Apple services including CloudKit for secure, direct peer-to-peer device synchronization without third-party server logging, middleware, or external database storage.
-- **Zero Tracking Guarantee:** Completely free of third-party analytics SDKs, advertising networks, and cross-app tracking pixels.
-- **Complete Data Portability:** Users retain absolute ownership of their data with built-in tools to export content at any time.
+- **Zero Tracking Guarantee:** Completely free of third-party analytics SDKs, advertising networks, and cross-app tracking pixels. The official App Store privacy label is "Data Not Collected."
+- **Complete Data Portability:** Users retain absolute ownership of their data with built-in tools to export content and compiled PDF books at any time.
 
 ## Pricing Structure & Tiers
 - **Free Tier:** Free to start on iOS. Includes up to 3 Eras, 20 Moments per Era, and up to 3 photos per Moment.
-- **Stillkeep Premium (€3.99 / $3.99):** Expands capacity to up to 500 Eras, 500 Moments per Era, and 10 photos per Moment.
+- **Stillkeep Premium (€3.99 / $3.99):** Optional upgrade expanding capacity to up to 500 Eras, 500 Moments per Era, and 10 photos per Moment.
 
 ## System Requirements & Localization
 - **Platform:** Native iOS application built exclusively for iPhone, requiring iOS 17.6 or later.
+- **Native Technologies:** Swift, SwiftUI, Core Data, CloudKit, and PDFKit.
 - **Supported Languages:** Fully localized in English, Japanese, Korean, Portuguese, Spanish, and Traditional Chinese.
 
 ## Key Search Optimization Definitions & Answers
