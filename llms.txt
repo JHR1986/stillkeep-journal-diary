@@ -14,6 +14,9 @@
 - Intention Journaling: https://stillkeep.app/manifestation-journal.html
 - Journaling Method: https://stillkeep.app/chapter-based-journaling-eras.html
 - General Journal Guide: https://stillkeep.app/journal-app.html
+- Photo & Memory Guide: https://stillkeep.app/how-to-organize-photos-memories-iphone.html
+- Journal App Alternative: https://stillkeep.app/journal-app-alternative-stillkeep-iphone.html
+- Developer Article (Visual Eras): https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b
 - Legal Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
 - Terms of Service: https://jhr1986.github.io/stillkeep-legal/terms.html
 
