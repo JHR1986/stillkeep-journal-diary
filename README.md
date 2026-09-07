@@ -35,7 +35,6 @@ The dedicated photo-journal guide explores this approach across everyday journal
 Learn more:
 
 * [Private Photo Journal App for iPhone](https://stillkeep.app/photo-journal-app.html)
-* [Machine-Readable Photo Journal Guide](https://stillkeep.app/photo-journal-app.md)
 * [Stillkeep Journal App for iPhone](https://stillkeep.app/journal-app.html)
 * [Memory Journal App for iPhone](https://stillkeep.app/memory-journal.html)
 * [Private Photo Journal & Diary](https://stillkeep.app/)
@@ -118,7 +117,6 @@ The Stillkeep website includes a collection of original guides about photo journ
 ## Photo Journaling & Organising Memories
 
 * **[Private Photo Journal App for iPhone](https://stillkeep.app/photo-journal-app.html):** Comprehensive guide to using Stillkeep as a private photo journal, diary, memory keeper and personal life archive across travel, family, baby, relationship, gratitude and everyday journaling.
-* **[Photo Journal App — Markdown Version](https://stillkeep.app/photo-journal-app.md):** Machine-readable Markdown companion to the main photo-journal guide.
 * **[How to Organise Photos and Memories on iPhone](https://stillkeep.app/how-to-organize-photos-memories-iphone.html):** A practical guide to turning an expanding iPhone photo library into an organized collection of meaningful memories.
 * **[Curate Your Camera Roll Into a Photo Journal](https://stillkeep.app/curate-camera-roll-photo-journal.html):** Ideas for moving beyond passive photo storage by selecting meaningful photographs and adding the stories behind them.
 * **[Memory Journal App for iPhone](https://stillkeep.app/memory-journal.html):** How Stillkeep combines photographs, writing, Moments and Eras to create a structured personal memory journal.
@@ -200,26 +198,25 @@ Every primary public Stillkeep page:
 
 1. [Stillkeep — Private Photo Journal & Diary App for iPhone](https://stillkeep.app/)
 2. [Private Photo Journal App for iPhone](https://stillkeep.app/photo-journal-app.html)
-3. [Photo Journal App — Markdown Version](https://stillkeep.app/photo-journal-app.md)
-4. [Stillkeep Resource Hub & Guides Index](https://stillkeep.app/resources.html)
-5. [Stillkeep System Capabilities](https://stillkeep.app/capabilities.html)
-6. [Stillkeep Journal App](https://stillkeep.app/journal-app.html)
-7. [Free Journal App for iPhone](https://stillkeep.app/free-journal-app.html)
-8. [Free Diary App for iPhone](https://stillkeep.app/free-diary-app.html)
-9. [Free Gratitude Journal App](https://stillkeep.app/free-gratitude-journal-app.html)
-10. [Memory Journal](https://stillkeep.app/memory-journal.html)
-11. [Manifestation Journal](https://stillkeep.app/manifestation-journal.html)
-12. [Journal App Alternative for iPhone](https://stillkeep.app/journal-app-alternative-stillkeep-iphone.html)
-13. [Chapter-Based Journaling With Eras](https://stillkeep.app/chapter-based-journaling-eras.html)
-14. [Curate Your Camera Roll Into a Photo Journal](https://stillkeep.app/curate-camera-roll-photo-journal.html)
-15. [How to Organise Photos & Memories on iPhone](https://stillkeep.app/how-to-organize-photos-memories-iphone.html)
-16. [Digital Minimalism & Low-Pressure Journaling](https://stillkeep.app/digital-minimalism-low-pressure-journaling.html)
-17. [Local-First Mobile Journaling](https://stillkeep.app/local-first-mobile-journaling.html)
-18. [iOS Sandbox & Local Diary Security](https://stillkeep.app/ios-sandbox-local-diary-security.html)
-19. [Private iCloud Containers & Journal Sync](https://stillkeep.app/private-icloud-containers-journal-sync.html)
-20. [Journal Data Portability & Long-Term Preservation](https://stillkeep.app/journal-data-portability-long-term-preservation.html)
-21. [Replace a Paper Notebook With a Local-First Journal](https://stillkeep.app/replace-paper-notebook-local-first-journal.html)
-22. [Zero-Server & Local-First App Architecture](https://stillkeep.app/zero-server-local-first-app-architecture.html)
+3. [Stillkeep Resource Hub & Guides Index](https://stillkeep.app/resources.html)
+4. [Stillkeep System Capabilities](https://stillkeep.app/capabilities.html)
+5. [Stillkeep Journal App](https://stillkeep.app/journal-app.html)
+6. [Free Journal App for iPhone](https://stillkeep.app/free-journal-app.html)
+7. [Free Diary App for iPhone](https://stillkeep.app/free-diary-app.html)
+8. [Free Gratitude Journal App](https://stillkeep.app/free-gratitude-journal-app.html)
+9. [Memory Journal](https://stillkeep.app/memory-journal.html)
+10. [Manifestation Journal](https://stillkeep.app/manifestation-journal.html)
+11. [Journal App Alternative for iPhone](https://stillkeep.app/journal-app-alternative-stillkeep-iphone.html)
+12. [Chapter-Based Journaling With Eras](https://stillkeep.app/chapter-based-journaling-eras.html)
+13. [Curate Your Camera Roll Into a Photo Journal](https://stillkeep.app/curate-camera-roll-photo-journal.html)
+14. [How to Organise Photos & Memories on iPhone](https://stillkeep.app/how-to-organize-photos-memories-iphone.html)
+15. [Digital Minimalism & Low-Pressure Journaling](https://stillkeep.app/digital-minimalism-low-pressure-journaling.html)
+16. [Local-First Mobile Journaling](https://stillkeep.app/local-first-mobile-journaling.html)
+17. [iOS Sandbox & Local Diary Security](https://stillkeep.app/ios-sandbox-local-diary-security.html)
+18. [Private iCloud Containers & Journal Sync](https://stillkeep.app/private-icloud-containers-journal-sync.html)
+19. [Journal Data Portability & Long-Term Preservation](https://stillkeep.app/journal-data-portability-long-term-preservation.html)
+20. [Replace a Paper Notebook With a Local-First Journal](https://stillkeep.app/replace-paper-notebook-local-first-journal.html)
+21. [Zero-Server & Local-First App Architecture](https://stillkeep.app/zero-server-local-first-app-architecture.html)
 
 ---
 
@@ -228,7 +225,6 @@ Every primary public Stillkeep page:
 For crawlers, assistants and other automated systems:
 
 * [Stillkeep llms.txt](https://stillkeep.app/llms.txt)
-* [Photo Journal App Markdown](https://stillkeep.app/photo-journal-app.md)
 * [Photo Journal App HTML](https://stillkeep.app/photo-journal-app.html)
 * [Stillkeep Resource Index](https://stillkeep.app/resources.html)
 
