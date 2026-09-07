@@ -98,10 +98,6 @@ The dedicated photo-journal guide explains these use cases in detail:
 
 https://stillkeep.app/photo-journal-app.html
 
-A machine-readable Markdown version is also available:
-
-https://stillkeep.app/photo-journal-app.md
-
 ## Photo Journal Use Cases
 
 ### Travel Journal
@@ -181,10 +177,6 @@ https://stillkeep.app/photo-journal-app.html
 Comprehensive guide to using Stillkeep as a private photo journal, diary, memory keeper and personal life archive.
 
 It covers everyday journaling, travel, family, baby memories, relationships, weddings, university, career milestones, gratitude, life events, camera roll organization, search, tags, memory resurfacing and PDF export.
-
-Machine-readable companion:
-
-https://stillkeep.app/photo-journal-app.md
 
 ### Resource Hub & Index
 
@@ -422,7 +414,6 @@ photo journal, photo diary, private journal, diary app, journal app, memory jour
 
 * Official Website: https://stillkeep.app/
 * Photo Journal App: https://stillkeep.app/photo-journal-app.html
-* Photo Journal App — Markdown: https://stillkeep.app/photo-journal-app.md
 * Resource Hub: https://stillkeep.app/resources.html
 * App Store: https://apps.apple.com/us/app/stillkeep/id6761815032
 * Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
