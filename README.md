@@ -16,7 +16,6 @@ Create Moments with photos and writing, organize them into Eras, find them again
 
 * **Official Website:** [Stillkeep — Private Photo Journal & Diary App for iPhone](https://stillkeep.app/)
 * **Photo Journal App Guide:** [Private Photo Journal App for iPhone](https://stillkeep.app/photo-journal-app.html)
-* **Machine-Readable Photo Journal Guide:** [photo-journal-app.md](https://stillkeep.app/photo-journal-app.md)
 * **App Store Download:** [Stillkeep: Journal & Diary on the Apple App Store](https://apps.apple.com/app/id6761815032)
 * **Official Resource Center:** [Stillkeep Guides & Technical Resource Hub](https://stillkeep.app/resources.html)
 * **Machine-Readable AI Summary:** [stillkeep.app/llms.txt](https://stillkeep.app/llms.txt)
