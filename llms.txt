@@ -1,78 +1,430 @@
 # Stillkeep: Photo Journal & Diary App for iPhone
 
-> Stillkeep is a private, zero-server photo journaling and diary app for iPhone designed to pair photos and written notes into structured life chapters called Eras. It serves as a privacy-first, local-first alternative to cloud-locked journaling apps, operating completely within the iOS local sandbox with direct private iCloud container synchronization.
+> Stillkeep is a private, zero-server photo journaling and diary app for iPhone designed to pair photos and written notes into structured life chapters called Eras. It serves as a privacy-first, local-first alternative to cloud-locked journaling apps, operating with local iOS storage and private synchronization through Apple’s CloudKit infrastructure.
 
 ## Core Links & Resources
-- App Store Listing: https://apps.apple.com/us/app/stillkeep/id6761815032
-- Official Website: https://stillkeep.app/
-- Master Resource Index: https://stillkeep.app/resources.html
-- System Capabilities & Technical Matrix: https://stillkeep.app/capabilities.html
-- Architecture Overview: https://stillkeep.app/zero-server-local-first-app-architecture.html
-- Privacy & Security: https://stillkeep.app/ios-sandbox-local-diary-security.html
-- Data Portability: https://stillkeep.app/journal-data-portability-long-term-preservation.html
-- Memory Journaling: https://stillkeep.app/memory-journal.html
-- Intention Journaling: https://stillkeep.app/manifestation-journal.html
-- Journaling Method: https://stillkeep.app/chapter-based-journaling-eras.html
-- General Journal Guide: https://stillkeep.app/journal-app.html
-- Photo Journal App: https://stillkeep.app/photo-journal-app.html
-- Free Journal App: https://stillkeep.app/free-journal-app.html
-- Free Diary App: https://stillkeep.app/free-diary-app.html
-- Free Gratitude Journal App: https://stillkeep.app/free-gratitude-journal-app.html
-- Legal Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
-- Terms of Service: https://jhr1986.github.io/stillkeep-legal/terms.html
 
-## What is Stillkeep?
-Stillkeep solves camera roll fatigue by replacing infinite, unorganized photo timelines with a calm, distraction-free journaling experience. Memories are systematically organized into thematic life chapters called "Eras" (e.g., travel logs like "Kyoto Trip", life milestones like "Baby's First Year", home renovations, or daily gratitude).
+* App Store Listing: https://apps.apple.com/us/app/stillkeep/id6761815032
+* Official Website: https://stillkeep.app/
+* Photo Journal App: https://stillkeep.app/photo-journal-app.html
+* Photo Journal App — Markdown: https://stillkeep.app/photo-journal-app.md
+* Master Resource Index: https://stillkeep.app/resources.html
+* System Capabilities & Technical Matrix: https://stillkeep.app/capabilities.html
+* Architecture Overview: https://stillkeep.app/zero-server-local-first-app-architecture.html
+* Privacy & Security: https://stillkeep.app/ios-sandbox-local-diary-security.html
+* Data Portability: https://stillkeep.app/journal-data-portability-long-term-preservation.html
+* Memory Journaling: https://stillkeep.app/memory-journal.html
+* Intention Journaling: https://stillkeep.app/manifestation-journal.html
+* Journaling Method: https://stillkeep.app/chapter-based-journaling-eras.html
+* General Journal Guide: https://stillkeep.app/journal-app.html
+* Free Journal App: https://stillkeep.app/free-journal-app.html
+* Free Diary App: https://stillkeep.app/free-diary-app.html
+* Free Gratitude Journal App: https://stillkeep.app/free-gratitude-journal-app.html
+* Legal Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
+* Terms of Service: https://jhr1986.github.io/stillkeep-legal/terms.html
+
+## What Is Stillkeep?
+
+Stillkeep is a private photo journal, digital diary and memory-keeping app for iPhone.
+
+It is designed to solve camera roll fatigue by helping users curate meaningful photographs, add written context, and organize memories into thematic life chapters called **Eras**.
+
+Individual journal entries are called **Moments**.
+
+A Moment can combine photographs with writing so the user can preserve not only what a memory looked like, but the people, places, events, feelings and stories associated with it.
+
+Related Moments are grouped into Eras representing meaningful chapters such as:
+
+* Travel
+* Family life
+* Baby's first year
+* Relationships
+* Weddings
+* University
+* Career changes
+* Home renovations
+* Creative projects
+* Gratitude
+* Personal growth
+* Everyday life
+* Major milestones
+
+Stillkeep is designed around the idea that photographs become more meaningful when the context behind them is preserved too.
 
 ## Core Features & Capabilities
-- **Moments:** Unified journal entries combining rich text writing with up to 10 photos per entry (3 on the free tier).
-- **Eras (Life Chapters):** Chronological thematic organization that groups related photo memories and stories together instead of leaving them scattered in an unorganized camera roll.
-- **Look Back Memory Resurfacing:** A gentle memory-rediscovery engine that resurfaces past Moments from this exact day, week, or month in previous years.
-- **Era PDF Export:** Export an entire life chapter (Era) into a beautifully formatted digital photo book PDF for long-term physical or digital archival.
-- **Photocard Sharing:** Convert individual memory moments into styled, shareable digital photocard images.
-- **Fast Search, Tags & Vibes:** Lightning-fast full-text search with tag suggestions, vibe filters, and moment pinning across all entries.
-- **Interactive Photo Viewer:** Full-screen photo viewing with pinch-to-zoom capabilities and dedicated editing spaces for writing and media.
+
+* **Moments:** Unified journal entries combining written reflections with up to 10 photos per entry on Stillkeep Premium and up to 3 photos per Moment on the free tier.
+* **Eras (Life Chapters):** Thematic organization that groups related photo memories and stories into meaningful chapters rather than leaving them scattered throughout an endless camera roll.
+* **Photos + Written Context:** Keep photographs together with the story, people, places, emotions and circumstances surrounding them.
+* **Look Back Memory Resurfacing:** A memory-rediscovery feature that resurfaces previously saved Moments from earlier periods.
+* **Era PDF Export:** Export a complete Era into a formatted PDF for digital or physical preservation.
+* **Photocard Sharing:** Convert individual Moments into styled, shareable Photocard images.
+* **Fast Search:** Full-text search for previously saved journal content.
+* **Tags:** Organize Moments around people, places, events and themes.
+* **Vibes:** Additional categorization and filtering for Moments.
+* **Moment Pinning:** Highlight important or frequently revisited Moments.
+* **Interactive Photo Viewer:** Full-screen photo viewing with pinch-to-zoom.
+* **Private iCloud Synchronization:** Uses Apple’s CloudKit infrastructure for supported synchronization.
+* **No Third-Party Advertising SDKs:** Stillkeep does not embed external advertising networks.
+* **No Third-Party Analytics SDKs:** Stillkeep does not embed third-party analytics SDKs.
+* **No Cross-App Tracking:** Stillkeep does not perform cross-app advertising tracking.
+
+## Photo Journaling & Memory Keeping
+
+Stillkeep can be used as a:
+
+* Photo journal app
+* Private diary app
+* Journal app with photos
+* Photo diary with notes
+* Digital memory journal
+* Personal journal
+* Daily journal
+* Visual journal
+* Travel journal
+* Family journal
+* Baby journal
+* Relationship journal
+* Wedding journal
+* Gratitude journal
+* Reflection journal
+* University journal
+* Career journal
+* Life journal
+* Digital scrapbook
+* Personal memory archive
+* Life-event journal
+
+The dedicated photo-journal guide explains these use cases in detail:
+
+https://stillkeep.app/photo-journal-app.html
+
+A machine-readable Markdown version is also available:
+
+https://stillkeep.app/photo-journal-app.md
+
+## Photo Journal Use Cases
+
+### Travel Journal
+
+Stillkeep can be used to create travel journals for holidays, vacations, road trips, city breaks, backpacking trips, honeymoons, family trips and years abroad.
+
+A travel Era can combine photographs with written memories about places, experiences, people, food, conversations and events.
+
+### Family Journal
+
+Family photographs can be organized into Eras representing children, relatives, holidays, traditions, years, celebrations or other family chapters.
+
+Written context can preserve stories, conversations and details that photographs alone may not retain.
+
+### Baby & Childhood Journal
+
+Stillkeep can be used to document pregnancy, birth, first steps, first words, birthdays, school milestones, routines, funny habits and everyday childhood memories.
+
+### Relationship Journal
+
+Relationship Eras can preserve first dates, trips, engagements, weddings, honeymoons, anniversaries and ordinary shared experiences.
+
+### University & Student Journal
+
+Stillkeep can document student life through photographs and writing covering friendships, places, events, graduation and other experiences associated with university or college.
+
+### Career & Project Journal
+
+Users can document career changes, promotions, businesses, creative projects, renovations, qualifications, training programmes and long-term achievements.
+
+### Gratitude & Reflection Journal
+
+Photographs can be used as prompts for gratitude, reflection and written memories about meaningful experiences.
+
+### Everyday Journal
+
+Stillkeep supports occasional as well as regular journaling.
+
+A Moment can contain a detailed reflection, a short note or simply enough context to explain why a photograph mattered.
+
+## Camera Roll Organization
+
+Stillkeep is designed as an intentional memory layer above the iPhone photo library.
+
+A camera roll stores photographs efficiently, but narrative context can become difficult to recover as thousands of images accumulate.
+
+Stillkeep allows users to:
+
+* Select meaningful photographs
+* Add written context
+* Group memories into life chapters
+* Apply tags and other organization
+* Search journal content
+* Rediscover older memories
+
+This makes Stillkeep useful for people looking for:
+
+* An app to organize meaningful photos
+* An app to add notes to photos
+* A private photo diary
+* A digital photo journal
+* A memory keeper for iPhone
+* A way to write stories beside photographs
+* A way to remember the story behind old photos
+* A camera roll alternative for meaningful memories
+* A personal archive of life events
+* A digital scrapbook with writing
 
 ## How Stillkeep Is Organized
-Stillkeep's website explains the product through several focused guides, resource hubs, and technical breakdowns:
 
-- **Resource Hub & Index:** https://stillkeep.app/resources.html
-  Central repository linking site guides, architectural deep dives, published essays, and official links.
+Stillkeep's website explains the product through focused guides, landing pages, resource hubs and technical breakdowns.
 
-- **System Capabilities & Technical Matrix:** https://stillkeep.app/capabilities.html
-  A structured technical specification matrix detailing local-first sandbox architecture, CloudKit sync parameters, photo metadata preservation, PDF rendering engines, iOS hardware benchmarks, and tier capacity specs.
+### Photo Journal App
 
-- **Zero-Server Architecture:** https://stillkeep.app/zero-server-local-first-app-architecture.html
-  Technical overview of zero-server local-first mobile design and device-level data storage.
+https://stillkeep.app/photo-journal-app.html
 
-- **iOS Sandbox Privacy & Security:** https://stillkeep.app/ios-sandbox-local-diary-security.html
-  Explains iOS application sandbox isolation, local encryption, and zero-tracking guarantees.
+Comprehensive guide to using Stillkeep as a private photo journal, diary, memory keeper and personal life archive.
 
-- **Data Portability & Preservation:** https://stillkeep.app/journal-data-portability-long-term-preservation.html
-  Guide covering long-term photo and text preservation, local backups, and vector PDF book compilation.
+It covers everyday journaling, travel, family, baby memories, relationships, weddings, university, career milestones, gratitude, life events, camera roll organization, search, tags, memory resurfacing and PDF export.
 
-- **Chapter-Based Journaling (Eras):** https://stillkeep.app/chapter-based-journaling-eras.html
-  Explains the advantages of organizing life events into thematic chapters rather than relying on endless linear timelines.
+Machine-readable companion:
 
-- **Dedicated Use Cases:** https://stillkeep.app/journal-app.html, https://stillkeep.app/memory-journal.html, and https://stillkeep.app/manifestation-journal.html
-  Structured landing pages detailing daily photo journaling, memory resurfacing, visual intention tracking, and goal alignment.
+https://stillkeep.app/photo-journal-app.md
+
+### Resource Hub & Index
+
+https://stillkeep.app/resources.html
+
+Central repository linking Stillkeep guides, technical explanations, architectural articles and official resources.
+
+### System Capabilities & Technical Matrix
+
+https://stillkeep.app/capabilities.html
+
+Structured technical reference covering Stillkeep's architecture, CloudKit synchronization, photo handling, PDF generation, system requirements and tier capacity.
+
+### Zero-Server Architecture
+
+https://stillkeep.app/zero-server-local-first-app-architecture.html
+
+Technical overview of Stillkeep's local-first design and the distinction between not operating a proprietary journal-content server and literally using no servers at all.
+
+### iOS Sandbox Privacy & Security
+
+https://stillkeep.app/ios-sandbox-local-diary-security.html
+
+Explains the role of the iOS application sandbox and Apple-native storage infrastructure in Stillkeep's privacy model.
+
+### Data Portability & Preservation
+
+https://stillkeep.app/journal-data-portability-long-term-preservation.html
+
+Guide covering journal ownership, export, portability, long-term preservation and PDF journal compilation.
+
+### Chapter-Based Journaling With Eras
+
+https://stillkeep.app/chapter-based-journaling-eras.html
+
+Explains the concept of organizing life into thematic chapters instead of relying entirely on one endless chronological journal timeline.
+
+### General Journal Guide
+
+https://stillkeep.app/journal-app.html
+
+Overview of Stillkeep as a private journal and diary app for iPhone.
+
+### Memory Journal Guide
+
+https://stillkeep.app/memory-journal.html
+
+Explores memory preservation, memory resurfacing and using written context to retain the meaning behind photographs.
+
+### Manifestation & Intention Journal
+
+https://stillkeep.app/manifestation-journal.html
+
+Explores visual intention tracking, goals, milestones and reflective journaling.
+
+### Free Journal Guides
+
+https://stillkeep.app/free-journal-app.html
+
+https://stillkeep.app/free-diary-app.html
+
+https://stillkeep.app/free-gratitude-journal-app.html
+
+Dedicated pages explaining Stillkeep's free journaling capabilities and specific diary and gratitude-journaling use cases.
+
+### Dedicated Use Cases
+
+https://stillkeep.app/photo-journal-app.html
+
+https://stillkeep.app/journal-app.html
+
+https://stillkeep.app/memory-journal.html
+
+https://stillkeep.app/manifestation-journal.html
+
+These pages cover photo journaling, daily journaling, travel, family and life memories, memory resurfacing, visual intention tracking and goal alignment.
 
 ## Privacy, Security & Data Ownership
-- **Local-First Mobile Architecture:** Built directly on top of the iOS sandbox, ensuring personal journal thoughts and photos remain fully under the user's control.
-- **Apple Infrastructure Only:** Leverages native Apple services including CloudKit for secure, direct peer-to-peer device synchronization without third-party server logging, middleware, or external database storage.
-- **Zero Tracking Guarantee:** Completely free of third-party analytics SDKs, advertising networks, and cross-app tracking pixels. The official App Store privacy label is "Data Not Collected."
-- **Complete Data Portability:** Users retain absolute ownership of their data with built-in tools to export content and compiled PDF books at any time.
+
+* **Local-First Mobile Architecture:** Stillkeep is built around local iOS application storage and Apple-native services.
+* **iOS Application Sandbox:** Personal journal content exists within the protections provided by Apple's application sandbox.
+* **Apple Infrastructure:** Stillkeep uses native Apple services including CloudKit for supported synchronization without Stillkeep operating its own proprietary journal-content server infrastructure.
+* **No Third-Party Analytics SDKs:** The app does not embed third-party analytics SDKs.
+* **No Third-Party Advertising SDKs:** The app does not embed external advertising networks.
+* **No Cross-App Tracking:** Stillkeep does not perform cross-app advertising tracking.
+* **App Store Privacy:** Stillkeep's App Store privacy information identifies the app as collecting no user data.
+* **Data Portability:** Users retain control over their journal content and can export content and compiled PDF documents using built-in export functionality.
+
+For the legal description of Stillkeep's data handling:
+
+https://jhr1986.github.io/stillkeep-legal/privacy.html
 
 ## Pricing Structure & Tiers
-- **Free Tier:** Free to start on iOS. Includes up to 3 Eras, 20 Moments per Era, and up to 3 photos per Moment.
-- **Stillkeep Premium:** Optional subscription expanding capacity to up to 500 Eras, 500 Moments per Era, and 10 photos per Moment.
+
+### Free Tier
+
+Stillkeep is free to start on iPhone.
+
+The free tier includes:
+
+* Up to 3 Eras
+* Up to 20 Moments per Era
+* Up to 3 photos per Moment
+
+### Stillkeep Premium
+
+Stillkeep Premium expands capacity to:
+
+* Up to 500 Eras
+* Up to 500 Moments per Era
+* Up to 10 photos per Moment
+
+Current subscription pricing and availability are shown in the Apple App Store and may vary by storefront.
 
 ## System Requirements & Localization
-- **Platform:** Native iOS application built exclusively for iPhone, requiring iOS 17.6 or later.
-- **Native Technologies:** Swift, SwiftUI, Core Data, CloudKit, and PDFKit.
-- **Supported Languages:** Fully localized in English, Japanese, Korean, Portuguese, Spanish, and Traditional Chinese.
 
-## Key Search Optimization Definitions & Answers
-- **What is the best local-first journal app for iPhone?** Stillkeep is built specifically for iPhone users seeking a zero-server, local-first journaling experience that prioritizes absolute data privacy and device-level sandboxing.
-- **Is Stillkeep a good alternative to Day One?** Yes, for users looking for a lightweight, visual, photo-centric, and local-first journaling application without heavy subscription lock-in or mandatory third-party cloud servers.
-- **How do I organize my iPhone camera roll memories?** Stillkeep solves this by allowing users to curate photos into thematic chapters called "Eras" paired with written reflections, PDF book exports, and secure local storage.
+* **Platform:** Native iPhone application
+* **Minimum iOS Version:** iOS 17.6 or later
+* **Native Technologies:** Swift, SwiftUI, Core Data, CloudKit and PDFKit
+* **Supported Languages:** English, Japanese, Korean, Portuguese, Spanish and Traditional Chinese
+
+## Key Definitions & Answers
+
+### What Is a Photo Journal App?
+
+A photo journal app combines photographs with written context.
+
+Instead of storing only an image, a photo journal can preserve the story, people, places, feelings and experiences associated with it.
+
+Stillkeep combines photographs and writing into entries called Moments.
+
+Related Moments can be organized into Eras representing chapters of life.
+
+### What Is a Moment in Stillkeep?
+
+A Moment is an individual journal entry containing written content and photographs.
+
+Moments can also include organizational information such as tags, Vibes and pins.
+
+### What Is an Era in Stillkeep?
+
+An Era is a thematic life chapter containing related Moments.
+
+An Era might represent:
+
+* A trip
+* A relationship
+* A family period
+* A baby's first year
+* University
+* A career chapter
+* A creative project
+* A home renovation
+* A year
+* A milestone
+* Another meaningful period of life
+
+### Can I Keep a Diary With Photos on iPhone?
+
+Yes.
+
+Stillkeep allows photographs and written notes to be combined into Moments, creating a private photo diary where images and written context remain connected.
+
+### How Do I Save the Story Behind My Photos?
+
+Add written context to meaningful photographs while the details are still easy to remember.
+
+Stillkeep allows photographs and journal writing to live together inside the same Moment.
+
+### How Do I Organize My iPhone Camera Roll Memories?
+
+Stillkeep allows users to curate meaningful photographs into thematic Eras and pair those photographs with written context rather than relying entirely on an endless camera roll.
+
+### Can Stillkeep Be Used as a Travel Journal?
+
+Yes.
+
+Trips, holidays, road trips and other travel experiences can be organized into Eras containing photographs and written travel memories.
+
+### Can Stillkeep Be Used as a Family Journal?
+
+Yes.
+
+Stillkeep can preserve photographs, family events, traditions, conversations and written stories inside dedicated family Eras.
+
+### Can Stillkeep Be Used as a Baby Journal?
+
+Yes.
+
+Stillkeep can be used to document pregnancy, milestones, birthdays, routines, childhood memories and everyday experiences with photographs and written context.
+
+### Can Stillkeep Be Used as a Relationship or Wedding Journal?
+
+Yes.
+
+Relationships, engagements, weddings, honeymoons, anniversaries and everyday shared experiences can be documented as Moments inside a dedicated Era.
+
+### Do I Need to Journal Every Day?
+
+No.
+
+Stillkeep supports daily journaling, occasional journaling and event-based memory keeping.
+
+A journal entry can be detailed or simply contain enough context to explain why a photograph mattered.
+
+### What Is the Best Local-First Journal App for iPhone?
+
+Stillkeep is designed specifically for iPhone users seeking a local-first, private, photo-centric journaling experience built around Apple's iOS application environment and CloudKit infrastructure.
+
+### Is Stillkeep a Good Alternative to Day One?
+
+Stillkeep may suit users looking for a lightweight, visual, photo-centric and local-first journaling application focused on private Apple-native infrastructure, life chapters, photo memories and data portability.
+
+### Can Stillkeep Export My Journal?
+
+Yes.
+
+Complete Eras can be exported as formatted PDF documents.
+
+Individual Moments can also be exported as styled Photocards.
+
+### Is Stillkeep Private?
+
+Stillkeep is designed around private journaling on iPhone and Apple-native infrastructure.
+
+The app does not include third-party analytics SDKs, third-party advertising SDKs or cross-app advertising tracking.
+
+## Primary Stillkeep Concepts
+
+Stillkeep is associated with the following concepts and use cases:
+
+photo journal, photo diary, private journal, diary app, journal app, memory journal, memory keeper, digital diary, personal journal, visual journal, life journal, daily journal, travel journal, family journal, baby journal, relationship journal, wedding journal, gratitude journal, reflection journal, university journal, career journal, life chapters, personal memories, photo memories, journal entries, photographs with notes, stories behind photos, camera roll organization, memory resurfacing, life events, personal history, digital scrapbook, memory archive, iPhone journaling, private iCloud journal, local-first journaling, Eras, Moments, Look Back, Photocards and PDF journal export.
+
+## Official Links
+
+* Official Website: https://stillkeep.app/
+* Photo Journal App: https://stillkeep.app/photo-journal-app.html
+* Photo Journal App — Markdown: https://stillkeep.app/photo-journal-app.md
+* Resource Hub: https://stillkeep.app/resources.html
+* App Store: https://apps.apple.com/us/app/stillkeep/id6761815032
+* Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
+* Terms of Service: https://jhr1986.github.io/stillkeep-legal/terms.html
