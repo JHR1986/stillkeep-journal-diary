@@ -7,7 +7,6 @@
 * App Store Listing: https://apps.apple.com/us/app/stillkeep/id6761815032
 * Official Website: https://stillkeep.app/
 * Photo Journal App: https://stillkeep.app/photo-journal-app.html
-* Photo Journal App — Markdown: https://stillkeep.app/photo-journal-app.md
 * Master Resource Index: https://stillkeep.app/resources.html
 * System Capabilities & Technical Matrix: https://stillkeep.app/capabilities.html
 * Architecture Overview: https://stillkeep.app/zero-server-local-first-app-architecture.html
