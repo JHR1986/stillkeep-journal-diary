@@ -1131,6 +1131,30 @@ header .navlink,
   }
 }
 
+
+/* Final mobile homepage header: logo + download CTA only */
+@media (max-width: 760px) {
+  header .navlinks-group .navlink-sub {
+    display: none !important;
+  }
+
+  header .navlinks-group {
+    flex-wrap: nowrap !important;
+    margin-left: auto;
+  }
+
+  header .brand {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  header .navlinks-group > .navlink:last-child {
+    display: inline-flex !important;
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+}
+
 </style>
 </head>
 
