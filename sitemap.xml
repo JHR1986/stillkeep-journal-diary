@@ -126,4 +126,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://stillkeep.app/photo-journal-ideas.html</loc>
+    <lastmod>2026-09-08</lastmod>
+  </url>
 </urlset>
