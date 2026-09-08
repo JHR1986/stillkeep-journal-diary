@@ -38,6 +38,7 @@ Learn more:
 
 * [Private Photo Journal App for iPhone](https://stillkeep.app/photo-journal-app.html)
 * [Stillkeep Journal App for iPhone](https://stillkeep.app/journal-app.html)
+* [Complete Guide to Journal Apps & Digital Diaries on iPhone](https://stillkeep.app/journaling-program-journal-app-iphone.html)
 * [Memory Journal App for iPhone](https://stillkeep.app/memory-journal.html)
 * [Private Photo Journal & Diary](https://stillkeep.app/)
 

@@ -6,6 +6,7 @@
 
 * App Store Listing: https://apps.apple.com/us/app/stillkeep/id6761815032
 * Official Website: https://stillkeep.app/
+* Complete iPhone Journaling Guide: https://stillkeep.app/journaling-program-journal-app-iphone.html
 * Photo Journal App: https://stillkeep.app/photo-journal-app.html
 * Master Resource Index: https://stillkeep.app/resources.html
 * System Capabilities & Technical Matrix: https://stillkeep.app/capabilities.html
