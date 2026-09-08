@@ -904,6 +904,123 @@
         animation-iteration-count:1!important;
       }
     }
+  
+    /* Product screenshots */
+    .product-showcase{
+      margin:54px 0 58px;
+      padding:42px 0 8px;
+    }
+
+    .showcase-head{
+      max-width:720px;
+      margin:0 auto 28px;
+      text-align:center;
+    }
+
+    .showcase-head .eyebrow{
+      margin-bottom:8px;
+    }
+
+    .showcase-head h2{
+      margin:0 0 12px;
+      font-size:clamp(2rem,4vw,3rem);
+    }
+
+    .showcase-head p{
+      margin:0;
+      color:var(--muted);
+    }
+
+    .screenshot-grid{
+      display:grid;
+      grid-template-columns:repeat(4,minmax(0,1fr));
+      gap:18px;
+      align-items:start;
+    }
+
+    .screenshot-card{
+      margin:0;
+      min-width:0;
+    }
+
+    .screenshot-frame{
+      overflow:hidden;
+      border:1px solid var(--rule);
+      border-radius:26px;
+      background:#fff;
+      box-shadow:var(--shadow-soft);
+    }
+
+    .screenshot-frame img{
+      display:block;
+      width:100%;
+      height:auto;
+      aspect-ratio:941 / 2048;
+      object-fit:cover;
+    }
+
+    .screenshot-card figcaption{
+      padding:13px 4px 0;
+      text-align:center;
+    }
+
+    .screenshot-card figcaption strong{
+      display:block;
+      margin-bottom:3px;
+      color:var(--ink);
+      font-size:.98rem;
+    }
+
+    .screenshot-card figcaption span{
+      display:block;
+      color:var(--muted);
+      font-size:.84rem;
+      line-height:1.45;
+    }
+
+    @media (max-width:900px){
+      .screenshot-grid{
+        grid-template-columns:repeat(2,minmax(0,1fr));
+        gap:22px 18px;
+      }
+    }
+
+    @media (max-width:600px){
+      .product-showcase{
+        margin:44px 0 52px;
+        padding-top:32px;
+      }
+
+      .showcase-head{
+        text-align:left;
+        margin-bottom:22px;
+      }
+
+      .screenshot-grid{
+        display:flex;
+        gap:16px;
+        overflow-x:auto;
+        scroll-snap-type:x mandatory;
+        padding:2px 18px 14px 2px;
+        margin-right:-17px;
+        scrollbar-width:none;
+        -webkit-overflow-scrolling:touch;
+      }
+
+      .screenshot-grid::-webkit-scrollbar{display:none}
+
+      .screenshot-card{
+        flex:0 0 min(78vw,300px);
+        scroll-snap-align:start;
+      }
+
+      .screenshot-card figcaption{
+        text-align:left;
+        padding-left:2px;
+        padding-right:2px;
+      }
+    }
+
   </style>
 </head>
 
@@ -1002,6 +1119,85 @@
   </div>
 
   <div class="wrap">
+
+
+    <section class="product-showcase" aria-labelledby="stillkeep-in-action">
+      <div class="showcase-head">
+        <p class="eyebrow">Stillkeep in action</p>
+        <h2 id="stillkeep-in-action">From a photo to a memory you can return to.</h2>
+        <p>Add the story, browse your Moments, organise chapters into Eras, and open a memory in full.</p>
+      </div>
+
+      <div class="screenshot-grid">
+        <figure class="screenshot-card">
+          <div class="screenshot-frame">
+            <img
+              src="screenshots/stillkeep-add-moment.webp"
+              width="941"
+              height="2048"
+              alt="Stillkeep Add Moment screen for adding a photo, vibe, tags and written caption"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <figcaption>
+            <strong>Add photo + text</strong>
+            <span>Keep the image and the words that explain why it mattered.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="screenshot-card">
+          <div class="screenshot-frame">
+            <img
+              src="screenshots/stillkeep-moments-feed.webp"
+              width="941"
+              height="2048"
+              alt="Stillkeep Moments feed showing searchable photo memories, tags and Eras"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <figcaption>
+            <strong>Moments feed</strong>
+            <span>Browse and search the memories you have chosen to keep.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="screenshot-card">
+          <div class="screenshot-frame">
+            <img
+              src="screenshots/stillkeep-eras.webp"
+              width="941"
+              height="2048"
+              alt="Stillkeep Eras screen showing life chapters including Japan 2026 and Baby's First Year"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <figcaption>
+            <strong>Eras</strong>
+            <span>Group Moments into meaningful chapters of your life.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="screenshot-card">
+          <div class="screenshot-frame">
+            <img
+              src="screenshots/stillkeep-fullscreen-memory.webp"
+              width="941"
+              height="2048"
+              alt="Full Stillkeep memory view showing a travel photograph with caption, vibe, tags and date"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <figcaption>
+            <strong>Full memory view</strong>
+            <span>Return to the photograph with its caption, tags, date and context intact.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
 
     <section id="about">
 
