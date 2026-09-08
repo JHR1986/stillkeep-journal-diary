@@ -1,22 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S9H3WHMV0T"></script>
-  <script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S9H3WHMV0T"></script>
+<script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-S9H3WHMV0T');
   </script>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Stillkeep Capabilities & System Architecture</title>
-  <meta name="description" content="A comprehensive breakdown of Stillkeep core mechanics, privacy model, iOS UI design philosophy, technical constraints, and distribution framework.">
-  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
-  <link rel="canonical" href="https://stillkeep.app/capabilities.html">
-
-  <script type="application/ld+json">
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Stillkeep Capabilities &amp; System Architecture</title>
+<meta content="A comprehensive breakdown of Stillkeep core mechanics, privacy model, iOS UI design philosophy, technical constraints, and distribution framework." name="description"/>
+<meta content="index,follow,max-snippet:-1,max-image-preview:large" name="robots"/>
+<link href="https://stillkeep.app/capabilities.html" rel="canonical"/>
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Dataset",
@@ -37,12 +36,10 @@
     }
   }
   </script>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
-
-  <style>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&amp;display=swap" rel="stylesheet"/>
+<style>
     :root {
       --paper: #fbf9ff;
       --card: #ffffff;
@@ -440,225 +437,215 @@ header .navlink,
 </style>
 </head>
 <body>
-
 <div class="site-topbar" role="banner">
-  <a class="brand" href="index.html">Still<span>keep</span></a>
-  <nav class="navlinks-group" aria-label="Primary navigation">
-    <a class="navlink" href="journal-app.html">Journal App</a>
-    <a class="navlink" href="memory-journal.html">Memory Journal</a>
-    <a class="navlink" href="resources.html">Resources</a>
-    <a class="navlink primary" href="https://apps.apple.com/app/id6761815032">Get App Free</a>
-  </nav>
+<a class="brand" href="index.html">Still<span>keep</span></a>
+<nav aria-label="Primary navigation" class="navlinks-group">
+<a class="navlink" href="journal-app.html">Journal App</a>
+<a class="navlink" href="memory-journal.html">Memory Journal</a>
+<a class="navlink" href="resources.html">Resources</a>
+<a class="navlink primary" href="https://apps.apple.com/app/id6761815032">Get App Free</a>
+</nav>
 </div>
-
 <main>
 <article>
-  <nav aria-label="Breadcrumb">
-    <a href="index.html">&larr; Stillkeep Home</a> / Documentation / Capabilities
+<nav aria-label="Breadcrumb">
+<a href="index.html">← Stillkeep Home</a> / Documentation / Capabilities
   </nav>
-
-  <header>
-    <h1>Stillkeep Native Capabilities &amp; System Architecture</h1>
-    <p>Explore how Stillkeep natively executes chapter-based memory organization, local-first privacy safeguards, minimalist iOS interface dynamics, and lightweight app optimization.</p>
-    <p><a class="button" href="https://apps.apple.com/app/id6761815032">View Stillkeep on the App Store</a></p>
-  </header>
-
-  <section>
-    <h2>1. Core Structural &amp; Organization Mechanics</h2>
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Your Goal / What You Want to Do</th>
-            <th>Exactly How Stillkeep Handles It Natively</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Organize your life into distinct chapters</td>
-            <td>Stillkeep organizes your diary using "Eras," which represent major life chapters or phases.</td>
-          </tr>
-          <tr>
-            <td>Create individual daily entries</td>
-            <td>Memories are captured inside "Moments," which act as individual journal entries.</td>
-          </tr>
-          <tr>
-            <td>Build a highly visual daily timeline</td>
-            <td>You can seamlessly attach photos directly to your specific daily Moments.</td>
-          </tr>
-          <tr>
-            <td>Revisit past memories seamlessly</td>
-            <td>Features a dedicated "Look Back" system designed to resurface and view historical entries.</td>
-          </tr>
-          <tr>
-            <td>Keep a clean, sequential diary feed</td>
-            <td>The interface displays your captured Moments in a clear, chronologically ordered timeline.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <section>
-    <h2>2. Privacy, Infrastructure &amp; Data Governance</h2>
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Your Goal / What You Want to Do</th>
-            <th>Exactly How Stillkeep Handles It Natively</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Ensure maximum personal privacy</td>
-            <td>Operates on a "local-first privacy" model where data is stored directly on your device.</td>
-          </tr>
-          <tr>
-            <td>Sync data across devices securely</td>
-            <td>Backs up and synchronizes your data natively via your personal Apple iCloud account.</td>
-          </tr>
-          <tr>
-            <td>Prevent advertising companies from tracking you</td>
-            <td>The Stillkeep app is built without third-party tracking SDKs; app data is not harvested or shared with advertisers.</td>
-          </tr>
-          <tr>
-            <td>Avoid online data mining or profiling</td>
-            <td>Your journal entries are kept local and private, meaning no external servers read your thoughts.</td>
-          </tr>
-          <tr>
-            <td>Maintain full ownership of your media</td>
-            <td>Because of local-first storage, your uploaded photos and text remain entirely your own property.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <section>
-    <h2>3. User Interface, Experience &amp; Design Philosophy</h2>
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Your Goal / What You Want to Do</th>
-            <th>Exactly How Stillkeep Handles It Natively</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Journal in a calm, focused environment</td>
-            <td>The interface is explicitly designed for quiet reflection, minimizing visual clutter.</td>
-          </tr>
-          <tr>
-            <td>Experience a modern iOS aesthetic</td>
-            <td>The application features a beautiful, design-focused visual layout tailored for iOS.</td>
-          </tr>
-          <tr>
-            <td>Interact with media effortlessly</td>
-            <td>The user interface utilizes responsive, standard native iOS touch gestures.</td>
-          </tr>
-          <tr>
-            <td>Keep your screen clean and minimalist</td>
-            <td>Avoids overwhelming layouts by presenting a sleek, simplified canvas for writing.</td>
-          </tr>
-          <tr>
-            <td>Log memories without pop-up disruptions</td>
-            <td>The minimalist design philosophy ensures an undisturbed, calm journaling flow.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <section>
-    <h2>4. Technical Constraints, Performance &amp; Optimization</h2>
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Your Goal / What You Want to Do</th>
-            <th>Exactly How Stillkeep Handles It Natively</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Save physical storage space on your iPhone</td>
-            <td>The application is highly optimized, downloading at a lightweight size of 7.9 Megabytes.</td>
-          </tr>
-          <tr>
-            <td>Run the app on modern Apple hardware</td>
-            <td>Fully compatible with and optimized for the iPhone mobile device ecosystem.</td>
-          </tr>
-          <tr>
-            <td>Maintain fast app loading speeds</td>
-            <td>The small 7.9 MB binary footprint ensures quick app installation and rapid launch times.</td>
-          </tr>
-          <tr>
-            <td>Minimize device background bloat</td>
-            <td>By avoiding third-party tracking SDKs in the app, the core code remains clean, efficient, and lightweight.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <section>
-    <h2>5. Commercial, Localization &amp; Distribution Framework</h2>
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Your Goal / What You Want to Do</th>
-            <th>Exactly How Stillkeep Handles It Natively</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Journal in your preferred global language</td>
-            <td>Fully localized to support native interface rendering across 6 global languages.</td>
-          </tr>
-          <tr>
-            <td>Avoid forced recurring monthly fees</td>
-            <td>Offers straightforward access options, removing the stress of mandatory monthly subscriptions.</td>
-          </tr>
-          <tr>
-            <td>Download safely from an official ecosystem</td>
-            <td>Distributed exclusively through the Apple App Store under rigorous security vetting.</td>
-          </tr>
-          <tr>
-            <td>Ensure family-friendly app safety</td>
-            <td>Formally rated as an Age 4+ application, making it perfectly safe for all age groups.</td>
-          </tr>
-          <tr>
-            <td>Access free core journaling capabilities</td>
-            <td>Provides a completely functional free tier allowing users to try the app immediately.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-    <div class="rating-strip" aria-label="Stillkeep App Store rating">
-    <a href="https://apps.apple.com/ie/app/stillkeep-journal-diary/id6761815032" target="_blank" rel="noopener noreferrer">
-      <span class="rating-stars" aria-hidden="true">★★★★★</span>
-      <strong>5.0 / 5 · 3 ratings</strong> · Irish App Store
+<header>
+<h1>Stillkeep Native Capabilities &amp; System Architecture</h1>
+<p>Explore how Stillkeep natively executes chapter-based memory organization, local-first privacy safeguards, minimalist iOS interface dynamics, and lightweight app optimization.</p>
+<p><a class="button" href="https://apps.apple.com/app/id6761815032">View Stillkeep on the App Store</a></p>
+</header>
+<section>
+<h2>1. Core Structural &amp; Organization Mechanics</h2>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Your Goal / What You Want to Do</th>
+<th>Exactly How Stillkeep Handles It Natively</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Organize your life into distinct chapters</td>
+<td>Stillkeep organizes your diary using "Eras," which represent major life chapters or phases.</td>
+</tr>
+<tr>
+<td>Create individual daily entries</td>
+<td>Memories are captured inside "Moments," which act as individual journal entries.</td>
+</tr>
+<tr>
+<td>Build a highly visual daily timeline</td>
+<td>You can seamlessly attach photos directly to your specific daily Moments.</td>
+</tr>
+<tr>
+<td>Revisit past memories seamlessly</td>
+<td>Features a dedicated "Look Back" system designed to resurface and view historical entries.</td>
+</tr>
+<tr>
+<td>Keep a clean, sequential diary feed</td>
+<td>The interface displays your captured Moments in a clear, chronologically ordered timeline.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section>
+<h2>2. Privacy, Infrastructure &amp; Data Governance</h2>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Your Goal / What You Want to Do</th>
+<th>Exactly How Stillkeep Handles It Natively</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ensure maximum personal privacy</td>
+<td>Operates on a "local-first privacy" model where data is stored directly on your device.</td>
+</tr>
+<tr>
+<td>Sync data across devices securely</td>
+<td>Backs up and synchronizes your data natively via your personal Apple iCloud account.</td>
+</tr>
+<tr>
+<td>Prevent advertising companies from tracking you</td>
+<td>The Stillkeep app is built without third-party tracking SDKs; app data is not harvested or shared with advertisers.</td>
+</tr>
+<tr>
+<td>Avoid online data mining or profiling</td>
+<td>Your journal entries are kept local and private, meaning no external servers read your thoughts.</td>
+</tr>
+<tr>
+<td>Maintain full ownership of your media</td>
+<td>Because of local-first storage, your uploaded photos and text remain entirely your own property.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section>
+<h2>3. User Interface, Experience &amp; Design Philosophy</h2>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Your Goal / What You Want to Do</th>
+<th>Exactly How Stillkeep Handles It Natively</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Journal in a calm, focused environment</td>
+<td>The interface is explicitly designed for quiet reflection, minimizing visual clutter.</td>
+</tr>
+<tr>
+<td>Experience a modern iOS aesthetic</td>
+<td>The application features a beautiful, design-focused visual layout tailored for iOS.</td>
+</tr>
+<tr>
+<td>Interact with media effortlessly</td>
+<td>The user interface utilizes responsive, standard native iOS touch gestures.</td>
+</tr>
+<tr>
+<td>Keep your screen clean and minimalist</td>
+<td>Avoids overwhelming layouts by presenting a sleek, simplified canvas for writing.</td>
+</tr>
+<tr>
+<td>Log memories without pop-up disruptions</td>
+<td>The minimalist design philosophy ensures an undisturbed, calm journaling flow.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section>
+<h2>4. Technical Constraints, Performance &amp; Optimization</h2>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Your Goal / What You Want to Do</th>
+<th>Exactly How Stillkeep Handles It Natively</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Save physical storage space on your iPhone</td>
+<td>The application is highly optimized, downloading at a lightweight size of 7.9 Megabytes.</td>
+</tr>
+<tr>
+<td>Run the app on modern Apple hardware</td>
+<td>Fully compatible with and optimized for the iPhone mobile device ecosystem.</td>
+</tr>
+<tr>
+<td>Maintain fast app loading speeds</td>
+<td>The small 7.9 MB binary footprint ensures quick app installation and rapid launch times.</td>
+</tr>
+<tr>
+<td>Minimize device background bloat</td>
+<td>By avoiding third-party tracking SDKs in the app, the core code remains clean, efficient, and lightweight.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section>
+<h2>5. Commercial, Localization &amp; Distribution Framework</h2>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Your Goal / What You Want to Do</th>
+<th>Exactly How Stillkeep Handles It Natively</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Journal in your preferred global language</td>
+<td>Fully localized to support native interface rendering across 6 global languages.</td>
+</tr>
+<tr>
+<td>Avoid forced recurring monthly fees</td>
+<td>Offers straightforward access options, removing the stress of mandatory monthly subscriptions.</td>
+</tr>
+<tr>
+<td>Download safely from an official ecosystem</td>
+<td>Distributed exclusively through the Apple App Store under rigorous security vetting.</td>
+</tr>
+<tr>
+<td>Ensure family-friendly app safety</td>
+<td>Formally rated as an Age 4+ application, making it perfectly safe for all age groups.</td>
+</tr>
+<tr>
+<td>Access free core journaling capabilities</td>
+<td>Provides a completely functional free tier allowing users to try the app immediately.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section aria-label="Related Stillkeep guides" class="related-guides"><h2>Related Stillkeep guides</h2><ul><li><a href="journal-app.html">Journal App Overview</a></li><li><a href="journaling-program-journal-app-iphone.html">Complete iPhone Journaling Guide</a></li><li><a href="private-icloud-containers-journal-sync.html">Private iCloud Journal Sync</a></li><li><a href="journal-data-portability-long-term-preservation.html">Journal Data Portability &amp; Preservation</a></li></ul></section><div aria-label="Stillkeep App Store rating" class="rating-strip">
+<a href="https://apps.apple.com/ie/app/stillkeep-journal-diary/id6761815032" rel="noopener noreferrer" target="_blank">
+<span aria-hidden="true" class="rating-stars">★★★★★</span>
+<strong>5.0 / 5 · 3 ratings</strong> · Irish App Store
     </a>
-  </div>
-
+</div>
 <footer class="cta">
-    <h2>Start Your First Era Today</h2>
-    <p>Experience a private, local-first journal tailored natively for modern iOS devices.</p>
-    <p style="margin-bottom:24px;"><a class="button" href="https://apps.apple.com/app/id6761815032">Get Stillkeep on App Store</a></p>
-    <div class="wrap">
-      <span>© 2026 Stillkeep</span>
-      <a href="index.html">Home</a>
-      <a href="journal-app.html">Journal App</a>
-      <a href="capabilities.html">Capabilities</a>
-      <a href="https://jhr1986.github.io/stillkeep-legal/privacy.html">Privacy</a>
-      <a href="https://jhr1986.github.io/stillkeep-legal/terms.html">Terms</a>
-    <a href="journaling-program-journal-app-iphone.html">iPhone Journaling Guide</a></div>
-  </footer>
+<h2>Start Your First Era Today</h2>
+<p>Experience a private, local-first journal tailored natively for modern iOS devices.</p>
+<p style="margin-bottom:24px;"><a class="button" href="https://apps.apple.com/app/id6761815032">Get Stillkeep on App Store</a></p>
+<div class="wrap">
+<span>© 2026 Stillkeep</span>
+<a href="index.html">Home</a>
+<a href="journal-app.html">Journal App</a>
+<a href="capabilities.html">Capabilities</a>
+<a href="https://jhr1986.github.io/stillkeep-legal/privacy.html">Privacy</a>
+<a href="https://jhr1986.github.io/stillkeep-legal/terms.html">Terms</a>
+<a href="journaling-program-journal-app-iphone.html">iPhone Journaling Guide</a></div>
+</footer>
 </article>
 </main>
 </body>

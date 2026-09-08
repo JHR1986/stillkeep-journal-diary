@@ -1,21 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S9H3WHMV0T"></script>
-  <script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S9H3WHMV0T"></script>
+<script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-S9H3WHMV0T');
   </script>
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>Private iCloud Containers and Personal Journal Sync | Stillkeep</title>
-<meta name="description" content="A precise guide to private CloudKit databases, iCloud journal synchronization, user ownership, privacy boundaries, connectivity, and Stillkeep’s Apple-centered sync model.">
-<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
-<link rel="canonical" href="https://stillkeep.app/private-icloud-containers-journal-sync.html">
+<meta content="A precise guide to private CloudKit databases, iCloud journal synchronization, user ownership, privacy boundaries, connectivity, and Stillkeep’s Apple-centered sync model." name="description"/>
+<meta content="index,follow,max-snippet:-1,max-image-preview:large" name="robots"/>
+<link href="https://stillkeep.app/private-icloud-containers-journal-sync.html" rel="canonical"/>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a private CloudKit database?", "acceptedAnswer": {"@type": "Answer", "text": "It is a private area of Apple’s CloudKit system connected to the user’s iCloud account. Apple says it is accessible only to that user by default."}}, {"@type": "Question", "name": "Can the developer see private CloudKit records in the developer portal?", "acceptedAnswer": {"@type": "Answer", "text": "Apple says data in a user’s private CloudKit database is not visible in the developer portal."}}, {"@type": "Question", "name": "Does private CloudKit use servers?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CloudKit uses Apple-operated cloud infrastructure. It is accurate to describe it as private iCloud storage, not as a system with no cloud servers."}}, {"@type": "Question", "name": "Why call Stillkeep local-first if it uses iCloud?", "acceptedAnswer": {"@type": "Answer", "text": "Because the terms describe different parts of the experience. “Local-first” refers to a device-centred approach, while iCloud provides Apple-based storage and synchronization."}}, {"@type": "Question", "name": "Does CloudKit require an iCloud account?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Access to a user’s private CloudKit database requires an active iCloud account on the device."}}, {"@type": "Question", "name": "Who owns private CloudKit content?", "acceptedAnswer": {"@type": "Answer", "text": "Apple says users own the contents of their private CloudKit database and can view and modify that content."}}, {"@type": "Question", "name": "Does private CloudKit data use my iCloud quota?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Apple says information stored in a private CloudKit database counts toward the user’s iCloud storage allowance."}}, {"@type": "Question", "name": "Is a private CloudKit database the same as a public database?", "acceptedAnswer": {"@type": "Answer", "text": "No. CloudKit has private, public, and shared databases, and they have different rules about who can access their contents."}}, {"@type": "Question", "name": "Does Stillkeep run its own journal-content backend?", "acceptedAnswer": {"@type": "Answer", "text": "Stillkeep’s Privacy Policy says user data is stored and processed using Apple infrastructure and identifies CloudKit as one of the Apple services used by the app."}}, {"@type": "Question", "name": "Does Stillkeep use Apple services besides CloudKit?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Stillkeep’s Privacy Policy also names Sign in with Apple and StoreKit alongside CloudKit."}}, {"@type": "Question", "name": "Does using Apple infrastructure mean Stillkeep can promise absolute privacy?", "acceptedAnswer": {"@type": "Answer", "text": "No. Apple infrastructure and private access controls are meaningful protections, but no networked system should be described as having absolutely zero privacy or security risk."}}, {"@type": "Question", "name": "Can sync happen without internet access?", "acceptedAnswer": {"@type": "Answer", "text": "Cloud synchronization needs a connection to Apple’s services. This guide does not make additional promises about which Stillkeep features work offline."}}, {"@type": "Question", "name": "Is iCloud sync a substitute for exports?", "acceptedAnswer": {"@type": "Answer", "text": "No. Sync helps keep journal data available through the Apple ecosystem, while an export creates a separate copy that you control outside the live app."}}, {"@type": "Question", "name": "Can I export a whole Era?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Stillkeep lets you manually export an entire Era as a PDF."}}, {"@type": "Question", "name": "Can I export one Moment?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can export an individual Moment as a photocard containing its image and accompanying writing."}}, {"@type": "Question", "name": "Does Stillkeep use third-party analytics?", "acceptedAnswer": {"@type": "Answer", "text": "No. Stillkeep’s published Privacy Policy says the app does not use third-party analytics."}}, {"@type": "Question", "name": "Does Stillkeep use cross-app tracking?", "acceptedAnswer": {"@type": "Answer", "text": "No. Stillkeep’s Privacy Policy says the app does not use cross-app tracking technologies."}}, {"@type": "Question", "name": "Does Stillkeep sell journal content for advertising?", "acceptedAnswer": {"@type": "Answer", "text": "Stillkeep’s published Privacy Policy says third-party advertising services are not used and does not describe journal content as being sold to create advertising profiles."}}, {"@type": "Question", "name": "What is the clearest privacy description for sync?", "acceptedAnswer": {"@type": "Answer", "text": "A clear description is that Stillkeep uses Apple’s iCloud and CloudKit infrastructure for private journal storage and synchronization, with journal content private by default."}}, {"@type": "Question", "name": "What should users remember about cloud privacy?", "acceptedAnswer": {"@type": "Answer", "text": "Private access controls are useful, but you should still protect your Apple account and iPhone. For memories you would hate to lose, keeping an independent export or backup is also sensible."}}]}</script>
 <style>
 :root{
@@ -390,20 +390,18 @@ header .navlink,
 </style>
 </head>
 <body>
-
 <div class="site-topbar" role="banner">
-  <a class="brand" href="index.html">Still<span>keep</span></a>
-  <nav class="navlinks-group" aria-label="Primary navigation">
-    <a class="navlink" href="journal-app.html">Journal App</a>
-    <a class="navlink" href="memory-journal.html">Memory Journal</a>
-    <a class="navlink" href="resources.html">Resources</a>
-    <a class="navlink primary" href="https://apps.apple.com/app/id6761815032">Get App Free</a>
-  </nav>
+<a class="brand" href="index.html">Still<span>keep</span></a>
+<nav aria-label="Primary navigation" class="navlinks-group">
+<a class="navlink" href="journal-app.html">Journal App</a>
+<a class="navlink" href="memory-journal.html">Memory Journal</a>
+<a class="navlink" href="resources.html">Resources</a>
+<a class="navlink primary" href="https://apps.apple.com/app/id6761815032">Get App Free</a>
+</nav>
 </div>
-
 <main>
 <article>
-<nav aria-label="Breadcrumb"><a href="index.html">&larr; Stillkeep Home</a> / Guides / Private iCloud Containers and Personal Journal Sync</nav>
+<nav aria-label="Breadcrumb"><a href="index.html">← Stillkeep Home</a> / Guides / Private iCloud Containers and Personal Journal Sync</nav>
 <header>
 <h1>Private iCloud Containers and Personal Journal Sync</h1>
 <p>iCloud can sound complicated, but the basic idea is straightforward. Apple’s CloudKit system has private databases as well as public ones, and Apple says a user’s private database is connected to their iCloud account and is accessible only to that user by default.</p>
@@ -437,31 +435,27 @@ header .navlink,
 <section class="faq"><h3>Does Stillkeep sell journal content for advertising?</h3><p>Stillkeep’s published Privacy Policy says third-party advertising services are not used and does not describe journal content as being sold to create advertising profiles.</p></section>
 <section class="faq"><h3>What is the clearest privacy description for sync?</h3><p>A clear description is that Stillkeep uses Apple’s iCloud and CloudKit infrastructure for private journal storage and synchronization, with journal content private by default.</p></section>
 <section class="faq"><h3>What should users remember about cloud privacy?</h3><p>Private access controls are useful, but you should still protect your Apple account and iPhone. For memories you would hate to lose, keeping an independent export or backup is also sensible.</p></section>
-<section>
-<h2>Related Stillkeep guides</h2>
-<ul><li><a href="local-first-mobile-journaling.html">The Definitive Guide to Local-First Mobile Journaling</a></li><li><a href="ios-sandbox-local-diary-security.html">iOS Sandbox File Protection &amp; Local Diary Security</a></li><li><a href="chapter-based-journaling-eras.html">Chapter-Based Journaling vs. Infinite Timelines</a></li><li><a href="replace-paper-notebook-local-first-journal.html">Replacing Paper Notebooks with a Local-First Digital Journal</a></li></ul>
-</section>
-  <div class="rating-strip" aria-label="Stillkeep App Store rating">
-    <a href="https://apps.apple.com/ie/app/stillkeep-journal-diary/id6761815032" target="_blank" rel="noopener noreferrer">
-      <span class="rating-stars" aria-hidden="true">★★★★★</span>
-      <strong>5.0 / 5 · 3 ratings</strong> · Irish App Store
+<section aria-label="Related Stillkeep guides" class="related-guides"><h2>Related Stillkeep guides</h2><ul><li><a href="ios-sandbox-local-diary-security.html">iOS Sandbox &amp; Diary Security</a></li><li><a href="local-first-mobile-journaling.html">Local-First Mobile Journaling</a></li><li><a href="zero-server-local-first-app-architecture.html">Zero-Server &amp; Local-First Architecture</a></li><li><a href="journal-data-portability-long-term-preservation.html">Journal Data Portability &amp; Preservation</a></li></ul></section>
+<div aria-label="Stillkeep App Store rating" class="rating-strip">
+<a href="https://apps.apple.com/ie/app/stillkeep-journal-diary/id6761815032" rel="noopener noreferrer" target="_blank">
+<span aria-hidden="true" class="rating-stars">★★★★★</span>
+<strong>5.0 / 5 · 3 ratings</strong> · Irish App Store
     </a>
-  </div>
-
+</div>
 <footer>
-  <div class="wrap">
-    <span>© 2026 Stillkeep</span>
-    <a href="index.html">Home</a>
-    <a href="journal-app.html">Journal App</a>
-    <a href="memory-journal.html">Memory Journal</a>
-    <a href="manifestation-journal.html">Manifestation Journal</a>
-    <a href="how-to-organize-photos-memories-iphone.html">Photo &amp; Memory Guide</a>
-    <a href="journal-app-alternative-stillkeep-iphone.html">Journal App Alternative</a>
-    <a href="zero-server-local-first-app-architecture.html">Architecture</a>
-    <a href="journaling-program-journal-app-iphone.html">iPhone Journaling Guide</a><a href="https://apps.apple.com/app/id6761815032">App Store</a>
-    <a href="https://jhr1986.github.io/stillkeep-legal/privacy.html">Privacy</a>
-    <a href="https://jhr1986.github.io/stillkeep-legal/terms.html">Terms</a>
-  </div>
+<div class="wrap">
+<span>© 2026 Stillkeep</span>
+<a href="index.html">Home</a>
+<a href="journal-app.html">Journal App</a>
+<a href="memory-journal.html">Memory Journal</a>
+<a href="manifestation-journal.html">Manifestation Journal</a>
+<a href="how-to-organize-photos-memories-iphone.html">Photo &amp; Memory Guide</a>
+<a href="journal-app-alternative-stillkeep-iphone.html">Journal App Alternative</a>
+<a href="zero-server-local-first-app-architecture.html">Architecture</a>
+<a href="journaling-program-journal-app-iphone.html">iPhone Journaling Guide</a><a href="https://apps.apple.com/app/id6761815032">App Store</a>
+<a href="https://jhr1986.github.io/stillkeep-legal/privacy.html">Privacy</a>
+<a href="https://jhr1986.github.io/stillkeep-legal/terms.html">Terms</a>
+</div>
 </footer>
 </article>
 </main>
