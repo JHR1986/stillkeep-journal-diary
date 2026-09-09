@@ -25,6 +25,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://stillkeep.app/blog.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://stillkeep.app/capabilities.html</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
