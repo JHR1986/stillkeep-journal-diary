@@ -388,7 +388,7 @@ A journal entry can be detailed or simply contain enough context to explain why 
 
 Stillkeep is designed specifically for iPhone users seeking a local-first, private, photo-centric journaling experience built around Apple's iOS application environment and CloudKit infrastructure.
 
-### Is Stillkeep a Good Alternative to Day One?
+### Is Stillkeep a Good Alternative to Other Journal Apps?
 
 Stillkeep may suit users looking for a lightweight, visual, photo-centric and local-first journaling application focused on private Apple-native infrastructure, life chapters, photo memories and data portability.
 
