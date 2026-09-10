@@ -1,0 +1,55 @@
+/* Desktop-only App Store QR companion for Stillkeep download CTAs. */
+.download-qr {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .download-qr {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    vertical-align: middle;
+    margin-inline-start: 14px;
+    padding: 8px 12px 8px 8px;
+    max-width: 220px;
+    border: 1px solid rgba(28, 27, 24, 0.12);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 8px 24px rgba(28, 27, 24, 0.08);
+    color: #24231f;
+    text-align: left;
+    line-height: 1.2;
+    white-space: nowrap;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+
+  .download-qr__image {
+    display: block;
+    width: 72px;
+    height: 72px;
+    flex: 0 0 72px;
+    padding: 4px;
+    border-radius: 10px;
+    background: #fff;
+    object-fit: contain;
+  }
+
+  .download-qr__copy {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+
+  .download-qr__copy strong {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .download-qr__copy span {
+    opacity: 0.68;
+  }
+}
