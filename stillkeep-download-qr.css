@@ -1,51 +1,53 @@
 /* Desktop-only App Store QR companion for Stillkeep download CTAs. */
-.download-qr {
-  display: none;
-}
-
-/* Preserve the original mobile/tablet CTA flow. */
-.download-actions {
-  display: contents;
-}
+.download-qr { display: none; }
+.download-actions { display: contents; }
 
 @media (min-width: 1024px) {
-  /* Treat the App Store button and QR as one intentional conversion cluster. */
+  /* Desktop: keep the primary CTA and QR together on one visual line. */
   .download-actions {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
     width: fit-content;
     max-width: 100%;
-    gap: 11px;
+    margin-top: 12px;
+  }
+
+  /* Avoid inheriting extra top spacing from CTA rules now that the wrapper owns spacing. */
+  .download-actions > .cta,
+  .download-actions > .button {
+    margin-top: 0 !important;
+    flex: 0 0 auto;
   }
 
   .download-qr {
     display: flex;
     align-items: center;
-    gap: 11px;
+    gap: 10px;
     box-sizing: border-box;
-    width: 100%;
-    min-width: 0;
-    padding: 8px 11px 8px 8px;
-    border: 1px solid rgba(28, 27, 24, 0.10);
+    min-height: 58px;
+    padding: 7px 11px 7px 7px;
+    border: 1px solid rgba(66, 43, 98, 0.10);
     border-radius: 14px;
-    background: rgba(255, 255, 255, 0.76);
-    box-shadow: 0 6px 18px rgba(28, 27, 24, 0.055);
-    color: #24231f;
+    background: rgba(255, 255, 255, 0.72);
+    box-shadow: 0 7px 22px rgba(52, 34, 74, 0.06);
+    color: #24202c;
     text-align: left;
-    line-height: 1.2;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
+    line-height: 1.15;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
 
   .download-qr__image {
     display: block;
-    width: 58px;
-    height: 58px;
-    flex: 0 0 58px;
-    padding: 3px;
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+    padding: 2px;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 7px;
     background: #fff;
     object-fit: contain;
   }
@@ -55,30 +57,27 @@
     flex-direction: column;
     gap: 3px;
     min-width: 0;
-    font-size: 11.5px;
+    white-space: nowrap;
+    font-size: 11px;
     letter-spacing: 0;
   }
 
   .download-qr__copy strong {
-    font-size: 12.5px;
+    font-size: 12px;
     font-weight: 700;
   }
 
-  .download-qr__copy span {
-    opacity: 0.66;
-  }
+  .download-qr__copy span { opacity: 0.62; }
 
-  /* Center the complete cluster in common closing-CTA sections. */
+  /* Supporting copy should breathe below the entire CTA row. */
+  .download-actions + .micro { margin-top: 18px; }
+
+  /* Closing CTA sections remain centered as a complete unit. */
   .band .download-actions,
   .final-cta .download-actions,
   .cta-section .download-actions,
   .download-section .download-actions {
     margin-inline: auto;
-    align-items: stretch;
-  }
-
-  /* Reassurance copy belongs below the complete CTA cluster, not the button alone. */
-  .download-actions + .micro {
-    margin-top: 16px;
+    justify-content: center;
   }
 }
