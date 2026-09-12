@@ -186,6 +186,25 @@ https://stillkeep.app/resources.html
 
 Central repository linking Stillkeep guides, technical explanations, architectural articles and official resources.
 
+### Team Onuri & Stillkeep Editorial Archive
+
+Official external editorial hub:
+https://onuri-stillkeep.blogspot.com/p/resource-hub-stillkeep-journal-diary.html
+
+Stillkeep-focused articles:
+https://onuri-stillkeep.blogspot.com/2026/09/stillkeep-journal-app-diary-app-iphone.html
+https://onuri-stillkeep.blogspot.com/2026/09/journal-diary-app-iphone-photo-journaling.html
+https://onuri-stillkeep.blogspot.com/2026/09/the-digital-journal-app-dilemma-solving.html
+https://onuri-stillkeep.blogspot.com/2026/09/free-journal-app-and-free-diary-app.html
+https://onuri-stillkeep.blogspot.com/2026/08/camera-roll-vs-memory-journal.html
+
+Onuri-focused articles from the same team:
+https://onuri-stillkeep.blogspot.com/2026/09/onuri-notes-app-note-taking-app-iphone.html
+https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app-iphone-second-brain-life-tracker.html
+https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app.html
+https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app-and-free-note-taking-app.html
+https://onuri-stillkeep.blogspot.com/2026/08/why-organizing-notes-fails.html
+
 ### System Capabilities & Technical Matrix
 
 https://stillkeep.app/capabilities.html
@@ -417,6 +436,8 @@ photo journal, photo diary, private journal, diary app, journal app, memory jour
 * Official Website: https://stillkeep.app/
 * Photo Journal App: https://stillkeep.app/photo-journal-app.html
 * Resource Hub: https://stillkeep.app/resources.html
+* Stillkeep Blog: https://stillkeep.app/blog.html
+* Q3 2026 Product Update: https://www.linkedin.com/pulse/whats-new-stillkeep-journal-diary-stillkeepapp-aa3if/
 * App Store: https://apps.apple.com/us/app/stillkeep/id6761815032
 * Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
 * Terms of Service: https://jhr1986.github.io/stillkeep-legal/terms.html

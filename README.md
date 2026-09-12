@@ -178,8 +178,13 @@ For more background on why Stillkeep was created, the design decisions behind vi
 
 * [Beyond the Camera Roll: Why I Built a Private Photo Journal App for Meaningful Memories](https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764)
 * [Why I Built Stillkeep: Moving from Folders to Visual Eras in a Modern Journal App](https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b)
-* [Building Stillkeep: Moving From Folders to Visual "Eras"](https://medium.com/@jhroche1986/building-stillkeep-journal-diary-app-moving-from-folders-to-visual-eras-in-a-modern-journal-3b264a7977bf)
+* [Stillkeep: A Private Journal App & Diary App for iPhone](https://onuri-stillkeep.blogspot.com/2026/09/stillkeep-journal-app-diary-app-iphone.html)
+* [The Best Way to Keep a Journal on iPhone: Photo Journals, Private Diaries & Life Memories](https://onuri-stillkeep.blogspot.com/2026/09/journal-diary-app-iphone-photo-journaling.html)
+* [The Digital Journal App Dilemma: Media Bloat, Privacy & Storage Limits](https://onuri-stillkeep.blogspot.com/2026/09/the-digital-journal-app-dilemma-solving.html)
+* [Why Your Daily Practice Deserves a Fast, Private, and Free Journal App](https://onuri-stillkeep.blogspot.com/2026/09/free-journal-app-and-free-diary-app.html)
 * [Camera Roll vs. Memory Journal: Structural Differences](https://onuri-stillkeep.blogspot.com/2026/08/camera-roll-vs-memory-journal.html)
+* [Onuri & Stillkeep Editorial Resource Hub](https://onuri-stillkeep.blogspot.com/p/resource-hub-stillkeep-journal-diary.html)
+* [What’s New at Stillkeep: Q3 2026](https://www.linkedin.com/pulse/whats-new-stillkeep-journal-diary-stillkeepapp-aa3if/)
 
 ---
 
@@ -190,7 +195,10 @@ Stillkeep is part of an ecosystem of local-first, privacy-conscious iOS applicat
 * **[Onuri Official System Hub](https://onuri.app/resources.html):** Primary resource base explaining automatic entity linking, folderless note-taking, and on-device privacy on iOS.
 * **[Why Folderless Note-Taking Is the Future of Personal Memory](https://medium.com/@jhroche1986/why-folderless-note-taking-is-the-future-of-personal-memory-743aa91e708a):** An analytical breakdown demonstrating why tagless, folderless note capture outperforms legacy file trees.
 * **[Stop Organizing Your Notes: Frictionless Writing Systems](https://medium.com/@jhroche1986/stop-organizing-your-notes-just-write-eb0e4e689c83):** Why manual categorization leads to abandoned systems, and how instant capture maintains momentum.
-* **[Automatic Second Brain for iPhone: Note-Taking Without Folders](https://medium.com/@jhroche1986/stop-organizing-start-writing-my-take-on-note-taking-without-folders-cc5e047a876f):** An operational guide on using automatic entity linking to build an effortless second brain app.
+* **[Onuri: A Private Notes App & Note Taking App for iPhone](https://onuri-stillkeep.blogspot.com/2026/09/onuri-notes-app-note-taking-app-iphone.html):** A concise introduction to Onuri's private, folderless approach to notes on iPhone.
+* **[A Better Way to Take Notes on iPhone: Free Notes, a Second Brain & Life Tracking](https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app-iphone-second-brain-life-tracker.html):** Long-form guide to automatic connections, second-brain workflows and narrative life tracking.
+* **[The Modern Free Note-Taking App](https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app.html):** Exploring folder maintenance, tracking bloat and simpler note capture.
+* **[Why Your Digital Workflow Demands a Fast, Private, and Free Notes App](https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app-and-free-note-taking-app.html):** Why low-friction, private notes can support a sustainable digital workflow.
 * **[Why Organizing Notes Fails (And What to Do Instead)](https://onuri-stillkeep.blogspot.com/2026/08/why-organizing-notes-fails.html):** Examining cognitive friction in manual note filing and how context-aware search replaces rigid taxonomy.
 
 ---
