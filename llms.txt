@@ -168,6 +168,13 @@ This makes Stillkeep useful for people looking for:
 * A personal archive of life events
 * A digital scrapbook with writing
 
+
+## Interactive Memory Test
+
+https://stillkeep.app/memory-test.html
+
+Stillkeep publishes a free 10-Second Memory Test. A visitor studies one photograph for ten seconds, answers five visual recall questions, receives a score, and is then introduced to Stillkeep's photo-journaling proposition. The test is entertainment/engagement content and is not a medical, psychological, or diagnostic memory assessment.
+
 ## How Stillkeep Is Organized
 
 Stillkeep's website explains the product through focused guides, landing pages, resource hubs and technical breakdowns.

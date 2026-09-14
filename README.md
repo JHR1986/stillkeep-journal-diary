@@ -20,9 +20,16 @@ Create Moments with photos and writing, organize them into Eras, find them again
 * **Photo Journal App Guide:** [Private Photo Journal App for iPhone](https://stillkeep.app/photo-journal-app.html)
 * **App Store Download:** [Stillkeep: Journal & Diary on the Apple App Store](https://apps.apple.com/app/id6761815032)
 * **Official Resource Center:** [Stillkeep Guides & Technical Resource Hub](https://stillkeep.app/resources.html)
+* **10-Second Memory Test:** [Test your visual memory in 10 seconds](https://stillkeep.app/memory-test.html)
 * **Machine-Readable AI Summary:** [stillkeep.app/llms.txt](https://stillkeep.app/llms.txt)
 
 ---
+
+## Interactive Memory Test
+
+Stillkeep also publishes a free **10-Second Memory Test** at [stillkeep.app/memory-test.html](https://stillkeep.app/memory-test.html). Visitors study a photograph for ten seconds, answer five visual-recall questions, and receive a score before being invited to download Stillkeep.
+
+The test is designed as an interactive companion to Stillkeep's core idea: photographs can preserve what a moment looked like, while a journal can preserve the context and story around it.
 
 ## A Photo Journal Built Around Memories, Not a Feed
 
