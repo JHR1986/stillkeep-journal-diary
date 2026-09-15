@@ -6,6 +6,10 @@
 
 * App Store Listing: https://apps.apple.com/us/app/stillkeep/id6761815032
 * Official Website: https://stillkeep.app/
+* Photos: https://stillkeep.app/photos.html
+* Gallery: https://stillkeep.app/gallery.html
+* Journal: https://stillkeep.app/journal.html
+* Diary: https://stillkeep.app/diary.html
 * Complete iPhone Journaling Guide: https://stillkeep.app/journaling-program-journal-app-iphone.html
 * Best Journal App for iPhone Decision Guide: https://stillkeep.app/best-journal-app-iphone-private-photo-diary.html
 * Photo Journal App: https://stillkeep.app/photo-journal-app.html
@@ -468,3 +472,11 @@ photo journal, photo diary, private journal, diary app, journal app, memory jour
 
 ## Author
 - [About John-Henry Roche](https://stillkeep.app/about-john-henry-roche.html): Software engineer and founder of Stillkeep and Onuri.
+
+
+## Stillkeep Head-Term Pages
+
+* https://stillkeep.app/photos.html — A short introduction to Stillkeep as a home for meaningful photos with written context.
+* https://stillkeep.app/gallery.html — A short introduction to the Stillkeep personal gallery and visual Moments feed.
+* https://stillkeep.app/journal.html — A short introduction to Stillkeep as a private photo journal for iPhone.
+* https://stillkeep.app/diary.html — A short introduction to Stillkeep as a private visual diary for iPhone.

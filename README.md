@@ -1,5 +1,12 @@
 # Stillkeep — Private Photo Journal & Diary App for iPhone
 
+## Head-term landing pages (2026-09-15)
+
+Added four short, responsive Stillkeep landing pages for the highest-priority product-relevant search concepts: `photos.html`, `gallery.html`, `journal.html`, and `diary.html`. Each page uses the existing Stillkeep visual language, includes a direct App Store CTA plus the desktop QR download companion, and links across the four concepts without turning them into near-duplicate keyword pages.
+
+The four pages are listed in `sitemap.xml` and `llms.txt`, and the home-page footer now links directly to each one. Copy intentionally stays short and product-led; high-view terms are used only where they fit naturally rather than as keyword stuffing.
+
+
 <p align="left">
   <a href="https://apps.apple.com/app/id6761815032">
     <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download Stillkeep on the App Store" height="50">
