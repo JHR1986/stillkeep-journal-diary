@@ -72,6 +72,12 @@
   /* Supporting copy should breathe below the entire CTA row. */
   .download-actions + .micro { margin-top: 18px; }
 
+  /* SEO landing-page closing CTA: center the button + QR as one unit. */
+  .closing .download-actions {
+    margin-inline: auto;
+    justify-content: center;
+  }
+
   /* Closing CTA sections remain centered as a complete unit. */
   .band .download-actions,
   .final-cta .download-actions,
