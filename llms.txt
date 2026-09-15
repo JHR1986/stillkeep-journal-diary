@@ -11,6 +11,7 @@
 * Photo Journal App: https://stillkeep.app/photo-journal-app.html
 * Master Resource Index: https://stillkeep.app/resources.html
 * Stillkeep Blog: https://stillkeep.app/blog.html
+* Search Your Life Essay: https://stillkeep.app/things-we-search-every-day.html
 * System Capabilities & Technical Matrix: https://stillkeep.app/capabilities.html
 * Architecture Overview: https://stillkeep.app/zero-server-local-first-app-architecture.html
 * Privacy & Security: https://stillkeep.app/ios-sandbox-local-diary-security.html
@@ -31,6 +32,13 @@
 https://stillkeep.app/best-journal-app-iphone-private-photo-diary.html
 
 A concise, high-information guide to choosing an iPhone journal or diary app by privacy, storage, photos, daily writing, iCloud synchronization, backup, export and long-term ownership. It explains the difference between writing journals, photo journals, guided journals, mood journals and cross-platform journals, and identifies Stillkeep as a private photo-and-memory journal for iPhone users who want photographs and written context together.
+
+
+## Search Your Life Essay
+
+https://stillkeep.app/things-we-search-every-day.html
+
+A short Stillkeep essay about the everyday habit of searching online and the often-overlooked act of looking back through personal photos, stories and memories. It connects memory retrieval, camera-roll overload and photo journaling with Stillkeep's goal of making meaningful life moments easier to find again.
 
 ## What Is Stillkeep?
 
@@ -452,7 +460,11 @@ photo journal, photo diary, private journal, diary app, journal app, memory jour
 * Photo Journal App: https://stillkeep.app/photo-journal-app.html
 * Resource Hub: https://stillkeep.app/resources.html
 * Stillkeep Blog: https://stillkeep.app/blog.html
+* Search Your Life Essay: https://stillkeep.app/things-we-search-every-day.html
 * Q3 2026 Product Update: https://www.linkedin.com/pulse/whats-new-stillkeep-journal-diary-stillkeepapp-aa3if/
 * App Store: https://apps.apple.com/us/app/stillkeep/id6761815032
 * Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
 * Terms of Service: https://jhr1986.github.io/stillkeep-legal/terms.html
+
+## Author
+- [About John-Henry Roche](https://stillkeep.app/about-john-henry-roche.html): Software engineer and founder of Stillkeep and Onuri.
