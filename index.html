@@ -389,11 +389,11 @@
     }
 
     .pc1{left:0;top:56px;transform:rotate(-7deg);z-index:1}
-    .pc1 .photo{background:url("stillkeep-summer-road-trip.jpg") center / cover no-repeat}
+    .pc1 .photo{background:url("stillkeep-summer-road-trip.webp") center / cover no-repeat}
     .pc2{left:28%;top:0;transform:rotate(2deg);z-index:3}
-    .pc2 .photo{background:url("stillkeep-graduation.jpg") center / cover no-repeat}
+    .pc2 .photo{background:url("stillkeep-graduation.webp") center / cover no-repeat}
     .pc3{right:0;top:84px;transform:rotate(7deg);z-index:2}
-    .pc3 .photo{background:url("stillkeep-weekend-hike.jpg") center / cover no-repeat}
+    .pc3 .photo{background:url("stillkeep-weekend-hike.webp") center / cover no-repeat}
 
     .eras{
       position:relative;
@@ -1141,7 +1141,10 @@ header .navlink,
     @media(max-width:720px){.photocard-feature{grid-template-columns:1fr;padding:24px;gap:22px}.photocard-feature .cta{justify-self:start;white-space:normal}}
 </style>
 <link href="stillkeep-download-qr.css" rel="stylesheet"/>
-<link href="stillkeep-site-consistency.css" rel="stylesheet"/></head>
+<link href="stillkeep-site-consistency.css" rel="stylesheet"/><link rel="preload" as="image" type="image/webp" href="stillkeep-summer-road-trip.webp"/>
+<link rel="preload" as="image" type="image/webp" href="stillkeep-graduation.webp" fetchpriority="high"/>
+<link rel="preload" as="image" type="image/webp" href="stillkeep-weekend-hike.webp"/>
+</head>
 <body>
 <main class="wrap">
 <header>
