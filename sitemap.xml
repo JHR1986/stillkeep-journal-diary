@@ -166,6 +166,12 @@
   <url><loc>https://stillkeep.app/journal.html</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://stillkeep.app/diary.html</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url>
+    <loc>https://stillkeep.app/photobook.html</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://stillkeep.app/photocard.html</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
