@@ -1133,6 +1133,12 @@ header .navlink,
     .review-card .review-source{margin-top:14px;color:var(--muted,#655f70);font-size:.86rem}
     @media (max-width:720px){.review-grid{grid-template-columns:1fr}.reviews-proof{padding:36px 20px 34px}.rating-strip{padding:0 20px;margin-top:28px}}
 
+    .photocard-feature{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:center;margin:0 0 40px;padding:32px;border:1px solid #e7d6ef;border-radius:24px;background:linear-gradient(120deg,#f0ebff,#fff1f8 60%,#e9fbfc);box-shadow:0 12px 36px rgba(91,43,217,.08)}
+    .photocard-feature h2{margin:0 0 10px;font-size:clamp(1.6rem,3.5vw,2.2rem);line-height:1.2}
+    .photocard-feature p:not(.eyebrow){margin:0;color:var(--muted);max-width:62ch}
+    .photocard-feature .cta{white-space:nowrap}
+    .photocard-feature .cta:focus-visible{outline:3px solid #241d32;outline-offset:5px}
+    @media(max-width:720px){.photocard-feature{grid-template-columns:1fr;padding:24px;gap:22px}.photocard-feature .cta{justify-self:start;white-space:normal}}
 </style>
 <link href="stillkeep-download-qr.css" rel="stylesheet"/>
 <link href="stillkeep-site-consistency.css" rel="stylesheet"/></head>
@@ -1196,6 +1202,12 @@ header .navlink,
 </p>
 </div>
 </div>
+</section>
+<section aria-labelledby="photocard-feature-heading" class="photocard-feature">
+<div><p class="eyebrow">Your memories, made shareable</p>
+<h2 id="photocard-feature-heading">Turn a Moment into a memory photocard.</h2>
+<p>Share the photo with its story, emojis and details, framed in the colours of its Era. A personal keepsake to send to family and friends.</p></div>
+<a class="cta" href="photocard.html">Explore Memory Photocards <span aria-hidden="true">&nbsp;→</span></a>
 </section>
 </main>
 <section aria-labelledby="reviews-heading" class="reviews-proof">

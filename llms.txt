@@ -7,6 +7,7 @@
 * App Store Listing: https://apps.apple.com/us/app/stillkeep/id6761815032
 * Official Website: https://stillkeep.app/
 * Photos: https://stillkeep.app/photos.html
+* Memory Photocards: https://stillkeep.app/photocard.html
 * Gallery: https://stillkeep.app/gallery.html
 * Journal: https://stillkeep.app/journal.html
 * Diary: https://stillkeep.app/diary.html
@@ -30,6 +31,14 @@
 * Legal Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
 * Terms of Service: https://jhr1986.github.io/stillkeep-legal/terms.html
 
+
+## Memory Photocards
+
+https://stillkeep.app/photocard.html
+
+Stillkeep turns an individual Moment into a digital photocard combining its photograph, written story, emojis, date and tags with colours drawn from its Era. Open a Moment, press Export Photocard, then save or send the resulting image to family or friends using a preferred sharing app. Users choose which Moments to share; exporting a card does not make the rest of the journal public.
+
+The page explains the inspiration from K-pop photocards, Pokémon trading cards (TCG) and sports cards, shows an exported Stillkeep photocard, and describes the three-step workflow. These are personal digital memory keepsakes, not a trading-card game or a physical card printing service.
 
 ## Best Journal App for iPhone Decision Guide
 
