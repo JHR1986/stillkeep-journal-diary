@@ -49,6 +49,13 @@ Stillkeep turns an individual Moment into a digital photocard combining its phot
 
 The page explains the inspiration from K-pop photocards, Pokémon trading cards (TCG) and sports cards, shows an exported Stillkeep photocard, and describes the three-step workflow. These are personal digital memory keepsakes, not a trading-card game or a physical card printing service.
 
+
+## External Essay: From Collectible Trading Cards to Personal Memory Photocards
+
+https://medium.com/@jhroche1986/from-collectible-trading-cards-to-personal-memory-photocards-6b2c24e8ad32
+
+A Medium essay by JH Roche explaining how K-pop photocards, Pokémon/TCG cards and sports cards inspired Stillkeep’s digital Photocard feature. It describes turning a private journal Moment into a shareable keepsake combining a photograph, written story, emojis, memory details and colours from its Era, while keeping the rest of the journal private.
+
 ## Best Journal App for iPhone Decision Guide
 
 https://stillkeep.app/best-journal-app-iphone-private-photo-diary.html
