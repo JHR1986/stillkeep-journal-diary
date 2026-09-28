@@ -65,7 +65,7 @@
       '#sk-consent[hidden]{display:none!important}#sk-consent p{margin:0 0 12px}#sk-consent a{color:#5b2bd9}' +
       '#sk-consent-actions{display:flex;gap:9px;flex-wrap:wrap}' +
       '#sk-consent button,#sk-privacy-choices{appearance:none;border:1px solid rgba(91,43,217,.28);border-radius:999px;padding:9px 13px;font:600 13px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;cursor:pointer;background:#fff;color:#5b2bd9}' +
-      '#sk-consent .sk-accept{background:#5b2bd9;color:#fff;border-color:#5b2bd9}' +
+      '#sk-consent-actions button{background:#5b2bd9;color:#fff;border-color:#5b2bd9;min-width:150px}' +
       '#sk-privacy-choices{position:fixed;left:12px;bottom:12px;z-index:2147483646;padding:7px 10px;background:rgba(255,255,255,.96);box-shadow:0 4px 14px rgba(36,29,50,.1);font-size:11px}' +
       '@media(max-width:600px){#sk-consent{left:10px;right:10px;bottom:10px;padding:14px}#sk-consent-actions button{flex:1 1 auto}}';
     document.head.appendChild(style);
@@ -79,9 +79,14 @@
     var banner = document.createElement('div');
     banner.id = 'sk-consent';
     banner.setAttribute('role', 'dialog');
-    banner.setAttribute('aria-label', 'Analytics privacy choices');
+    banner.setAttribute('aria-label', 'Analytics cookie choice');
     banner.innerHTML =
-      '<p><strong>Optional analytics</strong><br>Stillkeep uses Google Analytics only if you choose Accept, to understand which pages are useful. Analytics does not load before you choose. <a href="https://jhr1986.github.io/stillkeep-legal/privacy.html">Privacy</a>.</p>' +
+      '<p><strong>Can we use analytics cookies?</strong><br>' +
+      'If you accept, this website uses Google Analytics to count visits and see which pages are useful. ' +
+      'This sets cookies on your device and shares information such as the pages you view and your device type with Google. ' +
+      'If you reject, Google Analytics is not loaded and no analytics cookies are set. ' +
+      'You can change your choice at any time using \u201cPrivacy choices\u201d at the bottom of the page. ' +
+      '<a href="/privacy.html">Website privacy notice</a></p>' +
       '<div id="sk-consent-actions"><button type="button" class="sk-reject">Reject analytics</button><button type="button" class="sk-accept">Accept analytics</button></div>';
     document.body.appendChild(banner);
 
@@ -124,6 +129,9 @@
       showBanner();
     }
   }
+
+  // Lets the website privacy notice open the choice banner from a button.
+  window.StillkeepConsent = { open: showBanner };
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init, { once: true });
