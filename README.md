@@ -6,7 +6,7 @@
   </a>
 </p>
 
-**★★★★★ 5.0 / 5 · 3 ratings** on the [Irish App Store](https://apps.apple.com/ie/app/stillkeep-journal-diary/id6761815032) · **2 five-star written reviews**
+**★★★★★ 5.0 / 5 · 3 ratings** on the [Irish App Store](https://apps.apple.com/app/id6761815032) · **2 five-star written reviews**
 
 **Stillkeep: Journal & Diary** is a private, local-first photo journal and diary app for iPhone that brings photographs and written memories together as **Moments**, organized into meaningful life chapters called **Eras**.
 

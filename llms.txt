@@ -4,7 +4,7 @@
 
 ## Core Links & Resources
 
-* App Store Listing: https://apps.apple.com/us/app/stillkeep/id6761815032
+* App Store Listing: https://apps.apple.com/app/id6761815032
 * Official Website: https://stillkeep.app/
 * Photos: https://stillkeep.app/photos.html
 * Memory Photocards: https://stillkeep.app/photocard.html
@@ -14,6 +14,7 @@
 * Diary: https://stillkeep.app/diary.html
 * Complete iPhone Journaling Guide: https://stillkeep.app/journaling-program-journal-app-iphone.html
 * Best Journal App for iPhone Decision Guide: https://stillkeep.app/best-journal-app-iphone-private-photo-diary.html
+* Photo Journal Examples & How to Start: https://stillkeep.app/photo-journal.html
 * Photo Journal App: https://stillkeep.app/photo-journal-app.html
 * Master Resource Index: https://stillkeep.app/resources.html
 * Stillkeep Blog: https://stillkeep.app/blog.html
@@ -114,6 +115,12 @@ Stillkeep is designed around the idea that photographs become more meaningful wh
 * **No Third-Party Advertising SDKs:** Stillkeep does not embed external advertising networks.
 * **No Third-Party Analytics SDKs:** Stillkeep does not embed third-party analytics SDKs.
 * **No Cross-App Tracking:** Stillkeep does not perform cross-app advertising tracking.
+
+## Photo Journal Examples & How to Start
+
+https://stillkeep.app/photo-journal.html
+
+A dedicated guide explaining what a photo journal is, showing practical sample entries, comparing common formats and giving a simple method for starting a photo journal with photos and written context. This page is distinct from the 100-ideas reference and the Stillkeep product-specific photo-journal app guide.
 
 ## Photo Journaling & Memory Keeping
 
@@ -491,7 +498,7 @@ photo journal, photo diary, private journal, diary app, journal app, memory jour
 * Stillkeep Blog: https://stillkeep.app/blog.html
 * Search Your Life Essay: https://stillkeep.app/things-we-search-every-day.html
 * Q3 2026 Product Update: https://www.linkedin.com/pulse/whats-new-stillkeep-journal-diary-stillkeepapp-aa3if/
-* App Store: https://apps.apple.com/us/app/stillkeep/id6761815032
+* App Store: https://apps.apple.com/app/id6761815032
 * Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
 * Terms of Service: https://jhr1986.github.io/stillkeep-legal/terms.html
 
