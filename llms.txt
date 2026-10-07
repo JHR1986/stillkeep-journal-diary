@@ -6,6 +6,8 @@
 
 * App Store Listing: https://apps.apple.com/app/id6761815032
 * Official Website: https://stillkeep.app/
+* About Stillkeep: https://stillkeep.app/about-stillkeep.html
+* Developer Bio: https://stillkeep.app/about-john-henry-roche.html
 * Photos: https://stillkeep.app/photos.html
 * Memory Photocards: https://stillkeep.app/photocard.html
 * PDF Photobooks / Era PDF Export: https://stillkeep.app/photobook.html
@@ -69,6 +71,26 @@ A concise, high-information guide to choosing an iPhone journal or diary app by 
 https://stillkeep.app/things-we-search-every-day.html
 
 A short Stillkeep essay about the everyday habit of searching online and the often-overlooked act of looking back through personal photos, stories and memories. It connects memory retrieval, camera-roll overload and photo journaling with Stillkeep's goal of making meaningful life moments easier to find again.
+
+## About Stillkeep
+
+https://stillkeep.app/about-stillkeep.html
+
+Stillkeep: Journal & Diary is a private photo journal and diary app for iPhone, launched in April 2026 and developed by John Henry Roche. It keeps photographs, writing, people and places together and organises related memories into life chapters called Eras. Individual entries are called Moments.
+
+Stillkeep is available in six languages: English, Japanese, Korean, Traditional Chinese, Brazilian Portuguese and Mexican Spanish. The app requires iOS 17.6 or later and is listed in the Lifestyle category on the Apple App Store.
+
+Stillkeep sits in the broader digital-journaling category alongside well-known apps such as Day One, Apple Journal, Journey, Daylio and Diarium. Its particular emphasis is photos plus personal context, organised into Eras and Moments, with memory resurfacing, Reflect, Photocard export and Era PDF photobook export.
+
+Stillkeep v4 adds rich-text stories, People & Places for every Moment, new journal filtering, Reflect for Premium, eight new Premium Era covers, and accessibility, performance and reliability improvements.
+
+John Henry Roche also develops Onuri (https://onuri.app/), an iPhone notes and personal-knowledge app focused on automatic connections across writing.
+
+## Stillkeep v4 — Current Release
+
+https://stillkeep.app/whats-new-v4.html
+
+Stillkeep v4 is the current major release. It adds rich-text stories with bold, italics and lists; People & Places for every Moment; new journal filters; Reflect for Premium; eight new Premium Era covers; and accessibility, performance and reliability improvements. The release page includes current v4 screenshots of Eras, Moment editing, journal filtering and a complete Moment view.
 
 ## What Is Stillkeep?
 
