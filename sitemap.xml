@@ -1,142 +1,228 @@
-<?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://stillkeep.app/</loc>
     <lastmod>2026-10-07</lastmod>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-add-moment.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-moments-feed.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-eras.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-fullscreen-memory.webp</image:loc></image:image>
   </url>
   <url>
-    <loc>https://stillkeep.app/photo-journal.html</loc>
-    <lastmod>2026-09-30</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/best-journal-app-iphone-private-photo-diary.html</loc>
-    <lastmod>2026-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/journaling-program-journal-app-iphone.html</loc>
-    <lastmod>2026-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/photo-journal-app.html</loc>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/resources.html</loc>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/blog.html</loc>
-    <lastmod>2026-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/capabilities.html</loc>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/journal-app.html</loc>
-    <lastmod>2026-09-30</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/free-journal-app.html</loc>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/free-diary-app.html</loc>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/free-gratitude-journal-app.html</loc>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/memory-journal.html</loc>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/manifestation-journal.html</loc>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/chapter-based-journaling-eras.html</loc>
-    <lastmod>2026-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/curate-camera-roll-photo-journal.html</loc>
-    <lastmod>2026-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/digital-minimalism-low-pressure-journaling.html</loc>
-    <lastmod>2026-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/ios-sandbox-local-diary-security.html</loc>
-    <lastmod>2026-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/journal-data-portability-long-term-preservation.html</loc>
-    <lastmod>2026-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/local-first-mobile-journaling.html</loc>
-    <lastmod>2026-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/private-icloud-containers-journal-sync.html</loc>
-    <lastmod>2026-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/replace-paper-notebook-local-first-journal.html</loc>
-    <lastmod>2026-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/zero-server-local-first-app-architecture.html</loc>
-    <lastmod>2026-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/how-to-organize-photos-memories-iphone.html</loc>
-    <lastmod>2026-09-30</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/journal-app-alternative-stillkeep-iphone.html</loc>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/photo-journal-ideas.html</loc>
-    <lastmod>2026-09-30</lastmod>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/memory-test.html</loc>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/things-we-search-every-day.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <loc>https://stillkeep.app/about-john-henry-roche.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://stillkeep.app/about-stillkeep.html</loc>
     <lastmod>2026-10-07</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stillkeep.app/whats-new-v4.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <loc>https://stillkeep.app/best-journal-app-iphone-private-photo-diary.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stillkeep.app/about-john-henry-roche.html</loc>
+    <loc>https://stillkeep.app/blog.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stillkeep.app/privacy.html</loc>
+    <loc>https://stillkeep.app/capabilities.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://stillkeep.app/photos.html</loc>
+    <loc>https://stillkeep.app/chapter-based-journaling-eras.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://stillkeep.app/gallery.html</loc>
-  </url>
-  <url>
-    <loc>https://stillkeep.app/journal.html</loc>
+    <loc>https://stillkeep.app/curate-camera-roll-photo-journal.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://stillkeep.app/diary.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-eras.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/digital-minimalism-low-pressure-journaling.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/free-diary-app.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/free-gratitude-journal-app.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/free-journal-app.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/gallery.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-moments-feed.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/how-to-organize-photos-memories-iphone.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/ios-sandbox-local-diary-security.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/journal-app-alternative-stillkeep-iphone.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/journal-app.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/journal-data-portability-long-term-preservation.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/journal.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-add-moment.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/journaling-program-journal-app-iphone.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-add-moment.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-moments-feed.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-eras.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-fullscreen-memory.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/local-first-mobile-journaling.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/manifestation-journal.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/memory-journal.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/memory-test.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://stillkeep.app/memory-test-friends.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/photo-journal-app-iphone.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-photo-journal-moment.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-moments-photo-journal.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-eras-photo-journal.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-add-photo-moment.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-travel-photo-journal.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/photo-journal-app.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/photo-journal-ideas.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-fullscreen-memory.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/photo-journal.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-summer-road-trip.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-graduation.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-weekend-hike.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://stillkeep.app/photobook.html</loc>
     <lastmod>2026-09-30</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-photobook-cover.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-photobook-page.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://stillkeep.app/photocard.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://stillkeep.app/photocard-example.webp</image:loc></image:image>
   </url>
   <url>
-    <loc>https://stillkeep.app/photo-journal-app-iphone.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <loc>https://stillkeep.app/photos.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-fullscreen-memory.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/privacy.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/private-icloud-containers-journal-sync.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/replace-paper-notebook-local-first-journal.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/resources.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/things-we-search-every-day.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://stillkeep.app/search-every-day-illustration.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/whats-new-v4.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-eras.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-add-moment.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-moments-feed.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/stillkeep-fullscreen-memory.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/zero-server-local-first-app-architecture.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.7</priority>
   </url>
 </urlset>
