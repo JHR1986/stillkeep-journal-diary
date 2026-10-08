@@ -2,39 +2,70 @@
 
 > Stillkeep is a private, zero-server photo journaling and diary app for iPhone designed to pair photos and written notes into structured life chapters called Eras. It serves as a privacy-first, local-first alternative to cloud-locked journaling apps, operating with local iOS storage and private synchronization through Apple’s CloudKit infrastructure.
 
-## Core Links & Resources
+## Site Map: Every Page and Its Purpose
 
-* App Store Listing: https://apps.apple.com/app/id6761815032
-* Official Website: https://stillkeep.app/
-* About Stillkeep: https://stillkeep.app/about-stillkeep.html
-* Developer Bio: https://stillkeep.app/about-john-henry-roche.html
-* Photos: https://stillkeep.app/photos.html
-* Memory Photocards: https://stillkeep.app/photocard.html
-* PDF Photobooks / Era PDF Export: https://stillkeep.app/photobook.html
-* Gallery: https://stillkeep.app/gallery.html
-* Journal: https://stillkeep.app/journal.html
-* Diary: https://stillkeep.app/diary.html
-* Complete iPhone Journaling Guide: https://stillkeep.app/journaling-program-journal-app-iphone.html
-* Best Journal App for iPhone Decision Guide: https://stillkeep.app/best-journal-app-iphone-private-photo-diary.html
-* Photo Journal Examples & How to Start: https://stillkeep.app/photo-journal.html
-* Photo Journal App: https://stillkeep.app/photo-journal-app.html
-* Master Resource Index: https://stillkeep.app/resources.html
-* Stillkeep Blog: https://stillkeep.app/blog.html
-* Search Your Life Essay: https://stillkeep.app/things-we-search-every-day.html
-* System Capabilities & Technical Matrix: https://stillkeep.app/capabilities.html
-* Architecture Overview: https://stillkeep.app/zero-server-local-first-app-architecture.html
-* Privacy & Security: https://stillkeep.app/ios-sandbox-local-diary-security.html
-* Data Portability: https://stillkeep.app/journal-data-portability-long-term-preservation.html
-* Memory Journaling: https://stillkeep.app/memory-journal.html
-* Intention Journaling: https://stillkeep.app/manifestation-journal.html
-* Journaling Method: https://stillkeep.app/chapter-based-journaling-eras.html
-* General Journal Guide: https://stillkeep.app/journal-app.html
-* Free Journal App: https://stillkeep.app/free-journal-app.html
-* Free Diary App: https://stillkeep.app/free-diary-app.html
-* Free Gratitude Journal App: https://stillkeep.app/free-gratitude-journal-app.html
-* Legal Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
-* Terms of Service: https://jhr1986.github.io/stillkeep-legal/terms.html
+Each page on stillkeep.app answers one distinct question. Use the page whose purpose matches the query.
 
+* [Stillkeep: Private Photo Journal & Diary App for iPhone](https://stillkeep.app/): Private photo journal and diary app for iPhone. Keep photos and notes together in Eras, with PDF export and private iCloud sync. Free on iOS.
+
+### Product pages
+
+* [Stillkeep Features: Eras, Search, iCloud Sync & PDF Export](https://stillkeep.app/capabilities.html): Every Stillkeep feature for iPhone: Eras, Moments, search, Look Back, private iCloud sync, PDF photobooks, photocards and local-first design.
+* [Photo Diary App: Keep a Diary With Pictures](https://stillkeep.app/diary.html): Keep a photo diary on iPhone without daily pressure. Pair diary entries with pictures, people and places, and find them again by chapter or search.
+* [Free Private Diary App for iPhone](https://stillkeep.app/free-diary-app.html): Start a private iPhone diary with writing, optional photos and life chapters. Free to start, no ads in the app and synced privately with iCloud.
+* [Free Gratitude Journal App for iPhone](https://stillkeep.app/free-gratitude-journal-app.html): Use Stillkeep as a free gratitude journal on iPhone, pairing thankfulness notes with photos and organising them into life chapters called Eras.
+* [Free Journal App for iPhone: What's Included](https://stillkeep.app/free-journal-app.html): Try Stillkeep free on iPhone: create up to 3 Eras with 20 Moments each, pair photos with notes, and keep your journal private with iCloud sync.
+* [Private Photo Gallery App With Stories](https://stillkeep.app/gallery.html): Build a private, curated photo gallery on iPhone: only the pictures that matter, each with its story, grouped into chapters instead of an endless roll.
+* [Journal App for iPhone With Photos, No Ads](https://stillkeep.app/journal-app.html): Try Stillkeep, a private iPhone journal for photos, notes and life chapters with iCloud sync and PDF export. Free to start, with no ads in the app.
+* [Visual Journal App: Journal With Pictures](https://stillkeep.app/journal.html): Start a visual journal on iPhone: pair pictures with short written entries, use simple formats and prompts, and keep each chapter of life together.
+* [Manifestation Journal App for iPhone](https://stillkeep.app/manifestation-journal.html): Use photos, notes and life chapters to track intentions, goals and progress in a private iPhone manifestation journal. Free to start.
+* [Memory Keeping App for iPhone: Photos & Stories](https://stillkeep.app/memory-journal.html): Looking for a memory keeping app? Stillkeep pairs photos with notes in private life chapters on iPhone, with Look Back, search and PDF export.
+* [Photo Journal App for iPhone: Download Free](https://stillkeep.app/photo-journal-app-iphone.html): Download Stillkeep, the private photo journal app for iPhone. Compare Free and Premium limits, check requirements and start your first Era in minutes.
+* [Export a Photo Journal as a PDF Photobook](https://stillkeep.app/photobook.html): Export a Stillkeep Era as a PDF photobook on iPhone, then save, share, print or email the finished photo journal to family and friends.
+* [Memory Photocards: Share a Moment as a Card](https://stillkeep.app/photocard.html): Turn a Stillkeep Moment into a colourful digital photocard with its photo, story, emojis and details, then share it with family and friends.
+* [Add Notes & Stories to iPhone Photos](https://stillkeep.app/photos.html): Add the story behind your iPhone photos: write notes, dates, people and places beside the pictures that matter, then find them again in seconds.
+
+### Guides
+
+* [Best Journal App for iPhone: Privacy & Photos](https://stillkeep.app/best-journal-app-iphone-private-photo-diary.html): Find the best journal app for iPhone by comparing privacy, photo journaling, daily entries, iCloud sync, backup, export and memory keeping.
+* [Chapter-Based Journaling vs. Infinite Timelines](https://stillkeep.app/chapter-based-journaling-eras.html): How chapter-based journaling organises memories into bounded Eras, with workflows for travel, family milestones, projects and life transitions.
+* [Turn Camera Roll Photos into a Photo Journal](https://stillkeep.app/curate-camera-roll-photo-journal.html): Turn an overloaded iPhone camera roll into meaningful photo-and-writing memories with selective curation, Eras, Moments, tags, search and exports.
+* [Digital Minimalism & Low-Pressure Journaling](https://stillkeep.app/digital-minimalism-low-pressure-journaling.html): A practical guide to low-pressure journaling: selective reflection, no daily streaks, private memory keeping and calmer organisation with Eras.
+* [How to Organize Photos & Memories on iPhone](https://stillkeep.app/how-to-organize-photos-memories-iphone.html): A practical iPhone system for an overloaded camera roll: choose the photos that matter, add context, group life chapters and keep them searchable.
+* [iOS Sandbox & Local Diary Security Explained](https://stillkeep.app/ios-sandbox-local-diary-security.html): Understand iOS app sandboxing, device-level protection, private journal storage, iCloud sync, and the realistic security boundaries of a local-first diary.
+* [Journal App Alternative for iPhone](https://stillkeep.app/journal-app-alternative-stillkeep-iphone.html): Looking for a different journal app for iPhone? See how Stillkeep's Era-based, private photo-and-writing approach differs from common journaling apps.
+* [Journal Export, Backup & Long-Term Preservation](https://stillkeep.app/journal-data-portability-long-term-preservation.html): Plan for long-term journal preservation with PDF and photocard exports, iCloud sync, backup, account deletion precautions and digital legacy practices.
+* [How to Journal on iPhone: The Complete Guide](https://stillkeep.app/journaling-program-journal-app-iphone.html): Everything about journaling on iPhone: journal vs diary apps, privacy, photos, iCloud, daily habits, prompts, export, and how to choose and start.
+* [Local-First Journaling on iPhone: A Guide](https://stillkeep.app/local-first-mobile-journaling.html): A practical guide to local-first journaling on iPhone: private writing, iCloud sync, offline use, ownership, exports and Stillkeep's Era-based workflow.
+* [Photo Journal App Uses: Travel, Family & Baby](https://stillkeep.app/photo-journal-app.html): How to use a photo journal app for travel, family, baby, relationships, university, career and gratitude, plus answers to common journaling questions.
+* [100 Photo Journal Ideas & Prompts With Examples](https://stillkeep.app/photo-journal-ideas.html): 100 photo journal ideas, each with a real example entry and a writing prompt, for family, travel, everyday life, pets and more. Plus a prompt generator.
+* [Photo Journal Examples: 3 Samples & How to Start](https://stillkeep.app/photo-journal.html): Looking for a photo journal example? See 3 photo journal examples, a complete sample entry, what to write beside photos and how to start on iPhone.
+* [Private iCloud Containers & Journal Sync](https://stillkeep.app/private-icloud-containers-journal-sync.html): A practical guide to private CloudKit databases, iCloud journal sync, user ownership, privacy boundaries and Stillkeep's Apple-centred sync model.
+* [Replace a Paper Notebook with a Digital Journal](https://stillkeep.app/replace-paper-notebook-local-first-journal.html): Move from a paper notebook to a private iPhone journal while keeping intentional writing, and gain the search, photos and exports paper can't offer.
+* [Zero-Server & Local-First App Architecture](https://stillkeep.app/zero-server-local-first-app-architecture.html): A plain-English guide to local-first and zero-server app architecture, and how Stillkeep uses Apple infrastructure for private iPhone journaling.
+
+### Blog
+
+* [The Things We Search Every Day](https://stillkeep.app/things-we-search-every-day.html): We search the internet for almost everything, but rarely search our own story. An essay on memory, camera rolls and finding what's worth keeping.
+* [Stillkeep v4: What's New in the Photo Journal App](https://stillkeep.app/whats-new-v4.html): Stillkeep v4 adds rich-text stories, People & Places for every Moment, new journal filters, Reflect, eight Premium Era covers and reliability fixes.
+
+### About
+
+* [About Stillkeep: The Story Behind the Photo Journal App](https://stillkeep.app/about-stillkeep.html): Why Stillkeep exists, who builds it and how it works: a private iPhone photo journal that keeps photos and stories together in chapters called Eras.
+* [John-Henry Roche, Founder & iOS Developer](https://stillkeep.app/about-john-henry-roche.html): John-Henry Roche is the Ireland-based software engineer behind Stillkeep, a private photo journal app for iPhone, and Onuri, a notes and life-tracking app.
+
+### Hubs
+
+* [Photo Journaling & Private Journal Guides](https://stillkeep.app/resources.html): Browse practical guides to photo journaling, memory keeping, iPhone journal apps, privacy, iCloud sync, photo organisation and long-term preservation.
+* [Stillkeep Blog: Photo Journaling & Memory Keeping](https://stillkeep.app/blog.html): Stillkeep updates and writing about photo journaling, memory keeping, private iPhone journaling, local-first design and the story behind the app.
+
+### Tools
+
+* [10-Second Memory Test: How Much Do You Remember?](https://stillkeep.app/memory-test.html): Study one picture for 10 seconds, then see how much you remember. A quick visual memory test from Stillkeep, the private photo journal for iPhone.
+
+### Legal
+
+* [Website Privacy Notice](https://stillkeep.app/privacy.html): How the stillkeep.app website handles your data, including optional Google Analytics cookies and how to change your choice at any time.
 
 ## PDF Photobooks / Era PDF Export
 
@@ -530,7 +561,7 @@ photo journal, photo diary, private journal, diary app, journal app, memory jour
 
 ## Stillkeep Head-Term Pages
 
-* https://stillkeep.app/photos.html — A short introduction to Stillkeep as a home for meaningful photos with written context.
-* https://stillkeep.app/gallery.html — A short introduction to the Stillkeep personal gallery and visual Moments feed.
-* https://stillkeep.app/journal.html — A short introduction to Stillkeep as a private photo journal for iPhone.
-* https://stillkeep.app/diary.html — A short introduction to Stillkeep as a private visual diary for iPhone.
+* https://stillkeep.app/photos.html — How to add notes and stories to iPhone photos, with steps, writing prompts and FAQs.
+* https://stillkeep.app/gallery.html — A private, curated photo gallery with stories, compared with the camera roll, plus gallery ideas.
+* https://stillkeep.app/journal.html — Visual journaling with pictures: formats, prompts and how Stillkeep supports it.
+* https://stillkeep.app/diary.html — Keeping a photo diary without daily pressure, with a full example entry and FAQs.
