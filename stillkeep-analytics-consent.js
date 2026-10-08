@@ -61,13 +61,14 @@
     var style = document.createElement('style');
     style.id = 'sk-consent-styles';
     style.textContent =
-      '#sk-consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:2147483647;max-width:720px;margin:0 auto;padding:16px 18px;background:#fff;color:#241d32;border:1px solid rgba(91,43,217,.18);border-radius:18px;box-shadow:0 12px 36px rgba(36,29,50,.16);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}' +
-      '#sk-consent[hidden]{display:none!important}#sk-consent p{margin:0 0 12px}#sk-consent a{color:#5b2bd9}' +
-      '#sk-consent-actions{display:flex;gap:9px;flex-wrap:wrap}' +
-      '#sk-consent button,#sk-privacy-choices{appearance:none;border:1px solid rgba(91,43,217,.28);border-radius:999px;padding:9px 13px;font:600 13px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;cursor:pointer;background:#fff;color:#5b2bd9}' +
-      '#sk-consent-actions button{background:#5b2bd9;color:#fff;border-color:#5b2bd9;min-width:150px}' +
-      '#sk-privacy-choices{position:fixed;left:12px;bottom:12px;z-index:2147483646;padding:7px 10px;background:rgba(255,255,255,.96);box-shadow:0 4px 14px rgba(36,29,50,.1);font-size:11px}' +
-      '@media(max-width:600px){#sk-consent{left:10px;right:10px;bottom:10px;padding:14px}#sk-consent-actions button{flex:1 1 auto}}';
+      '#sk-consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:2147483647;max-width:640px;margin:0 auto;padding:12px 14px 12px 18px;display:flex;align-items:center;gap:14px;background:#fff;color:#241d32;border:1px solid rgba(91,43,217,.18);border-radius:16px;box-shadow:0 12px 36px rgba(36,29,50,.16);font:13.5px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}' +
+      '#sk-consent[hidden]{display:none!important}#sk-consent p{margin:0;flex:1 1 auto}#sk-consent a{color:#5b2bd9;font-weight:600}' +
+      '#sk-consent-actions{display:flex;gap:8px;flex:0 0 auto}' +
+      '#sk-consent button,#sk-privacy-choices{appearance:none;border:1px solid #5b2bd9;border-radius:999px;padding:9px 16px;min-height:40px;font:600 13px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;cursor:pointer;background:#fff;color:#5b2bd9}' +
+      '#sk-consent button:hover{background:#f6f2ff}' +
+      '#sk-privacy-choices{position:fixed;left:12px;bottom:12px;z-index:2147483646;padding:7px 10px;min-height:0;border-color:rgba(91,43,217,.28);background:rgba(255,255,255,.96);box-shadow:0 4px 14px rgba(36,29,50,.1);font-size:11px}' +
+      '@media(max-width:600px){#sk-consent{left:10px;right:10px;bottom:10px;flex-wrap:wrap;padding:12px 14px;gap:10px}#sk-consent-actions{width:100%}#sk-consent-actions button{flex:1 1 0}}' +
+      '@media print{#sk-consent,#sk-privacy-choices{display:none!important}}';
     document.head.appendChild(style);
   }
 
@@ -81,12 +82,9 @@
     banner.setAttribute('role', 'dialog');
     banner.setAttribute('aria-label', 'Analytics cookie choice');
     banner.innerHTML =
-      '<p><strong>Can we use analytics cookies?</strong><br>' +
-      'If you accept, this website uses Google Analytics to count visits and see which pages are useful. ' +
-      'This sets cookies on your device and shares information such as the pages you view and your device type with Google. ' +
-      'If you reject, Google Analytics is not loaded and no analytics cookies are set. ' +
-      'You can change your choice at any time using \u201cPrivacy choices\u201d at the bottom of the page. ' +
-      '<a href="/privacy.html">Website privacy notice</a></p>' +
+      '<p><strong>Analytics cookies?</strong> ' +
+      'With your OK, we use Google Analytics to see which pages are useful. Nothing loads unless you accept. ' +
+      '<a href="/privacy.html">Details</a></p>' +
       '<div id="sk-consent-actions"><button type="button" class="sk-reject">Reject analytics</button><button type="button" class="sk-accept">Accept analytics</button></div>';
     document.body.appendChild(banner);
 
