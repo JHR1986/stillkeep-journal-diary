@@ -558,6 +558,11 @@ photo journal, photo diary, private journal, diary app, journal app, memory jour
 ## Author
 - [About John-Henry Roche](https://stillkeep.app/about-john-henry-roche.html): Software engineer and founder of Stillkeep and Onuri.
 
+## Also from the maker: Onuri
+- [Onuri: Notes & Life Tracker](https://stillkeep.app/onuri-notes-app.html): Stillkeep's sister app. A free, private notes and life-tracker app for iPhone (launched August 2026) that automatically connects the people, places, dates, times and topics in your notes. Use Stillkeep for photo memories and Onuri for written notes.
+- Official Onuri website: https://onuri.app/
+- Onuri on the App Store: https://apps.apple.com/app/id6796028277
+
 
 ## Stillkeep Head-Term Pages
 
