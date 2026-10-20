@@ -302,3 +302,5 @@ main > .sk-section:last-child, article ~ .sk-section:last-child{margin-bottom:24
   .sk-table thead th{font-size:.66rem;letter-spacing:.06em}
 }
 .screenshot-grid{box-sizing:border-box;max-width:100%}
+
+.sk-footer__sister{font-size:.9rem}.sk-footer__sister a{color:inherit;text-decoration:underline;text-underline-offset:3px}

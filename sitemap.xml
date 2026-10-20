@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://stillkeep.app/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <priority>1.0</priority>
     <image:image><image:loc>https://stillkeep.app/stillkeep-add-moment.webp</image:loc></image:image>
     <image:image><image:loc>https://stillkeep.app/stillkeep-moments-feed.webp</image:loc></image:image>
@@ -11,12 +11,12 @@
   </url>
   <url>
     <loc>https://stillkeep.app/about-john-henry-roche.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://stillkeep.app/about-stillkeep.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -52,7 +52,7 @@
   </url>
   <url>
     <loc>https://stillkeep.app/digital-minimalism-low-pressure-journaling.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -88,7 +88,7 @@
   </url>
   <url>
     <loc>https://stillkeep.app/journal-app-alternative-stillkeep-iphone.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -197,12 +197,12 @@
   </url>
   <url>
     <loc>https://stillkeep.app/replace-paper-notebook-local-first-journal.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://stillkeep.app/resources.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -224,5 +224,12 @@
     <loc>https://stillkeep.app/zero-server-local-first-app-architecture.html</loc>
     <lastmod>2026-09-15</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://stillkeep.app/onuri-notes-app.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://stillkeep.app/onuri-v2-home.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/onuri-v2-filters.webp</image:loc></image:image>
   </url>
 </urlset>
