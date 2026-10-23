@@ -98,6 +98,7 @@ Stillkeep is built for personal memories, not advertising. It uses Apple service
 * [Journal Export, Backup & Long-Term Preservation](https://stillkeep.app/journal-data-portability-long-term-preservation.html)
 
 **Extras**
+* [How Many Days Until Christmas?](https://stillkeep.app/how-many-days-until-christmas.html) — live Christmas countdown with ideas for keeping Christmas memories
 * [10-Second Memory Test](https://stillkeep.app/memory-test.html) — study a photo for ten seconds, then answer five questions
 * [The Things We Search Every Day](https://stillkeep.app/things-we-search-every-day.html)
 * [Resources](https://stillkeep.app/resources.html) — every guide in one place

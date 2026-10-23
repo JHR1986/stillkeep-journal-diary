@@ -61,6 +61,7 @@ Each page on stillkeep.app answers one distinct question. Use the page whose pur
 
 ### Tools
 
+* [How Many Days Until Christmas? Countdown & Memory Ideas](https://stillkeep.app/how-many-days-until-christmas.html): A live countdown to Christmas Day in days, sleeps, weeks and weekends, using the visitor's own time zone, plus ideas and steps for keeping Christmas memories in a Stillkeep Era.
 * [10-Second Memory Test: How Much Do You Remember?](https://stillkeep.app/memory-test.html): Study one picture for 10 seconds, then see how much you remember. A quick visual memory test from Stillkeep, the private photo journal for iPhone.
 
 ### Legal
@@ -279,6 +280,12 @@ This makes Stillkeep useful for people looking for:
 https://stillkeep.app/memory-test.html
 
 Stillkeep publishes a free 10-Second Memory Test. A visitor studies one photograph for ten seconds, answers five visual recall questions, receives a score, and is then introduced to Stillkeep's photo-journaling proposition. The test is entertainment/engagement content and is not a medical, psychological, or diagnostic memory assessment.
+
+## Christmas Countdown
+
+https://stillkeep.app/how-many-days-until-christmas.html
+
+Stillkeep publishes a free "How many days until Christmas?" countdown. It shows the days, sleeps, weeks and weekends left until Christmas Day, plus an exact days/hours/minutes/seconds timer. It runs entirely in the browser using the visitor's own clock and time zone, switches to the following year's Christmas on 26 December, and stores nothing. The page also suggests ten Christmas moments worth keeping and shows how to collect them in a "Christmas" Era in Stillkeep, then share them as a photocard or PDF photobook.
 
 ## How Stillkeep Is Organized
 

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://stillkeep.app/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <priority>1.0</priority>
     <image:image><image:loc>https://stillkeep.app/stillkeep-add-moment.webp</image:loc></image:image>
     <image:image><image:loc>https://stillkeep.app/stillkeep-moments-feed.webp</image:loc></image:image>
@@ -132,6 +132,15 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://stillkeep.app/how-many-days-until-christmas.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://stillkeep.app/christmas-tree-fireplace-2400w.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/christmas-cat-tree-960w.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/christmas-lights-london-960w.webp</image:loc></image:image>
+    <image:image><image:loc>https://stillkeep.app/christmas-countdown-social-preview.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://stillkeep.app/memory-test.html</loc>
     <lastmod>2026-10-08</lastmod>
     <priority>0.6</priority>
@@ -202,7 +211,7 @@
   </url>
   <url>
     <loc>https://stillkeep.app/resources.html</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
