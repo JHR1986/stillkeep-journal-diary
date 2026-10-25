@@ -304,3 +304,56 @@ main > .sk-section:last-child, article ~ .sk-section:last-child{margin-bottom:24
 .screenshot-grid{box-sizing:border-box;max-width:100%}
 
 .sk-footer__sister{font-size:.9rem}.sk-footer__sister a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+
+/* Home: voluntary App Store review invitation — matches the Stillkeep pastel identity. */
+.reviews-proof .review-invitation{
+  position:relative; isolation:isolate; overflow:hidden; display:grid;
+  grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr); align-items:center;
+  gap:12px; margin:30px auto 0; padding:38px 38px 32px;
+  border:1px solid #e9dff8; border-radius:28px;
+  background:radial-gradient(ellipse at 73% 20%,rgba(228,162,242,.33),transparent 45%),
+    radial-gradient(ellipse at 100% 95%,rgba(255,174,166,.38),transparent 47%),
+    radial-gradient(ellipse at 4% 90%,rgba(133,224,241,.24),transparent 52%),
+    linear-gradient(122deg,#fbfaff 5%,#f5efff 51%,#fff6f6);
+  box-shadow:0 16px 45px rgba(91,43,217,.065); text-align:left;
+}
+.reviews-proof .review-invitation-copy{position:relative;z-index:2;max-width:560px}
+.reviews-proof .review-invitation-eyebrow{
+  margin:0 0 11px; color:#6b45ba; font-size:.77rem; font-weight:750;
+  letter-spacing:.11em;text-transform:uppercase;
+}
+.reviews-proof .review-invitation h3{
+  margin:0 0 18px;color:var(--sk-ink);font-family:var(--sk-serif);
+  font-size:clamp(1.7rem,3.2vw,2.6rem);font-weight:400;line-height:1.17;
+  letter-spacing:-.025em;
+}
+.reviews-proof .review-invitation-copy>p:not(.review-invitation-eyebrow):not(.review-invitation-footnote){
+  max-width:48ch;margin:0 0 12px;color:#484255;font-size:1rem;line-height:1.7;
+}
+.reviews-proof .review-invitation-link{
+  display:inline-flex;align-items:center;justify-content:center;gap:11px;
+  margin-top:12px;min-height:52px;max-width:100%;box-sizing:border-box;
+  padding:13px 22px;border-radius:14px;color:#fff;text-decoration:none;
+  background:linear-gradient(105deg,#6550f5 0%,#c94fd2 58%,#ef85a2 100%);
+  box-shadow:0 9px 23px rgba(103,71,201,.19);
+  font-weight:700;line-height:1.3;text-align:center;
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.reviews-proof .review-invitation-link:hover{color:white;transform:translateY(-2px);box-shadow:0 13px 27px rgba(103,71,201,.25)}
+.reviews-proof .review-invitation-link:focus-visible{outline:3px solid #241d32;outline-offset:4px}
+.reviews-proof .review-invitation-footnote{margin:14px 0 0;color:#6b637b;font-size:.82rem;line-height:1.45}
+.reviews-proof .review-invitation-art{position:relative;align-self:stretch;display:flex;align-items:end;justify-content:center;min-width:0}
+.reviews-proof .review-invitation-art img{
+  display:block;width:min(100%,450px);height:auto;max-height:350px;object-fit:contain;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0%,black 15%,black 95%,transparent 100%);
+  mask-image:linear-gradient(90deg,transparent 0%,black 15%,black 95%,transparent 100%);
+  mix-blend-mode:multiply;
+}
+@media(max-width:750px){
+  .reviews-proof .review-invitation{grid-template-columns:1fr;padding:28px 24px 0;gap:0;border-radius:23px}
+  .reviews-proof .review-invitation h3{font-size:clamp(1.75rem,7vw,2.35rem)}
+  .reviews-proof .review-invitation-art{max-height:250px;overflow:hidden;margin-top:8px}
+  .reviews-proof .review-invitation-art img{width:min(100%,350px);max-height:300px;object-fit:contain}
+  .reviews-proof .review-invitation-link{width:100%;font-size:.94rem}
+}
+@media(prefers-reduced-motion:reduce){.reviews-proof .review-invitation-link{transition:none}}
