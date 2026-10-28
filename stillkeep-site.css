@@ -424,3 +424,49 @@ main > .sk-section:last-child, article ~ .sk-section:last-child{margin-bottom:24
 @media(min-width:1151px){.sk-footer__cols{grid-template-columns:repeat(6,minmax(0,1fr))}}
 @media(max-width:1150px) and (min-width:641px){.sk-footer__cols{grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 22px}}
 @media(max-width:640px){.sk-footer__cols{grid-template-columns:repeat(2,minmax(0,1fr))}.life-home-card img{display:block}}
+
+
+/* Life-event screenshot story sections — October 28, 2026 */
+.life-story .life-feature{background:linear-gradient(125deg,#faf6ff 0%,#fff9f4 100%);}
+.life-story .life-feature-layout{display:grid;grid-template-columns:minmax(0,1.07fr) minmax(0,.93fr);gap:clamp(32px,6vw,88px);align-items:center;}
+.life-story .life-feature-copy{max-width:520px;}
+.life-story .life-feature-copy h2{max-width:17ch;}
+.life-story .life-feature-figure,.life-story .life-app-figure,.life-story .life-premium-figure{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0;margin:0;}
+.life-story .life-feature-phone,.life-story .life-app-figure .life-phone,.life-story .life-premium-phone{display:block;height:auto;object-fit:contain;max-width:100%;width:auto;border-radius:21px;box-shadow:0 16px 44px rgba(42,28,55,.16);border:1px solid rgba(67,45,80,.07);}
+.life-story .life-feature-phone{max-height:510px;}
+.life-story .life-app-figure .life-phone{max-height:530px;filter:none;}
+.life-story .life-feature-figure figcaption,.life-story .life-app-figure figcaption,.life-story .life-premium-figure figcaption{max-width:320px;text-align:center;margin:13px auto 0;font-size:12px;line-height:1.5;color:#736a79;}
+.life-story .life-app .life-split{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(25px,4vw,60px);}
+.life-story .life-app .life-split > div{min-width:0;}
+.life-story .life-download-options{display:flex;flex-flow:row nowrap;align-items:center;gap:14px;margin-top:26px;width:100%;}
+.life-story .life-download-options > .life-button{order:0;white-space:nowrap;flex:0 0 auto;font-size:14px;padding:13px 16px;margin:0;}
+.life-story .life-download-options > .life-download-qr{order:1;display:flex;align-items:center;gap:9px;flex:0 1 260px;min-width:0;max-width:none;padding:8px 10px;border-radius:13px;background:#fff;}
+.life-story .life-download-options > .life-download-qr img{display:block;flex:0 0 76px;width:76px;height:76px;padding:3px;}
+.life-story .life-download-options > .life-download-qr span{font-size:11px;line-height:1.45;}
+.life-story .life-premium-example{background:#fff;}
+.life-story .life-premium-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(24px,5vw,72px);align-items:center;}
+.life-story .life-premium-copy{max-width:540px;}
+.life-story .life-premium-phone{max-height:385px;}
+@media(max-width:940px){
+ .life-story .life-app .life-split{grid-template-columns:minmax(0,1fr) minmax(0,.8fr);gap:20px;}
+ .life-story .life-download-options>.life-download-qr span{display:none;}
+ .life-story .life-download-options>.life-download-qr{flex:0 0 auto;}
+}
+@media(max-width:800px){
+ .life-story .life-feature-layout,.life-story .life-app .life-split,.life-story .life-premium-layout{grid-template-columns:1fr;gap:24px;}
+ .life-story .life-feature-copy h2{max-width:none;}
+ .life-story .life-feature-phone,.life-story .life-app-figure .life-phone{max-height:470px;}
+ .life-story .life-premium-phone{max-height:360px;}
+ .life-story .life-download-options{justify-content:flex-start;}
+}
+@media(max-width:520px){
+ .life-story .life-feature-phone,.life-story .life-app-figure .life-phone{max-height:435px;}
+ .life-story .life-download-options{gap:8px;}
+ .life-story .life-download-options > .life-button{font-size:13px;padding:12px 13px;letter-spacing:-.01em;}
+ .life-story .life-download-options > .life-download-qr{padding:5px;border-radius:10px;}
+ .life-story .life-download-options > .life-download-qr img{flex-basis:66px;width:66px;height:66px;padding:2px;}
+}
+@media(max-width:360px){
+ .life-story .life-download-options > .life-button{font-size:12px;padding:11px 10px;}
+ .life-story .life-download-options > .life-download-qr img{flex-basis:60px;width:60px;height:60px;}
+}

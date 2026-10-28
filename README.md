@@ -161,3 +161,15 @@ More essays: [medium.com/@jhroche1986](https://medium.com/@jhroche1986)
 - Footer container expanded to 1420px maximum and CSS stylesheet references versioned to avoid stale caches.
 - Life-event hero, image and homepage card layout safeguards added.
 - Verify deployed styles on mobile, tablet and desktop after uploading the complete site.
+
+
+## 2026-10-28: Life-event screenshot updates
+
+The four life-event pages now show two contextual app screenshots each, one halfway through the guide and one beside the App Store button and QR code. The wedding page also shows the optional Premium screen to explain larger collections. Illustrative screenshot disclaimers have been removed. Screenshot sequence:
+
+- `pregnancy-baby.html`: Moments feed → Eras (Baby's First Year).
+- `wedding.html`: Eras → Moment editor (Honeymoon) → optional Premium details.
+- `family-moments.html`: full-screen pet Moment → Moments feed.
+- `travel.html`: Moment editor (Kyoto) → Reflect (trip recap).
+
+Each download section places its App Store link before the QR code, with QR on the right even on narrow screens. Six compressed `stillkeep-screen-*.webp` assets and updated `stillkeep-site.css` are required. Upload the four HTML files, the six new WebP assets, and the stylesheet together. No changes to `sitemap.xml` or `llms.txt` were needed because the page URLs are unchanged.
