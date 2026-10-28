@@ -78,17 +78,12 @@ Stillkeep is built for personal memories, not advertising. It uses Apple service
 * [Free Gratitude Journal App](https://stillkeep.app/free-gratitude-journal-app.html)
 * [Journal App Alternative for iPhone](https://stillkeep.app/journal-app-alternative-stillkeep-iphone.html)
 * [Best Journal App for iPhone](https://stillkeep.app/best-journal-app-iphone-private-photo-diary.html)
-* [Photo Journal App for iPhone](https://stillkeep.app/photo-journal-app-iphone.html)
 
 **Guides**
-* [How to Journal on iPhone: The Complete Guide](https://stillkeep.app/journaling-program-journal-app-iphone.html)
 * [100 Photo Journal Ideas & Prompts](https://stillkeep.app/photo-journal-ideas.html)
-* [Photo Journal Examples](https://stillkeep.app/photo-journal.html)
 * [How to Organize Photos & Memories on iPhone](https://stillkeep.app/how-to-organize-photos-memories-iphone.html)
-* [Turn Camera Roll Photos into a Photo Journal](https://stillkeep.app/curate-camera-roll-photo-journal.html)
 * [Chapter-Based Journaling vs. Infinite Timelines](https://stillkeep.app/chapter-based-journaling-eras.html)
 * [Digital Minimalism & Low-Pressure Journaling](https://stillkeep.app/digital-minimalism-low-pressure-journaling.html)
-* [Replace a Paper Notebook with a Digital Journal](https://stillkeep.app/replace-paper-notebook-local-first-journal.html)
 
 **Privacy and local-first design**
 * [Local-First Journaling on iPhone](https://stillkeep.app/local-first-mobile-journaling.html)
@@ -108,13 +103,7 @@ Stillkeep is built for personal memories, not advertising. It uses Apple service
 
 ## Writing about Stillkeep
 
-* [Why a Camera Roll Isn’t Enough to Preserve Meaningful Memories](https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764) (Medium)
 * [Why Photos Make More Sense as Chapters, Not Folders](https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b) (Medium)
-* [Stillkeep: A Private Journal App & Diary App for iPhone](https://onuri-stillkeep.blogspot.com/2026/09/stillkeep-journal-app-diary-app-iphone.html)
-* [The Best Way to Keep a Journal on iPhone: Photo Journals, Private Diaries & Life Memories](https://onuri-stillkeep.blogspot.com/2026/09/journal-diary-app-iphone-photo-journaling.html)
-* [The Digital Journal App Dilemma: Media Bloat, Privacy & Storage Limits](https://onuri-stillkeep.blogspot.com/2026/09/the-digital-journal-app-dilemma-solving.html)
-* [Why Your Daily Practice Deserves a Fast, Private, and Free Journal App](https://onuri-stillkeep.blogspot.com/2026/09/free-journal-app-and-free-diary-app.html)
-* [Your Camera Roll Stores Photos. It Doesn't Preserve Memories.](https://onuri-stillkeep.blogspot.com/2026/08/camera-roll-vs-memory-journal.html)
 * [What’s New at Stillkeep: Q3 2026](https://www.linkedin.com/pulse/whats-new-stillkeep-journal-diary-stillkeepapp-aa3if/) (LinkedIn)
 * [Onuri & Stillkeep editorial resource hub](https://onuri-stillkeep.blogspot.com/p/resource-hub-stillkeep-journal-diary.html)
 
