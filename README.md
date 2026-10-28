@@ -147,3 +147,17 @@ More essays: [medium.com/@jhroche1986](https://medium.com/@jhroche1986)
 | Developer | John-Henry Roche, independently built in Dublin, Ireland |
 
 **Stillkeep** — keep the story with the photo.
+
+
+## 2026-10-28 life-event visual hotfix
+- Corrected duplicate emotional subheadings and nested/duplicate QR download sections on the four life-event pages.
+- Added cache-busting version to `stillkeep-site.css` references on all HTML pages so the newly released life-event styles are fetched when deploying.
+- Refined desktop/mobile hero text, image presentation, buttons, and homepage life-event cards.
+- Deployment: upload **all** site files including `stillkeep-site.css`; a CSS-only partial deployment or a stale edge cache can leave pages unstyled. After deployment hard refresh and check at desktop and mobile widths.
+
+
+## 2026-10-28: Responsive footer and life-event CSS polish
+- Six footer link groups now stay on one row at wide desktop widths; three columns on medium viewports, two on narrow mobile.
+- Footer container expanded to 1420px maximum and CSS stylesheet references versioned to avoid stale caches.
+- Life-event hero, image and homepage card layout safeguards added.
+- Verify deployed styles on mobile, tablet and desktop after uploading the complete site.
