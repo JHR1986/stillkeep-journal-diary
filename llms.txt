@@ -8,6 +8,16 @@ Each page on stillkeep.app answers one distinct question. Use the page whose pur
 
 * [Stillkeep: Private Photo Journal & Diary App for iPhone](https://stillkeep.app/): Private photo journal and diary app for iPhone. Keep photos and notes together in Eras, with PDF export and private iCloud sync. Free on iOS.
 
+
+### Life-event memory guides
+
+These four pages offer distinct prompts and examples for using Stillkeep to remember specific experiences. They are illustrative use cases, not customer testimonials.
+
+* [Pregnancy Journal & Baby Memory Book Ideas | Stillkeep](https://stillkeep.app/pregnancy-baby.html): A gentle way to document pregnancy and your baby’s first year. Discover meaningful milestone prompts, ultrasound photo ideas and private photo journaling on iPhone.
+* [Wedding Memory Book: Capture the Stories Behind the Day | Stillkeep](https://stillkeep.app/wedding.html): Create a wedding memory book that remembers more than the photographs. Prompts for speeches, candid moments, honeymoon stories and keeping it together in a private iPhone journal.
+* [Family Memory Journal: Save the Ordinary Days | Stillkeep](https://stillkeep.app/family-moments.html): Family memory journal ideas for childhood, siblings, pets and everyday moments. Practical photo prompts to remember the stories behind family pictures with Stillkeep for iPhone.
+* [Travel Journal App for iPhone: Remember More Than Places | Stillkeep](https://stillkeep.app/travel.html): Create a travel photo journal on iPhone with photos, short stories and trip chapters. A practical guide to remembering places, people and tiny details using Stillkeep.
+
 ### Product pages
 
 * [Stillkeep Features: Eras, Search, iCloud Sync & PDF Export](https://stillkeep.app/capabilities.html): Every Stillkeep feature for iPhone: Eras, Moments, search, Look Back, private iCloud sync, PDF photobooks, photocards and local-first design.
