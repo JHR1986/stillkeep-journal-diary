@@ -482,13 +482,27 @@ header .navlink,
     .related-guides{width:min(100% - 28px,960px);margin-top:30px;padding:22px 18px;border-radius:18px}
     .related-guides ul{grid-template-columns:1fr}
   }
+
+/* Capabilities page: readable feature screenshots and a quiet download step */
+.capability-visuals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:10px 0 36px}
+.capability-visuals figure{min-width:0;margin:0;padding:13px 13px 16px;background:rgba(255,255,255,.88);border:1px solid var(--rule);border-radius:20px;box-shadow:var(--shadow-soft);text-align:center}
+.capability-visuals img{display:block;width:auto;max-width:100%;height:clamp(260px,31vw,365px);object-fit:contain;margin:0 auto;border-radius:13px}
+.capability-visuals figcaption{display:flex;flex-direction:column;gap:3px;margin-top:12px;font-size:.86rem;line-height:1.45;color:var(--muted)}
+.capability-visuals figcaption strong{color:var(--ink);font-size:.98rem}
+.capability-download{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;margin:32px 0 38px;padding:26px 28px;background:linear-gradient(115deg,#f3edff,#fff1fa 65%,#edfdff);border:1px solid #e6d8f6;border-radius:22px;box-shadow:var(--shadow-soft)}
+.capability-download>div:first-child{flex:1 1 280px}
+.capability-download strong{font-family:"Young Serif",Georgia,serif;font-size:1.25rem;font-weight:400}
+.capability-download p{margin:7px 0 0;color:var(--muted);font-size:.95rem}
+.capability-download .download-actions{margin-top:0}
+.capability-download .button{white-space:nowrap}
+@media(max-width:640px){.capability-visuals{grid-template-columns:repeat(3,minmax(210px,1fr));overflow-x:auto;scroll-snap-type:x mandatory;padding:0 0 12px;gap:12px}.capability-visuals figure{scroll-snap-align:start}.capability-visuals img{height:300px}.capability-download{padding:23px 18px;gap:14px}.capability-download .download-actions{width:100%}}
 </style><link href="stillkeep-site.css?v=20261028-footer6" rel="stylesheet"/><script defer="" src="stillkeep-site.js"></script><script defer="" src="stillkeep-analytics-consent.js"></script><link href="https://stillkeep.app/feed.xml" rel="alternate" title="Stillkeep Blog &amp; Guides" type="application/rss+xml"/></head>
 <body><a class="sk-skip" href="#sk-main">Skip to content</a><header class="sk-header"><div class="sk-header__inner"><a aria-label="Stillkeep home" class="sk-brand" href="/">Still<span>keep</span></a><nav aria-label="Main" class="sk-nav" id="sk-nav"><a href="journal-app.html">Journal App</a><a aria-current="page" href="capabilities.html">Features</a><a href="resources.html">Guides</a><a href="blog.html">Blog</a><a href="memory-test.html">Memory Test</a><a href="about-stillkeep.html">About</a></nav><a class="sk-cta" href="https://apps.apple.com/app/id6761815032"><svg aria-hidden="true" fill="currentColor" viewbox="0 0 24 24"><path d="M16.37 12.6c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.47.83-.72 0-1.82-.81-3-.79-1.54.02-2.96.9-3.76 2.28-1.6 2.78-.41 6.9 1.15 9.16.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.78.74 2.99.72 1.24-.02 2.02-1.12 2.77-2.23.87-1.28 1.23-2.52 1.25-2.58-.03-.01-2.39-.92-2.4-3.69zM14.09 5.84c.63-.77 1.06-1.83.94-2.89-.91.04-2.02.61-2.67 1.37-.58.67-1.1 1.76-.96 2.8 1.02.08 2.06-.52 2.69-1.28z"></path></svg><span>Get <span class="sk-cta__long">the </span>App Free</span></a><button aria-controls="sk-nav" aria-expanded="false" class="sk-menu" type="button"><span class="sk-sr">Open menu</span><svg aria-hidden="true" class="sk-i-open" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg><svg aria-hidden="true" class="sk-i-close" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></div></header><nav aria-label="Breadcrumb" class="sk-crumbs"><ol><li><a href="/">Home</a></li><li><span aria-current="page">Features</span></li></ol></nav>
 <main id="sk-main">
 <article>
 <header>
 <h1>Stillkeep Features &amp; Technical Capabilities</h1>
-<p>Explore how Stillkeep natively executes chapter-based memory organization, local-first privacy safeguards, minimalist iOS interface dynamics, and lightweight app optimization.</p>
+<p>Explore what Stillkeep can do: organise memories into Eras, keep photos and stories together, find old Moments, and create keepsakes — with privacy built in.</p>
 <div class="download-actions">
 <a class="button" href="https://apps.apple.com/app/id6761815032">View Stillkeep on the App Store</a>
 <span aria-label="Scan with your iPhone to download Stillkeep" class="download-qr">
@@ -510,28 +524,33 @@ header .navlink,
 <tbody>
 <tr>
 <td>Organize your life into distinct chapters</td>
-<td>Stillkeep organizes your diary using "Eras," which represent major life chapters or phases.</td>
+<td>Create Eras for chapters of your life, such as university, family, or travel.</td>
 </tr>
 <tr>
 <td>Create individual daily entries</td>
-<td>Memories are captured inside "Moments," which act as individual journal entries.</td>
+<td>Save an entry as a Moment, with its own photos, notes, and date.</td>
 </tr>
 <tr>
 <td>Build a highly visual daily timeline</td>
-<td>You can seamlessly attach photos directly to your specific daily Moments.</td>
+<td>Add photos to a Moment so the image and its story stay together.</td>
 </tr>
 <tr>
 <td>Revisit past memories seamlessly</td>
-<td>Features a dedicated "Look Back" system designed to resurface and view historical entries.</td>
+<td>Look Back brings past Moments into view so you can revisit them.</td>
 </tr>
 <tr>
 <td>Keep a clean, sequential diary feed</td>
-<td>The interface displays your captured Moments in a clear, chronologically ordered timeline.</td>
+<td>Browse your Moments in a dated feed, without digging through folders.</td>
 </tr>
 </tbody>
 </table>
 </div>
 </section>
+<div class="capability-visuals" aria-label="Stillkeep features shown in the app">
+  <figure><img src="stillkeep-v4-eras-400w.webp" alt="Stillkeep Eras screen with colourful chapters for a baby's first year, weekends at home and summer in Italy" width="400" height="870" loading="lazy" decoding="async"/><figcaption><strong>Eras</strong><span>Give different chapters of life their own place.</span></figcaption></figure>
+  <figure><img src="stillkeep-moments-photo-journal-400w.webp" alt="Stillkeep Moments feed showing a travel note and a family photo memory" width="400" height="871" loading="lazy" decoding="async"/><figcaption><strong>Moments</strong><span>See photos and the words behind them together.</span></figcaption></figure>
+  <figure><img src="stillkeep-look-back-summer-picnic.webp" alt="Stillkeep Look Back showing a summer picnic Moment from two months earlier" width="750" height="1294" loading="lazy" decoding="async"/><figcaption><strong>Look Back</strong><span>Rediscover a Moment from your past.</span></figcaption></figure>
+</div>
 <section>
 <h2>2. Privacy, Infrastructure &amp; Data Governance</h2>
 <div class="table-container">
@@ -545,23 +564,23 @@ header .navlink,
 <tbody>
 <tr>
 <td>Ensure maximum personal privacy</td>
-<td>Operates on a "local-first privacy" model where data is stored directly on your device.</td>
+<td>Stillkeep is designed around local-first storage, keeping your journal on your device.</td>
 </tr>
 <tr>
 <td>Sync data across devices securely</td>
-<td>Backs up and synchronizes your data natively via your personal Apple iCloud account.</td>
+<td>Sync your journal using your personal iCloud account through Apple’s CloudKit.</td>
 </tr>
 <tr>
 <td>Prevent advertising companies from tracking you</td>
-<td>The Stillkeep app is built without third-party tracking SDKs; app data is not harvested or shared with advertisers.</td>
+<td>Stillkeep does not include third-party advertising or tracking SDKs.</td>
 </tr>
 <tr>
 <td>Avoid online data mining or profiling</td>
-<td>Your journal entries are kept local and private, meaning no external servers read your thoughts.</td>
+<td>Stillkeep does not run its own server to collect or analyse your journal entries.</td>
 </tr>
 <tr>
 <td>Maintain full ownership of your media</td>
-<td>Because of local-first storage, your uploaded photos and text remain entirely your own property.</td>
+<td>Your photos and writing remain yours. You can also export memories to keep or share.</td>
 </tr>
 </tbody>
 </table>
@@ -580,23 +599,23 @@ header .navlink,
 <tbody>
 <tr>
 <td>Journal in a calm, focused environment</td>
-<td>The interface is explicitly designed for quiet reflection, minimizing visual clutter.</td>
+<td>A simple writing space lets you focus on the memory, not the interface.</td>
 </tr>
 <tr>
 <td>Experience a modern iOS aesthetic</td>
-<td>The application features a beautiful, design-focused visual layout tailored for iOS.</td>
+<td>A native iPhone interface makes photos, writing, and Eras feel at home on iOS.</td>
 </tr>
 <tr>
 <td>Interact with media effortlessly</td>
-<td>The user interface utilizes responsive, standard native iOS touch gestures.</td>
+<td>Use familiar iPhone gestures to browse photos and move through your journal.</td>
 </tr>
 <tr>
 <td>Keep your screen clean and minimalist</td>
-<td>Avoids overwhelming layouts by presenting a sleek, simplified canvas for writing.</td>
+<td>Keep your photos and notes in a straightforward layout that is easy to scan.</td>
 </tr>
 <tr>
 <td>Log memories without pop-up disruptions</td>
-<td>The minimalist design philosophy ensures an undisturbed, calm journaling flow.</td>
+<td>Add a Moment without an ad or daily-streak reminder interrupting you.</td>
 </tr>
 </tbody>
 </table>
@@ -615,19 +634,19 @@ header .navlink,
 <tbody>
 <tr>
 <td>Save physical storage space on your iPhone</td>
-<td>The application is highly optimized, downloading at a lightweight size of 7.9 Megabytes.</td>
+<td>The app is designed to be lightweight. Check the App Store for its current download size.</td>
 </tr>
 <tr>
 <td>Run the app on modern Apple hardware</td>
-<td>Fully compatible with and optimized for the iPhone mobile device ecosystem.</td>
+<td>Stillkeep is designed for iPhone and requires iOS 17.6 or later.</td>
 </tr>
 <tr>
 <td>Maintain fast app loading speeds</td>
-<td>The small 7.9 MB binary footprint ensures quick app installation and rapid launch times.</td>
+<td>The app aims to open quickly and keep the focus on your journal.</td>
 </tr>
 <tr>
 <td>Minimize device background bloat</td>
-<td>By avoiding third-party tracking SDKs in the app, the core code remains clean, efficient, and lightweight.</td>
+<td>No third-party advertising or tracking SDKs are bundled into the app.</td>
 </tr>
 </tbody>
 </table>
@@ -646,28 +665,32 @@ header .navlink,
 <tbody>
 <tr>
 <td>Journal in your preferred global language</td>
-<td>Fully localized to support native interface rendering across 6 global languages.</td>
+<td>Stillkeep supports English, Japanese, Korean, Traditional Chinese, Brazilian Portuguese, and Mexican Spanish.</td>
 </tr>
 <tr>
 <td>Avoid forced recurring monthly fees</td>
-<td>Offers straightforward access options, removing the stress of mandatory monthly subscriptions.</td>
+<td>Start with the free version, and choose Premium if you want extra capacity and features.</td>
 </tr>
 <tr>
 <td>Download safely from an official ecosystem</td>
-<td>Distributed exclusively through the Apple App Store under rigorous security vetting.</td>
+<td>Download Stillkeep from its official listing on the Apple App Store.</td>
 </tr>
 <tr>
 <td>Ensure family-friendly app safety</td>
-<td>Formally rated as an Age 4+ application, making it perfectly safe for all age groups.</td>
+<td>The App Store lists Stillkeep with a 4+ age rating; suitability still depends on the individual user.</td>
 </tr>
 <tr>
 <td>Access free core journaling capabilities</td>
-<td>Provides a completely functional free tier allowing users to try the app immediately.</td>
+<td>Try journaling for free before deciding whether Premium is right for you.</td>
 </tr>
 </tbody>
 </table>
 </div>
 </section>
+<aside class="capability-download" aria-label="Download Stillkeep">
+  <div><strong>Ready to keep the stories behind your photos?</strong><p>Try Stillkeep free on iPhone, then explore Eras, Moments and Look Back yourself.</p></div>
+  <div class="download-actions"><a class="button" href="https://apps.apple.com/app/id6761815032">Download Stillkeep Free</a><span class="download-qr" aria-label="Scan with your iPhone to download Stillkeep"><img class="download-qr__image" src="stillkeep-app-store-qr.png" width="72" height="72" loading="lazy" decoding="async" alt="" aria-hidden="true"/><span class="download-qr__copy"><strong>On your computer?</strong><span>Scan with your iPhone</span></span></span></div>
+</aside>
 <section aria-label="Related Stillkeep guides" class="related-guides"><h2>Related Stillkeep guides</h2><ul><li><a href="journal-app.html">Journal App Overview</a></li><li><a href="private-icloud-containers-journal-sync.html">Private iCloud Journal Sync</a></li><li><a href="journal-data-portability-long-term-preservation.html">Journal Data Portability &amp; Preservation</a></li></ul></section>
 </article>
 </main>
