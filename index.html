@@ -1060,6 +1060,28 @@ header .navlink,
     .photocard-feature .cta:focus-visible{outline:3px solid #241d32;outline-offset:5px}
     @media(max-width:720px){.photocard-feature{grid-template-columns:1fr;padding:24px;gap:22px}.photocard-feature .cta{justify-self:start;white-space:normal}}
 
+
+/* Homepage refinements: keep shared site styles unchanged. */
+@media (min-width: 901px) {
+  .hero { padding-bottom: 62px; }
+  .product-showcase { margin-top: 30px; margin-bottom: 42px; padding-top: 30px; }
+  .reviews-proof { padding-top: 34px; padding-bottom: 30px; }
+  #about { margin-top: 38px; padding: clamp(30px, 4vw, 44px); }
+  #articles { margin-top: 52px; padding-top: 42px; }
+  .band { margin-top: 54px; margin-bottom: 54px; }
+}
+#about .subpage-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 24px 0 18px; }
+#about .subpage-card { grid-column: span 1; min-height: 0; padding: 20px; }
+#about .subpage-card h3 { overflow-wrap: break-word; }
+#about .fine { margin-bottom: 0; }
+#articles .subpage-grid { grid-template-columns: minmax(0, 1fr); max-width: 560px; }
+#articles .subpage-card:first-child, #articles .subpage-card:last-child { grid-column: 1 / -1; min-height: 0; }
+@media (max-width: 700px) {
+  #about .subpage-grid { grid-template-columns: 1fr; }
+  #about .subpage-card { grid-column: 1 / -1; padding: 19px; }
+  .product-showcase { margin-top: 32px; margin-bottom: 38px; }
+}
+
     /* Download page banner */
 </style><link href="stillkeep-site.css?v=20261028-footer6" rel="stylesheet"/><script defer="" src="stillkeep-site.js"></script><script defer="" src="stillkeep-analytics-consent.js"></script><link href="https://stillkeep.app/feed.xml" rel="alternate" title="Stillkeep Blog &amp; Guides" type="application/rss+xml"/></head>
 <body><a class="sk-skip" href="#sk-main">Skip to content</a><header class="sk-header"><div class="sk-header__inner"><a aria-label="Stillkeep home" class="sk-brand" href="/">Still<span>keep</span></a><nav aria-label="Main" class="sk-nav" id="sk-nav"><a href="journal-app.html">Journal App</a><a href="capabilities.html">Features</a><a href="resources.html">Guides</a><a href="blog.html">Blog</a><a href="memory-test.html">Memory Test</a><a href="about-stillkeep.html">About</a></nav><a class="sk-cta" href="https://apps.apple.com/app/id6761815032"><svg aria-hidden="true" fill="currentColor" viewbox="0 0 24 24"><path d="M16.37 12.6c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.47.83-.72 0-1.82-.81-3-.79-1.54.02-2.96.9-3.76 2.28-1.6 2.78-.41 6.9 1.15 9.16.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.78.74 2.99.72 1.24-.02 2.02-1.12 2.77-2.23.87-1.28 1.23-2.52 1.25-2.58-.03-.01-2.39-.92-2.4-3.69zM14.09 5.84c.63-.77 1.06-1.83.94-2.89-.91.04-2.02.61-2.67 1.37-.58.67-1.1 1.76-.96 2.8 1.02.08 2.06-.52 2.69-1.28z"></path></svg><span>Get <span class="sk-cta__long">the </span>App Free</span></a><button aria-controls="sk-nav" aria-expanded="false" class="sk-menu" type="button"><span class="sk-sr">Open menu</span><svg aria-hidden="true" class="sk-i-open" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg><svg aria-hidden="true" class="sk-i-close" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></div></header>
@@ -1069,8 +1091,7 @@ header .navlink,
 <p class="eyebrow">Private Photo Journal &amp; Diary for iPhone</p>
 <h1>Keep the Story with the Photo.</h1>
 <p class="lede">
-<strong>Stillkeep</strong> is a calm, private <strong>photo journaling app for iPhone</strong> designed to pair your favorite photographs 
-          with authentic written notes into cohesive life chapters called <strong>Eras</strong>.
+<strong>Stillkeep</strong> is a private <strong>photo journal app for iPhone</strong>. Add the stories behind your favourite photos, organise your memories into chapters called <strong>Eras</strong>, and revisit the moments that matter.
         </p>
 <div class="download-actions">
 <a class="cta" href="https://apps.apple.com/app/id6761815032" title="Download Stillkeep Free on the iOS App Store">
@@ -1113,7 +1134,7 @@ header .navlink,
 <div class="showcase-head">
 <p class="eyebrow">Stillkeep in action</p>
 <h2 id="stillkeep-in-action">From a photo to a memory you can return to.</h2>
-<p>Add the story, browse your Moments, organise chapters into Eras, and open a memory in full.</p>
+<p>Add a story to your photo, find it again in Moments, and organise your memories into life chapters called Eras.</p>
 </div>
 <div class="screenshot-grid">
 <figure class="screenshot-card">
@@ -1157,7 +1178,7 @@ header .navlink,
 <section aria-labelledby="photocard-feature-heading" class="photocard-feature">
 <div><p class="eyebrow">Your memories, made shareable</p>
 <h2 id="photocard-feature-heading">Turn a Moment into a memory photocard.</h2>
-<p>Share the photo with its story, emojis and details, framed in the colours of its Era. A personal keepsake to send to family and friends.</p></div>
+<p>Turn your favourite moments into beautiful photocards, complete with photos, stories and personal touches. Share them with family and friends.</p></div>
 <a class="cta" href="photocard.html">Explore Memory Photocards <span aria-hidden="true"> →</span></a>
 </section>
 </main>
@@ -1182,9 +1203,8 @@ header .navlink,
 <div class="review-invitation-copy">
 <p class="review-invitation-eyebrow">A little note from Stillkeep</p>
 <h3 id="review-invitation-title">Enjoying Stillkeep?</h3>
-<p>If Stillkeep has helped you keep a meaningful memory, we’d love to hear about your experience.</p>
-<p>Sharing an honest rating or review on the App Store helps others discover Stillkeep and supports its continued development.</p>
-<a aria-label="Rate or review Stillkeep on the App Store (opens in a new tab)" class="review-invitation-link" href="https://apps.apple.com/app/id6761815032?action=write-review" rel="noopener noreferrer" target="_blank">Rate or review on the App Store <span aria-hidden="true">↗</span></a>
+<p>If Stillkeep has helped you save a memory that matters, we’d love to hear about it. Your review helps others discover the app.</p>
+<a aria-label="Rate or review Stillkeep on the App Store (opens in a new tab)" class="review-invitation-link" href="https://apps.apple.com/app/id6761815032?action=write-review" rel="noopener noreferrer" target="_blank">Leave an App Store Review <span aria-hidden="true">↗</span></a>
 <p class="review-invitation-footnote">Completely optional. Thank you for being here.</p>
 </div>
 <div aria-hidden="true" class="review-invitation-art">
@@ -1206,72 +1226,60 @@ header .navlink,
 <section aria-labelledby="v4-feature-heading" class="photocard-feature" style="margin-top:10px;margin-bottom:24px;background:linear-gradient(120deg,#fff4fb,#fff 52%,#f2efff)">
 <div><p class="eyebrow">Current release · Stillkeep v4</p>
 <h2 id="v4-feature-heading">Richer stories. Smarter ways to look back.</h2>
-<p>Stillkeep v4 adds rich-text stories, People &amp; Places for every Moment, new journal filters, Reflect for Premium, eight new Premium Era covers, and accessibility, performance and reliability improvements.</p></div>
+<p>Stillkeep v4 makes it easier to tell your story and find your memories. Add richer notes, organise Moments by people and places, and enjoy new ways to reflect on your life.</p></div>
 <a class="cta" href="whats-new-v4.html">See what’s new in v4 <span aria-hidden="true"> →</span></a>
 </section>
-<section aria-labelledby="photobook-feature-heading" class="photocard-feature" style="margin-top:10px;margin-bottom:56px;background:linear-gradient(120deg,#f5f0ff,#fff 55%,#eefbff)">
+<section aria-labelledby="photobook-feature-heading" class="photocard-feature" style="margin-top:10px;margin-bottom:28px;background:linear-gradient(120deg,#f5f0ff,#fff 55%,#eefbff)">
 <div><p class="eyebrow">Take a whole Era with you</p>
 <h2 id="photobook-feature-heading">Export your photo journal as a PDF photobook.</h2>
-<p>Select an Era, press Export, and Stillkeep turns the complete chapter into a formatted PDF you can save, email, print or share with family and friends.</p></div>
+<p>Choose an Era and turn your photos and stories into a beautifully formatted PDF. Save it, print it, or share it with family and friends.</p></div>
 <a class="cta" href="photobook.html">Explore PDF Photobooks <span aria-hidden="true"> →</span></a>
 </section>
-<p class="xmas-mini-link" style="margin:-28px auto 48px;text-align:center"><a href="how-many-days-until-christmas.html" style="display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border:1px solid rgba(91,43,217,.18);border-radius:999px;background:#fff;color:#5b2bd9;font-weight:700;font-size:.92rem;text-decoration:none;box-shadow:0 6px 18px rgba(91,43,217,.07)"><span aria-hidden="true">🎄</span> How many days until Christmas? See the live countdown <span aria-hidden="true">→</span></a></p>
 <section id="about">
 <h2>Designed for Intentional Memory Keeping</h2>
 <p>
-        Traditional journaling apps rely solely on endless text blocks, while standard photo galleries leave your pictures detached from context. Stillkeep bridges the gap, functioning as a 
-        <strong>photo journal app</strong> and private diary alternative that pairs imagery and narrative into single, organized 
-        <strong>Moments</strong>.
+        Stillkeep brings your photos and stories together in one private place. Organise memories into meaningful chapters, find them when you need them, and keep them for years to come.
       </p>
 <ul>
 <li>
-<strong>Thematic Eras:</strong> Group your journal entries into meaningful chapters like travel, career transitions, or family growth.
+<strong>Thematic Eras:</strong> Group memories into chapters, from family life to favourite adventures.
         </li>
 <li>
-<strong>Photos &amp; Notes Combined:</strong> Keep the exact story alongside every photo so context is never lost over time.
+<strong>Photos &amp; Notes Combined:</strong> Keep the story alongside every photograph.
         </li>
 <li>
-<strong>Look Back Memory Resurfacing:</strong> Rediscover previous Moments from this day, earlier in the week, earlier in the month, and further in the past.
+<strong>Look Back Memory Resurfacing:</strong> Rediscover moments you might have forgotten.
         </li>
 <li>
-<strong>Era PDF Export:</strong> Export an entire Era as a formatted PDF.
+<strong>Era PDF Export:</strong> Turn a chapter of your life into a PDF keepsake.
         </li>
 <li>
-<strong>Private by Design:</strong> In the Stillkeep app, there are no third-party analytics, third-party advertising SDKs, or cross-app tracking; user data is stored and processed using Apple infrastructure including CloudKit.
+<strong>Private by Design:</strong> Your memories stay private, with no ads or third-party tracking.
         </li>
 </ul>
 <div class="subpage-grid">
 
 <a class="subpage-card" href="journal-app.html">
 <h3>Journal App Overview</h3>
-<p>Learn more about the core features and design philosophy powering Stillkeep's private iOS architecture.</p>
+<p>Explore how Stillkeep helps you keep photos, stories and life chapters together.</p>
 </a>
 <a class="subpage-card" href="memory-journal.html">
 <h3>Memory Journal Guide</h3>
-<p>Explore how Stillkeep serves as a modern digital alternative to static scrapbooks and cluttered camera rolls.</p>
-</a>
-<a class="subpage-card" href="memory-test.html">
-<strong>Try the 10-Second Memory Test</strong>
-<span>Study one photograph for 10 seconds, then see how much you remember.</span>
-</a>
-<a class="subpage-card" href="manifestation-journal.html">
-<h3>Manifestation &amp; Goal Journal</h3>
-<p>Discover a serious, distraction-free workspace for tracking intentional life goals and visual milestones.</p>
+<p>Learn how to save the story behind your photos and revisit meaningful moments.</p>
 </a>
 <a class="subpage-card" href="resources.html">
 <h3>Master Resource Index</h3>
-<p>Explore full system architecture, local-first privacy guides, published essays, and official profiles.</p>
+<p>Find practical guides, privacy information and more about Stillkeep.</p>
 </a>
 </div>
 <p class="fine">
-        Download Stillkeep free on iOS. The free starter version includes up to 3 Eras and 20 Moments per Era. 
-        Stillkeep Premium subscription expands capacity for long-term memory archiving.
+        Start free on iPhone with up to 3 Eras and 20 Moments per Era. Premium lets you keep more.
       </p>
 </section>
 <!-- Developer Writing / Background Articles -->
-<section class="life-home" aria-labelledby="life-home-title"><div class="life-home-inner"><p class="life-kicker">How will you use Stillkeep?</p><h2 id="life-home-title">A home for the chapters that matter.</h2><p>Some stories begin with a first hello. Others are made of familiar Sundays, a wedding speech or a journey you never wanted to end. Explore four ways to keep the feeling behind the photograph.</p><div class="life-home-grid"><a class="life-home-card" href="pregnancy-baby.html"><img src="life-pregnancy-baby-1.webp" alt="" loading="lazy" decoding="async"><span>Pregnancy & baby<small>First scans, first days and all the little firsts.</small></span></a><a class="life-home-card" href="wedding.html"><img src="life-wedding-1.webp" alt="" loading="lazy" decoding="async"><span>Wedding memories<small>The words and moments behind the photographs.</small></span></a><a class="life-home-card" href="family-moments.html"><img src="life-family-moments-1.webp" alt="" loading="lazy" decoding="async"><span>Family moments<small>Childhood, routines, pets and ordinary magic.</small></span></a><a class="life-home-card" href="travel.html"><img src="life-travel-1.webp" alt="" loading="lazy" decoding="async"><span>Travel memories<small>The people, detours and stories of a trip.</small></span></a></div></div></section><section id="articles">
+<section class="life-home" aria-labelledby="life-home-title"><div class="life-home-inner"><p class="life-kicker">How will you use Stillkeep?</p><h2 id="life-home-title">A home for the chapters that matter.</h2><p>Some memories deserve more than a place in your camera roll. Keep the stories behind family moments, celebrations, travels and everyday life.</p><div class="life-home-grid"><a class="life-home-card" href="pregnancy-baby.html"><img src="life-pregnancy-baby-1.webp" alt="" loading="lazy" decoding="async"><span>Pregnancy & baby<small>First scans, first days and all the little firsts.</small></span></a><a class="life-home-card" href="wedding.html"><img src="life-wedding-1.webp" alt="" loading="lazy" decoding="async"><span>Wedding memories<small>The words and moments behind the photographs.</small></span></a><a class="life-home-card" href="family-moments.html"><img src="life-family-moments-1.webp" alt="" loading="lazy" decoding="async"><span>Family moments<small>Childhood, routines, pets and ordinary magic.</small></span></a><a class="life-home-card" href="travel.html"><img src="life-travel-1.webp" alt="" loading="lazy" decoding="async"><span>Travel memories<small>The people, detours and stories of a trip.</small></span></a></div></div></section><section id="articles">
 <h2>From the Developer Journal</h2>
-<p class="fine">Deep dives into the architecture, design choices, and philosophy behind Stillkeep.</p>
+<p class="fine">Behind-the-scenes stories about building Stillkeep, the design decisions we’ve made, and what we’ve learned along the way.</p>
 <div class="subpage-grid">
 <a class="subpage-card" href="https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b" rel="noopener noreferrer" target="_blank">
 <h3>Moving from Folders to Visual Eras</h3>
@@ -1283,7 +1291,7 @@ header .navlink,
 <section aria-labelledby="onuri-feature-heading" class="photocard-feature" style="margin-top:10px;margin-bottom:40px;">
 <div><p class="eyebrow">Also from the maker of Stillkeep</p>
 <h2 id="onuri-feature-heading">Onuri: private notes that connect themselves.</h2>
-<p>Stillkeep keeps the moments you photograph. <a href="https://onuri.app/"><strong>Onuri</strong></a> keeps everything you write down. It is a free <a href="https://onuri.app/notes-app.html">notes app for iPhone</a> that recognises the people, places, dates and topics in your notes and links them automatically, so a quick note is easy to find again. Same privacy approach, no folders to manage.</p></div>
+<p>Meet <a href="https://onuri.app/"><strong>Onuri</strong></a>, a private <a href="https://onuri.app/notes-app.html">notes app for iPhone</a> that helps you connect ideas, organise your thoughts and find what matters. Built by the same independent developer as Stillkeep.</p></div>
 <a class="cta" href="onuri-notes-app.html">Meet Onuri <span aria-hidden="true"> →</span></a>
 </section>
 <div class="band">
