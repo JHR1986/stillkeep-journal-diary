@@ -50,26 +50,6 @@ Stillkeep is built for personal memories, not advertising. It uses Apple service
 
 ---
 
-
-## Life-event use cases (October 2026)
-
-Four original, SEO-oriented use-case pages help readers keep the stories behind important moments, without presenting illustrative stories as genuine customer testimonials:
-
-* [Pregnancy Journal & Baby Memory Book](https://stillkeep.app/pregnancy-baby.html) — ultrasound memories, pregnancy reflections and baby's first year.
-* [Wedding Memory Book](https://stillkeep.app/wedding.html) — speeches, candid details and a chronological wedding keepsake.
-* [Family Memory Journal](https://stillkeep.app/family-moments.html) — childhood, everyday family moments, siblings and pets.
-* [Travel Journal App](https://stillkeep.app/travel.html) — travel notes, destinations, tags, and trip chapters.
-
-The homepage has a mid-page life-event discovery section, and every page's footer links to the four guides under **How will you use Stillkeep?** The four URLs are listed in `sitemap.xml` and `llms.txt`. Each page includes an iPhone App Store link and a QR code that targets the same listing (`https://apps.apple.com/app/id6761815032`). Screenshots show illustrative/sample app content.
-
-### Deployment checklist
-
-1. Upload all files in this repository together, including `life-*.webp`, the shared CSS, and `stillkeep-app-store-qr.png`.
-2. Test the four pages, navigation, homepage section and download buttons on narrow mobile and desktop screens.
-3. Scan the QR code with a real iPhone and confirm it opens the correct app listing.
-4. Verify the deployed pages and updated sitemap in Google Search Console. Indexing and search rankings are not guaranteed.
-5. Check the current App Store rating and any product functionality or pricing claims periodically.
-
 ## The website
 
 **Getting to know Stillkeep**
@@ -147,5 +127,3 @@ More essays: [medium.com/@jhroche1986](https://medium.com/@jhroche1986)
 | Developer | John-Henry Roche, independently built in Dublin, Ireland |
 
 **Stillkeep** — keep the story with the photo.
-
-Each download section places its App Store link before the QR code, with QR on the right even on narrow screens. Six compressed `stillkeep-screen-*.webp` assets and updated `stillkeep-site.css` are required. Upload the four HTML files, the six new WebP assets, and the stylesheet together. No changes to `sitemap.xml` or `llms.txt` were needed because the page URLs are unchanged.
