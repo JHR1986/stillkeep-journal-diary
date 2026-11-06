@@ -722,14 +722,33 @@ header .navlink,
     .related-guides{width:min(100% - 28px,960px);margin-top:30px;padding:22px 18px;border-radius:18px}
     .related-guides ul{grid-template-columns:1fr}
   }
-</style><link href="stillkeep-site.css?v=20261028-footer6" rel="stylesheet"/><script defer="" src="stillkeep-site.js"></script><script defer="" src="stillkeep-analytics-consent.js"></script><link href="https://stillkeep.app/feed.xml" rel="alternate" title="Stillkeep Blog &amp; Guides" type="application/rss+xml"/></head>
+</style><link href="stillkeep-site.css?v=20261028-footer6" rel="stylesheet"/><script defer="" src="stillkeep-site.js"></script><script defer="" src="stillkeep-analytics-consent.js"></script><link href="https://stillkeep.app/feed.xml" rel="alternate" title="Stillkeep Blog &amp; Guides" type="application/rss+xml"/>
+<style>
+/* Journal App page only: lightweight, responsive product walkthrough. */
+.journal-hero-visual{margin:0;justify-self:center;text-align:center;width:min(100%,310px)}
+.journal-hero-visual img{display:block;width:min(100%,265px);height:auto;margin:0 auto;border-radius:25px;border:1px solid var(--rule);box-shadow:0 20px 44px rgba(73,49,108,.14)}
+.journal-hero-visual figcaption{margin-top:11px;font-size:.83rem;color:var(--muted)}
+.journal-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:24px 0 30px}
+.journal-step{min-width:0;overflow:hidden;border:1px solid var(--rule);border-radius:18px;background:rgba(255,255,255,.83);box-shadow:var(--shadow-soft);padding:17px 16px 20px}
+.journal-step>img{display:block;width:auto;max-width:100%;height:250px;object-fit:contain;margin:0 auto 15px;border-radius:12px}
+.journal-step h3{font-size:1rem;line-height:1.35;margin:0 0 9px;color:var(--ink)}
+.journal-step p{margin:0;font-size:.92rem;line-height:1.6;color:var(--muted)}
+.journal-mid-cta{background:linear-gradient(115deg,#f1edff,#fff0fa);border:1px solid var(--rule);border-radius:18px;padding:22px 25px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.journal-mid-cta p{margin:0;color:var(--muted)}
+.journal-mid-cta p strong{color:var(--ink)}
+.journal-mid-cta .cta{flex-shrink:0;text-align:center}
+#about>ul li{margin-bottom:8px}
+@media(max-width:760px){.journal-steps{grid-template-columns:1fr;gap:14px}.journal-step{display:grid;grid-template-columns:minmax(100px,32%) 1fr;align-items:center;gap:17px}.journal-step>img{height:210px;margin:0 auto}.journal-mid-cta{flex-direction:column;align-items:flex-start}.journal-mid-cta .cta{width:100%}}
+@media(max-width:420px){.journal-step{grid-template-columns:105px 1fr;padding:12px;gap:12px}.journal-step>img{height:175px}.journal-step p{font-size:.86rem}.journal-step h3{font-size:.91rem}}
+</style>
+</head>
 <body><a class="sk-skip" href="#sk-main">Skip to content</a><header class="sk-header"><div class="sk-header__inner"><a aria-label="Stillkeep home" class="sk-brand" href="/">Still<span>keep</span></a><nav aria-label="Main" class="sk-nav" id="sk-nav"><a aria-current="page" href="journal-app.html">Journal App</a><a href="capabilities.html">Features</a><a href="resources.html">Guides</a><a href="blog.html">Blog</a><a href="memory-test.html">Memory Test</a><a href="about-stillkeep.html">About</a></nav><a class="sk-cta" href="https://apps.apple.com/app/id6761815032"><svg aria-hidden="true" fill="currentColor" viewbox="0 0 24 24"><path d="M16.37 12.6c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.47.83-.72 0-1.82-.81-3-.79-1.54.02-2.96.9-3.76 2.28-1.6 2.78-.41 6.9 1.15 9.16.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.78.74 2.99.72 1.24-.02 2.02-1.12 2.77-2.23.87-1.28 1.23-2.52 1.25-2.58-.03-.01-2.39-.92-2.4-3.69zM14.09 5.84c.63-.77 1.06-1.83.94-2.89-.91.04-2.02.61-2.67 1.37-.58.67-1.1 1.76-.96 2.8 1.02.08 2.06-.52 2.69-1.28z"></path></svg><span>Get <span class="sk-cta__long">the </span>App Free</span></a><button aria-controls="sk-nav" aria-expanded="false" class="sk-menu" type="button"><span class="sk-sr">Open menu</span><svg aria-hidden="true" class="sk-i-open" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg><svg aria-hidden="true" class="sk-i-close" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></div></header><nav aria-label="Breadcrumb" class="sk-crumbs"><ol><li><a href="/">Home</a></li><li><span aria-current="page">Journal App</span></li></ol></nav>
 <main class="wrap" id="sk-main">
 <section aria-label="Introduction" class="hero">
 <div>
 <p class="eyebrow">Private Photo Journal &amp; Diary App for iPhone</p>
 <h1>A calm home for your <em>memories</em> and writing.</h1>
-<p class="lede"><strong>Stillkeep</strong> is a calm, private photo journal and diary app for iPhone that lets you organise your life into chapters called <strong>Eras</strong> — capturing moments, photos, and writing without the stress of daily streaks.</p>
+<p class="lede"><strong>Stillkeep</strong> is a private journal and diary app for iPhone. Save favourite photos, add the stories behind them, and organise your memories into chapters called <strong>Eras</strong>. No daily streaks, no pressure.</p>
 
 <div class="download-actions">
 <a class="cta" href="https://apps.apple.com/app/id6761815032" title="Download Stillkeep Free on the iOS App Store">Download Free on App Store</a>
@@ -740,14 +759,10 @@ header .navlink,
 </div>
 <p class="micro">Free photo journal for iOS · Eras, Moments &amp; Look Back · Private iCloud sync · Sign in with Apple · iOS 17.6+</p>
 </div>
-<div aria-hidden="true" class="notes">
-<div class="notecard back"></div>
-<div class="notecard">
-<p class="note-title">Era: Japan 2026</p>
-<p class="note-body">Night scene looks amazing! Found a quiet spot near the <span class="chip era-chip">Kyoto</span> district. <span class="chip moment-chip">Moment #4</span></p>
-<div class="note-found">memory<span class="tag">Photos (3)</span><span class="tag">Vibes: 🌸</span><span class="tag">Look Back ✓</span></div>
-</div>
-</div>
+<figure class="journal-hero-visual">
+<img src="stillkeep-screen-moments-feed.webp" width="780" height="1698" alt="Stillkeep journal app showing saved Moments with photos and written notes on iPhone" fetchpriority="high" decoding="async"/>
+<figcaption>Real moments, photos and stories in Stillkeep.</figcaption>
+</figure>
 </section>
 </main>
 <div class="trail">
@@ -762,17 +777,17 @@ header .navlink,
 <div class="wrap">
 <section id="about">
 <h2>Designed for reflection, not habit streaks</h2>
-<p>Most digital journaling apps rely on pressure — guilt-tripping you over broken daily streaks or turning self-reflection into a chore. Stillkeep takes a completely different approach. It is a calm, private sanctuary designed for capturing life's meaningful moments with photos and writing, structured around chapters rather than continuous calendar boxes.</p>
+<p>You don't need to write every day to keep a meaningful journal. Stillkeep gives you a quiet place to save your photos, thoughts and memories whenever something matters to you.</p>
 <ul>
-<li><strong>Eras (Life Chapters):</strong> Group your memories into distinct chapters like "University", "New Baby", or "Travelling 2026", customized with 14 different color themes.</li>
-<li><strong>Moments:</strong> Record dated entries within each Era containing multiple photos, descriptive writing, tags, and emotional vibes.</li>
-<li><strong>Look Back:</strong> A dedicated space that gently resurfaces previous Moments from this day, earlier in the week, earlier in the month, and further in the past.</li>
-<li><strong>Private by Design:</strong> Sign in with Apple. Stillkeep’s published Privacy Policy says user data is stored and processed using Apple infrastructure, including CloudKit for storage and synchronization.</li>
-<li><strong>Export to Photobook &amp; Cards:</strong> Turn entire Eras into formatted PDFs for digital photobooks, or export individual Moments as beautiful photo cards with your writing.</li>
-<li><strong>Powerful Search &amp; Filters:</strong> Instantly search across journal entries, tags, and Era titles, filtering by photos, notes, tags, and vibes.</li>
-<li><strong>Global Accessibility:</strong> Available in English, Japanese, Korean, Portuguese (Portugal &amp; Brazil), Spanish (Latin America), and Chinese, with full accessibility support.</li>
+<li><strong>Eras (Life Chapters):</strong> Organise memories into chapters of your life, each with its own name and colour.</li>
+<li><strong>Moments:</strong> Keep photos, writing, tags and feelings together in a single entry.</li>
+<li><strong>Look Back:</strong> Rediscover memories from earlier days, months and years.</li>
+<li><strong>Private by Design:</strong> Sign in with Apple; your journal data is stored and synced using Apple’s CloudKit infrastructure.</li>
+<li><strong>Export to Photobook &amp; Cards:</strong> Turn life chapters into PDF photobooks or share individual Moments as photocards.</li>
+<li><strong>Powerful Search &amp; Filters:</strong> Find journal entries by words, tags, Era titles and other filters.</li>
+<li><strong>Global Accessibility:</strong> Write in a supported language, with accessibility features to help you use the app.</li>
 </ul>
-<p class="fine">Whether you are documenting a major life milestone, keeping a private visual diary, or looking for an alternative to cluttered notes apps, Stillkeep provides a peaceful environment built for long-term reflection. Launched on the App Store for iOS 17.6+.</p>
+
 <p class="links">
 <a href="https://apps.apple.com/app/id6761815032" title="Stillkeep on Apple App Store">Download Stillkeep on App Store</a> ·
       <a href="https://jhr1986.github.io/stillkeep-legal/privacy.html">Privacy policy</a> ·
@@ -781,24 +796,36 @@ header .navlink,
 </section>
 <section id="features">
 <h2>How Stillkeep Organises Your Story</h2>
-<p>Stillkeep breaks down your personal history into three intuitive components, ensuring that looking back through your memories feels natural and rewarding.</p>
-<h3>1. Eras — Chapters of Your Life</h3>
-<p>Life isn't a continuous straight line; it moves in eras. Stillkeep lets you create dedicated containers for specific seasons of your life. Give each Era a custom title, select from 14 distinct cover style colors, and watch your memories group themselves naturally.</p>
-<h3>2. Moments — Photos and Words Together</h3>
-<p>Inside every Era, you capture individual Moments. Add multiple photos from your library, write down your thoughts, apply custom tags, and attach emoji vibes to represent the mood of the day. The app suggests tags you've used before to keep your organisation fast and effortless.</p>
-<h3>3. Look Back — Gentle Memory Resurfacing</h3>
-<p>Instead of locking your memories away in a digital archive, Stillkeep's Look Back feature surfaces past moments from today, last week, last month, and previous years. It acts as a gentle reminder of where you've been, inspiring gratitude without notification spam.</p>
+<p>Start with a journal entry. Add your photos and words, then keep everything easy to find as life moves on.</p>
+<div class="journal-steps">
+<article class="journal-step">
+<img src="stillkeep-screen-eras.webp" width="780" height="1698" loading="lazy" decoding="async" alt="Stillkeep Eras screen showing named, colourful life chapters"/>
+<div class="journal-step-copy"><h3>1. Eras — Chapters of Your Life</h3>
+<p>Create an Era for a chapter of your life, such as university, a new baby or a special holiday. Give it a name and colour, then keep memories from that time together.</p></div>
+</article>
+<article class="journal-step">
+<img src="stillkeep-screen-moments-feed.webp" width="780" height="1698" loading="lazy" decoding="async" alt="Stillkeep Moments feed with photo journal entries and written memories"/>
+<div class="journal-step-copy"><h3>2. Moments — Photos and Words Together</h3>
+<p>Each Moment is a journal entry. Add photos, write what happened, and use tags to help you find it later.</p></div>
+</article>
+<article class="journal-step">
+<img src="stillkeep-screen-reflect.webp" width="780" height="1698" loading="lazy" decoding="async" alt="Stillkeep Reflect screen for looking back on previously saved journal memories"/>
+<div class="journal-step-copy"><h3>3. Look Back — Gentle Memory Resurfacing</h3>
+<p>Return to entries from earlier days, months or years. It's a simple way to remember the details you might otherwise forget.</p></div>
+</article>
+</div>
+<div class="journal-mid-cta"><p><strong>Make room for the moments you want to remember.</strong><br/>Start your private journal on iPhone — free to download.</p><a class="cta" href="https://apps.apple.com/app/id6761815032" title="Download Stillkeep journal app for iPhone">Download Stillkeep Free</a></div>
 </section>
 <section id="faq">
 <h2>Frequently asked questions</h2>
 <h3>What is Stillkeep?</h3>
-<p>Stillkeep is a calm, private photo journal and diary app for iPhone designed to organise your life into chapters called "Eras" rather than forcing daily habit streaks.</p>
+<p>Stillkeep is a private iPhone journal app for saving photos, notes and everyday memories. You can write whenever you like, without a daily streak to maintain.</p>
 <h3>How does Stillkeep protect my privacy?</h3>
 <p>Stillkeep is private by design. You sign in with Apple, and its published Privacy Policy says user data is stored and processed using Apple infrastructure, including CloudKit for storage and synchronization.</p>
 <h3>What are Eras and Moments in Stillkeep?</h3>
 <p>Eras are the major chapters of your life (such as "University", "New Baby", or "Travelling 2026"). Moments are individual dated entries within an Era containing your photos, notes, tags, and vibes.</p>
 <h3>What is the Look Back feature?</h3>
-<p>Look Back is a dedicated space in Stillkeep that gently resurfaces previous Moments from this day, earlier in the week, earlier in the month, and further in the past so you can rediscover memories naturally.</p>
+<p>Look Back brings earlier journal entries back into view so you can enjoy moments from your past without having to search for them.</p>
 <h3>Can I export my journal as a PDF or photobook?</h3>
 <p>Yes. Entire Eras can be exported as PDFs to create digital photobooks, and individual Moments can be exported as custom photo cards containing your image and writing.</p>
 <h3>Is Stillkeep free to download?</h3>
@@ -806,7 +833,7 @@ header .navlink,
 </section>
 <div class="band">
 <h2>Keep what you love.</h2>
-<p>A calm, private photo journal and diary app for iPhone that organizes your life into Eras — available in English, Japanese, Korean, Portuguese, Spanish, and Chinese.</p>
+<p>A private journal for the photos and stories worth keeping. Available for iPhone in multiple languages.</p>
 <div class="download-actions">
 <a class="cta" href="https://apps.apple.com/app/id6761815032" title="Download Stillkeep Free on the iOS App Store">Download Stillkeep free</a>
 <span aria-label="Scan with your iPhone to download Stillkeep" class="download-qr">
