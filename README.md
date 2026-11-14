@@ -1,3 +1,4 @@
+
 # Stillkeep — Private Photo Journal & Diary App for iPhone
 
 <p align="left">
@@ -25,6 +26,10 @@ Instead of leaving important memories scattered through an endless camera roll, 
 * **Search** — find a Moment again by what you remember.
 
 That makes Stillkeep work as a photo journal, private diary, memory journal, travel or family journal, gratitude journal, digital scrapbook or personal memory archive.
+
+### Travel memories and trip inspiration
+
+Stillkeep can help preserve the stories behind a journey, with travel photos and notes kept together in Moments and organised into a trip Era. For inspiration when planning your next journey, explore the maker's [first-hand travel guides and itineraries at Words for Travel](https://wordsfortravel.com/), featuring personal destination experiences and practical travel advice.
 
 ## Key features
 
@@ -75,7 +80,7 @@ Stillkeep is built for personal memories, not advertising. It uses Apple service
 **Free and comparisons**
 * [Free Journal App](https://stillkeep.app/free-journal-app.html)
 * [Free Diary App](https://stillkeep.app/free-diary-app.html)
-* [Free Gratitude Journal App](https://stillkeep.app/free-gratitude-journal-app.html)
+* [Free Gratitude Journal App](https://stillkeep.app/free-gratitude-journal.html)
 * [Journal App Alternative for iPhone](https://stillkeep.app/journal-app-alternative-stillkeep-iphone.html)
 * [Best Journal App for iPhone](https://stillkeep.app/best-journal-app-iphone-private-photo-diary.html)
 
@@ -127,3 +132,4 @@ More essays: [medium.com/@jhroche1986](https://medium.com/@jhroche1986)
 | Developer | John-Henry Roche, independently built in Dublin, Ireland |
 
 **Stillkeep** — keep the story with the photo.
+
